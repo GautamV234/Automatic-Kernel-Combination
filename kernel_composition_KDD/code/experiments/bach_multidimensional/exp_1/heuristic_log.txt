@@ -1,0 +1,883 @@
+| Kernel Combination   |   Initialization Number |   Epoch Number |   Training Loss |
+|----------------------|-------------------------|----------------|-----------------|
+| Periodic_0           |                       1 |              0 |         1.57715 |
+| Periodic_0           |                       1 |              1 |         1.57715 |
+| Periodic_1           |                       1 |              0 |         1.54511 |
+| Periodic_1           |                       1 |              1 |         1.54511 |
+| Periodic_2           |                       1 |              0 |         1.56619 |
+| Periodic_2           |                       1 |              1 |         1.56619 |
+| Periodic_3           |                       1 |              0 |         1.58125 |
+| Periodic_3           |                       1 |              1 |         1.58125 |
+| Periodic_4           |                       1 |              0 |         1.56927 |
+| Periodic_4           |                       1 |              1 |         1.56927 |
+| Periodic_5           |                       1 |              0 |         1.5783  |
+| Periodic_5           |                       1 |              1 |         1.5783  |
+| Periodic_6           |                       1 |              0 |         1.58193 |
+| Periodic_6           |                       1 |              1 |         1.58193 |
+| Periodic_7           |                       1 |              0 |         1.58485 |
+| Periodic_7           |                       1 |              1 |         1.58485 |
+| RBF_0                |                       1 |              0 |         1.53029 |
+| RBF_0                |                       1 |              1 |         1.53029 |
+| RBF_1                |                       1 |              0 |         1.58701 |
+| RBF_1                |                       1 |              1 |         1.58701 |
+| RBF_2                |                       1 |              0 |         1.53535 |
+| RBF_2                |                       1 |              1 |         1.53535 |
+| RBF_3                |                       1 |              0 |         1.56677 |
+| RBF_3                |                       1 |              1 |         1.56677 |
+| RBF_4                |                       1 |              0 |         1.58786 |
+| RBF_4                |                       1 |              1 |         1.58786 |
+| RBF_5                |                       1 |              0 |         1.57219 |
+| RBF_5                |                       1 |              1 |         1.57219 |
+| RBF_6                |                       1 |              0 |         1.59085 |
+| RBF_6                |                       1 |              1 |         1.59085 |
+| RBF_7                |                       1 |              0 |         1.58656 |
+| RBF_7                |                       1 |              1 |         1.58656 |
+| Matern32_0           |                       1 |              0 |         1.51923 |
+| Matern32_0           |                       1 |              1 |         1.51923 |
+| Matern32_1           |                       1 |              0 |         1.5759  |
+| Matern32_1           |                       1 |              1 |         1.5759  |
+| Matern32_2           |                       1 |              0 |         1.52617 |
+| Matern32_2           |                       1 |              1 |         1.52617 |
+| Matern32_3           |                       1 |              0 |         1.55251 |
+| Matern32_3           |                       1 |              1 |         1.55251 |
+| Matern32_4           |                       1 |              0 |         1.57992 |
+| Matern32_4           |                       1 |              1 |         1.57992 |
+| Matern32_5           |                       1 |              0 |         1.57177 |
+| Matern32_5           |                       1 |              1 |         1.57177 |
+| Matern32_6           |                       1 |              0 |         1.59503 |
+| Matern32_6           |                       1 |              1 |         1.59503 |
+| Matern32_7           |                       1 |              0 |         1.59363 |
+| Matern32_7           |                       1 |              1 |         1.59363 |
+| Matern52_0           |                       1 |              0 |         1.52208 |
+| Matern52_0           |                       1 |              1 |         1.52208 |
+| Matern52_1           |                       1 |              0 |         1.58218 |
+| Matern52_1           |                       1 |              1 |         1.58218 |
+| Matern52_2           |                       1 |              0 |         1.53371 |
+| Matern52_2           |                       1 |              1 |         1.53371 |
+| Matern52_3           |                       1 |              0 |         1.56073 |
+| Matern52_3           |                       1 |              1 |         1.56073 |
+| Matern52_4           |                       1 |              0 |         1.58256 |
+| Matern52_4           |                       1 |              1 |         1.58256 |
+| Matern52_5           |                       1 |              0 |         1.57137 |
+| Matern52_5           |                       1 |              1 |         1.57137 |
+| Matern52_6           |                       1 |              0 |         1.59366 |
+| Matern52_6           |                       1 |              1 |         1.59366 |
+| Matern52_7           |                       1 |              0 |         1.5953  |
+| Matern52_7           |                       1 |              1 |         1.5953  |
+| Cosine_0             |                       1 |              0 |         1.57073 |
+| Cosine_0             |                       1 |              1 |         1.57073 |
+| Cosine_1             |                       1 |              0 |         1.58873 |
+| Cosine_1             |                       1 |              1 |         1.58873 |
+| Cosine_2             |                       1 |              0 |         1.58059 |
+| Cosine_2             |                       1 |              1 |         1.58059 |
+| Cosine_3             |                       1 |              0 |         1.58325 |
+| Cosine_3             |                       1 |              1 |         1.58325 |
+| Cosine_4             |                       1 |              0 |         1.57074 |
+| Cosine_4             |                       1 |              1 |         1.57074 |
+| Cosine_5             |                       1 |              0 |         1.58164 |
+| Cosine_5             |                       1 |              1 |         1.58164 |
+| Cosine_6             |                       1 |              0 |         1.58088 |
+| Cosine_6             |                       1 |              1 |         1.58088 |
+| Cosine_7             |                       1 |              0 |         1.57809 |
+| Cosine_7             |                       1 |              1 |         1.57809 |
+| RQ_0                 |                       1 |              0 |         1.53542 |
+| RQ_0                 |                       1 |              1 |         1.53542 |
+| RQ_1                 |                       1 |              0 |         1.58396 |
+| RQ_1                 |                       1 |              1 |         1.58396 |
+| RQ_2                 |                       1 |              0 |         1.5346  |
+| RQ_2                 |                       1 |              1 |         1.5346  |
+| RQ_3                 |                       1 |              0 |         1.55503 |
+| RQ_3                 |                       1 |              1 |         1.55503 |
+| RQ_4                 |                       1 |              0 |         1.58406 |
+| RQ_4                 |                       1 |              1 |         1.58406 |
+| RQ_5                 |                       1 |              0 |         1.56725 |
+| RQ_5                 |                       1 |              1 |         1.56725 |
+| RQ_6                 |                       1 |              0 |         1.58617 |
+| RQ_6                 |                       1 |              1 |         1.58617 |
+| RQ_7                 |                       1 |              0 |         1.59223 |
+| RQ_7                 |                       1 |              1 |         1.59223 |
+
+| Kernel Combination      |   Initialization Number |   Epoch Number |   Training Loss |
+|-------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Matern32_0 |                       1 |              0 |         1.54352 |
+| Periodic_0 + Matern32_0 |                       1 |              1 |         1.54352 |
+| Periodic_0 * Matern32_0 |                       1 |              0 |         1.47813 |
+| Periodic_0 * Matern32_0 |                       1 |              1 |         1.47813 |
+| Periodic_1 + Matern32_0 |                       1 |              0 |         1.54303 |
+| Periodic_1 + Matern32_0 |                       1 |              1 |         1.54303 |
+| Periodic_1 * Matern32_0 |                       1 |              0 |         1.46751 |
+| Periodic_1 * Matern32_0 |                       1 |              1 |         1.46751 |
+| Periodic_2 + Matern32_0 |                       1 |              0 |         1.52704 |
+| Periodic_2 + Matern32_0 |                       1 |              1 |         1.52704 |
+| Periodic_2 * Matern32_0 |                       1 |              0 |         1.4524  |
+| Periodic_2 * Matern32_0 |                       1 |              1 |         1.4524  |
+| Periodic_3 + Matern32_0 |                       1 |              0 |         1.54129 |
+| Periodic_3 + Matern32_0 |                       1 |              1 |         1.54129 |
+| Periodic_3 * Matern32_0 |                       1 |              0 |         1.47912 |
+| Periodic_3 * Matern32_0 |                       1 |              1 |         1.47912 |
+| Periodic_4 + Matern32_0 |                       1 |              0 |         1.51543 |
+| Periodic_4 + Matern32_0 |                       1 |              1 |         1.51543 |
+| Periodic_4 * Matern32_0 |                       1 |              0 |         1.4674  |
+| Periodic_4 * Matern32_0 |                       1 |              1 |         1.4674  |
+| Periodic_5 + Matern32_0 |                       1 |              0 |         1.55016 |
+| Periodic_5 + Matern32_0 |                       1 |              1 |         1.55016 |
+| Periodic_5 * Matern32_0 |                       1 |              0 |         1.43118 |
+| Periodic_5 * Matern32_0 |                       1 |              1 |         1.43118 |
+| Periodic_6 + Matern32_0 |                       1 |              0 |         1.5173  |
+| Periodic_6 + Matern32_0 |                       1 |              1 |         1.5173  |
+| Periodic_6 * Matern32_0 |                       1 |              0 |         1.48843 |
+| Periodic_6 * Matern32_0 |                       1 |              1 |         1.48843 |
+| Periodic_7 + Matern32_0 |                       1 |              0 |         1.55187 |
+| Periodic_7 + Matern32_0 |                       1 |              1 |         1.55187 |
+| Periodic_7 * Matern32_0 |                       1 |              0 |         1.51847 |
+| Periodic_7 * Matern32_0 |                       1 |              1 |         1.51847 |
+| RBF_0 + Matern32_0      |                       1 |              0 |         1.52789 |
+| RBF_0 + Matern32_0      |                       1 |              1 |         1.52789 |
+| RBF_0 * Matern32_0      |                       1 |              0 |         1.51228 |
+| RBF_0 * Matern32_0      |                       1 |              1 |         1.51228 |
+| RBF_1 + Matern32_0      |                       1 |              0 |         1.54355 |
+| RBF_1 + Matern32_0      |                       1 |              1 |         1.54355 |
+| RBF_1 * Matern32_0      |                       1 |              0 |         1.48163 |
+| RBF_1 * Matern32_0      |                       1 |              1 |         1.48163 |
+| RBF_2 + Matern32_0      |                       1 |              0 |         1.52012 |
+| RBF_2 + Matern32_0      |                       1 |              1 |         1.52012 |
+| RBF_2 * Matern32_0      |                       1 |              0 |         1.39517 |
+| RBF_2 * Matern32_0      |                       1 |              1 |         1.39517 |
+| RBF_3 + Matern32_0      |                       1 |              0 |         1.49771 |
+| RBF_3 + Matern32_0      |                       1 |              1 |         1.49771 |
+| RBF_3 * Matern32_0      |                       1 |              0 |         1.40247 |
+| RBF_3 * Matern32_0      |                       1 |              1 |         1.40247 |
+| RBF_4 + Matern32_0      |                       1 |              0 |         1.55414 |
+| RBF_4 + Matern32_0      |                       1 |              1 |         1.55414 |
+| RBF_4 * Matern32_0      |                       1 |              0 |         1.49061 |
+| RBF_4 * Matern32_0      |                       1 |              1 |         1.49061 |
+| RBF_5 + Matern32_0      |                       1 |              0 |         1.53217 |
+| RBF_5 + Matern32_0      |                       1 |              1 |         1.53217 |
+| RBF_5 * Matern32_0      |                       1 |              0 |         1.47661 |
+| RBF_5 * Matern32_0      |                       1 |              1 |         1.47661 |
+| RBF_6 + Matern32_0      |                       1 |              0 |         1.53099 |
+| RBF_6 + Matern32_0      |                       1 |              1 |         1.53099 |
+| RBF_6 * Matern32_0      |                       1 |              0 |         1.49791 |
+| RBF_6 * Matern32_0      |                       1 |              1 |         1.49791 |
+| RBF_7 + Matern32_0      |                       1 |              0 |         1.53566 |
+| RBF_7 + Matern32_0      |                       1 |              1 |         1.53566 |
+| RBF_7 * Matern32_0      |                       1 |              0 |         1.52208 |
+| RBF_7 * Matern32_0      |                       1 |              1 |         1.52208 |
+| Matern32_0 + Matern32_0 |                       1 |              0 |         1.51965 |
+| Matern32_0 + Matern32_0 |                       1 |              1 |         1.51965 |
+| Matern32_0 * Matern32_0 |                       1 |              0 |         1.50502 |
+| Matern32_0 * Matern32_0 |                       1 |              1 |         1.50502 |
+| Matern32_1 + Matern32_0 |                       1 |              0 |         1.53844 |
+| Matern32_1 + Matern32_0 |                       1 |              1 |         1.53844 |
+| Matern32_1 * Matern32_0 |                       1 |              0 |         1.47369 |
+| Matern32_1 * Matern32_0 |                       1 |              1 |         1.47369 |
+| Matern32_2 + Matern32_0 |                       1 |              0 |         1.50002 |
+| Matern32_2 + Matern32_0 |                       1 |              1 |         1.50002 |
+| Matern32_2 * Matern32_0 |                       1 |              0 |         1.39063 |
+| Matern32_2 * Matern32_0 |                       1 |              1 |         1.39063 |
+| Matern32_3 + Matern32_0 |                       1 |              0 |         1.48816 |
+| Matern32_3 + Matern32_0 |                       1 |              1 |         1.48816 |
+| Matern32_3 * Matern32_0 |                       1 |              0 |         1.40449 |
+| Matern32_3 * Matern32_0 |                       1 |              1 |         1.40449 |
+| Matern32_4 + Matern32_0 |                       1 |              0 |         1.53523 |
+| Matern32_4 + Matern32_0 |                       1 |              1 |         1.53523 |
+| Matern32_4 * Matern32_0 |                       1 |              0 |         1.49694 |
+| Matern32_4 * Matern32_0 |                       1 |              1 |         1.49694 |
+| Matern32_5 + Matern32_0 |                       1 |              0 |         1.52171 |
+| Matern32_5 + Matern32_0 |                       1 |              1 |         1.52171 |
+| Matern32_5 * Matern32_0 |                       1 |              0 |         1.47385 |
+| Matern32_5 * Matern32_0 |                       1 |              1 |         1.47385 |
+| Matern32_6 + Matern32_0 |                       1 |              0 |         1.54351 |
+| Matern32_6 + Matern32_0 |                       1 |              1 |         1.54351 |
+| Matern32_6 * Matern32_0 |                       1 |              0 |         1.49186 |
+| Matern32_6 * Matern32_0 |                       1 |              1 |         1.49186 |
+| Matern32_7 + Matern32_0 |                       1 |              0 |         1.54508 |
+| Matern32_7 + Matern32_0 |                       1 |              1 |         1.54508 |
+| Matern32_7 * Matern32_0 |                       1 |              0 |         1.51735 |
+| Matern32_7 * Matern32_0 |                       1 |              1 |         1.51735 |
+| Matern52_0 + Matern32_0 |                       1 |              0 |         1.50806 |
+| Matern52_0 + Matern32_0 |                       1 |              1 |         1.50806 |
+| Matern52_0 * Matern32_0 |                       1 |              0 |         1.48966 |
+| Matern52_0 * Matern32_0 |                       1 |              1 |         1.48966 |
+| Matern52_1 + Matern32_0 |                       1 |              0 |         1.5392  |
+| Matern52_1 + Matern32_0 |                       1 |              1 |         1.5392  |
+| Matern52_1 * Matern32_0 |                       1 |              0 |         1.47257 |
+| Matern52_1 * Matern32_0 |                       1 |              1 |         1.47257 |
+| Matern52_2 + Matern32_0 |                       1 |              0 |         1.51266 |
+| Matern52_2 + Matern32_0 |                       1 |              1 |         1.51266 |
+| Matern52_2 * Matern32_0 |                       1 |              0 |         1.39118 |
+| Matern52_2 * Matern32_0 |                       1 |              1 |         1.39118 |
+| Matern52_3 + Matern32_0 |                       1 |              0 |         1.49045 |
+| Matern52_3 + Matern32_0 |                       1 |              1 |         1.49045 |
+| Matern52_3 * Matern32_0 |                       1 |              0 |         1.39293 |
+| Matern52_3 * Matern32_0 |                       1 |              1 |         1.39293 |
+| Matern52_4 + Matern32_0 |                       1 |              0 |         1.53642 |
+| Matern52_4 + Matern32_0 |                       1 |              1 |         1.53642 |
+| Matern52_4 * Matern32_0 |                       1 |              0 |         1.48298 |
+| Matern52_4 * Matern32_0 |                       1 |              1 |         1.48298 |
+| Matern52_5 + Matern32_0 |                       1 |              0 |         1.53059 |
+| Matern52_5 + Matern32_0 |                       1 |              1 |         1.53059 |
+| Matern52_5 * Matern32_0 |                       1 |              0 |         1.47782 |
+| Matern52_5 * Matern32_0 |                       1 |              1 |         1.47782 |
+| Matern52_6 + Matern32_0 |                       1 |              0 |         1.54668 |
+| Matern52_6 + Matern32_0 |                       1 |              1 |         1.54668 |
+| Matern52_6 * Matern32_0 |                       1 |              0 |         1.50783 |
+| Matern52_6 * Matern32_0 |                       1 |              1 |         1.50783 |
+| Matern52_7 + Matern32_0 |                       1 |              0 |         1.55677 |
+| Matern52_7 + Matern32_0 |                       1 |              1 |         1.55677 |
+| Matern52_7 * Matern32_0 |                       1 |              0 |         1.53137 |
+| Matern52_7 * Matern32_0 |                       1 |              1 |         1.53137 |
+| Cosine_0 + Matern32_0   |                       1 |              0 |         1.52956 |
+| Cosine_0 + Matern32_0   |                       1 |              1 |         1.52956 |
+| Cosine_0 * Matern32_0   |                       1 |              0 |         1.45283 |
+| Cosine_0 * Matern32_0   |                       1 |              1 |         1.45283 |
+| Cosine_1 + Matern32_0   |                       1 |              0 |         1.53221 |
+| Cosine_1 + Matern32_0   |                       1 |              1 |         1.53221 |
+| Cosine_1 * Matern32_0   |                       1 |              0 |         1.50345 |
+| Cosine_1 * Matern32_0   |                       1 |              1 |         1.50345 |
+| Cosine_2 + Matern32_0   |                       1 |              0 |         1.53695 |
+| Cosine_2 + Matern32_0   |                       1 |              1 |         1.53695 |
+| Cosine_2 * Matern32_0   |                       1 |              0 |         1.39364 |
+| Cosine_2 * Matern32_0   |                       1 |              1 |         1.39364 |
+| Cosine_3 + Matern32_0   |                       1 |              0 |         1.51825 |
+| Cosine_3 + Matern32_0   |                       1 |              1 |         1.51825 |
+| Cosine_3 * Matern32_0   |                       1 |              0 |         1.51772 |
+| Cosine_3 * Matern32_0   |                       1 |              1 |         1.51772 |
+| Cosine_4 + Matern32_0   |                       1 |              0 |         1.49921 |
+| Cosine_4 + Matern32_0   |                       1 |              1 |         1.49921 |
+| Cosine_4 * Matern32_0   |                       1 |              0 |         1.475   |
+| Cosine_4 * Matern32_0   |                       1 |              1 |         1.475   |
+| Cosine_5 + Matern32_0   |                       1 |              0 |         1.53239 |
+| Cosine_5 + Matern32_0   |                       1 |              1 |         1.53239 |
+| Cosine_5 * Matern32_0   |                       1 |              0 |         1.47225 |
+| Cosine_5 * Matern32_0   |                       1 |              1 |         1.47225 |
+| Cosine_6 + Matern32_0   |                       1 |              0 |         1.54557 |
+| Cosine_6 + Matern32_0   |                       1 |              1 |         1.54557 |
+| Cosine_6 * Matern32_0   |                       1 |              0 |         1.53272 |
+| Cosine_6 * Matern32_0   |                       1 |              1 |         1.53272 |
+| Cosine_7 + Matern32_0   |                       1 |              0 |         1.5389  |
+| Cosine_7 + Matern32_0   |                       1 |              1 |         1.5389  |
+| Cosine_7 * Matern32_0   |                       1 |              0 |         1.46441 |
+| Cosine_7 * Matern32_0   |                       1 |              1 |         1.46441 |
+| RQ_0 + Matern32_0       |                       1 |              0 |         1.5066  |
+| RQ_0 + Matern32_0       |                       1 |              1 |         1.5066  |
+| RQ_0 * Matern32_0       |                       1 |              0 |         1.48918 |
+| RQ_0 * Matern32_0       |                       1 |              1 |         1.48918 |
+| RQ_1 + Matern32_0       |                       1 |              0 |         1.53959 |
+| RQ_1 + Matern32_0       |                       1 |              1 |         1.53959 |
+| RQ_1 * Matern32_0       |                       1 |              0 |         1.47619 |
+| RQ_1 * Matern32_0       |                       1 |              1 |         1.47619 |
+| RQ_2 + Matern32_0       |                       1 |              0 |         1.51308 |
+| RQ_2 + Matern32_0       |                       1 |              1 |         1.51308 |
+| RQ_2 * Matern32_0       |                       1 |              0 |         1.39606 |
+| RQ_2 * Matern32_0       |                       1 |              1 |         1.39606 |
+| RQ_3 + Matern32_0       |                       1 |              0 |         1.49726 |
+| RQ_3 + Matern32_0       |                       1 |              1 |         1.49726 |
+| RQ_3 * Matern32_0       |                       1 |              0 |         1.3957  |
+| RQ_3 * Matern32_0       |                       1 |              1 |         1.3957  |
+| RQ_4 + Matern32_0       |                       1 |              0 |         1.53391 |
+| RQ_4 + Matern32_0       |                       1 |              1 |         1.53391 |
+| RQ_4 * Matern32_0       |                       1 |              0 |         1.50611 |
+| RQ_4 * Matern32_0       |                       1 |              1 |         1.50611 |
+| RQ_5 + Matern32_0       |                       1 |              0 |         1.52622 |
+| RQ_5 + Matern32_0       |                       1 |              1 |         1.52622 |
+| RQ_5 * Matern32_0       |                       1 |              0 |         1.48792 |
+| RQ_5 * Matern32_0       |                       1 |              1 |         1.48792 |
+| RQ_6 + Matern32_0       |                       1 |              0 |         1.5387  |
+| RQ_6 + Matern32_0       |                       1 |              1 |         1.5387  |
+| RQ_6 * Matern32_0       |                       1 |              0 |         1.50457 |
+| RQ_6 * Matern32_0       |                       1 |              1 |         1.50457 |
+| RQ_7 + Matern32_0       |                       1 |              0 |         1.52273 |
+| RQ_7 + Matern32_0       |                       1 |              1 |         1.52273 |
+| RQ_7 * Matern32_0       |                       1 |              0 |         1.50215 |
+| RQ_7 * Matern32_0       |                       1 |              1 |         1.50215 |
+| Matern32_0 + Matern32_0 |                       1 |              0 |         1.46957 |
+| Matern32_0 + Matern32_0 |                       1 |              1 |         1.46957 |
+| Matern32_0 * Matern32_0 |                       1 |              0 |         1.45542 |
+| Matern32_0 * Matern32_0 |                       1 |              1 |         1.45542 |
+
+| Kernel Combination                   |   Initialization Number |   Epoch Number |   Training Loss |
+|--------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.4241  |
+| Periodic_0 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.4241  |
+| Periodic_0 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.43844 |
+| Periodic_0 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.43844 |
+| Periodic_1 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.40314 |
+| Periodic_1 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.40314 |
+| Periodic_1 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40808 |
+| Periodic_1 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40808 |
+| Periodic_2 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.43174 |
+| Periodic_2 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.43174 |
+| Periodic_2 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.42339 |
+| Periodic_2 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.42339 |
+| Periodic_3 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.39931 |
+| Periodic_3 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.39931 |
+| Periodic_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.433   |
+| Periodic_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.433   |
+| Periodic_4 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.40842 |
+| Periodic_4 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.40842 |
+| Periodic_4 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.4159  |
+| Periodic_4 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.4159  |
+| Periodic_5 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.4237  |
+| Periodic_5 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.4237  |
+| Periodic_5 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40566 |
+| Periodic_5 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40566 |
+| Periodic_6 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.43041 |
+| Periodic_6 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.43041 |
+| Periodic_6 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40625 |
+| Periodic_6 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40625 |
+| Periodic_7 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.42769 |
+| Periodic_7 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.42769 |
+| Periodic_7 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.44274 |
+| Periodic_7 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.44274 |
+| RBF_0 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.39449 |
+| RBF_0 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.39449 |
+| RBF_0 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.38768 |
+| RBF_0 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.38768 |
+| RBF_1 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.42176 |
+| RBF_1 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.42176 |
+| RBF_1 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.35155 |
+| RBF_1 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.35155 |
+| RBF_2 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.39299 |
+| RBF_2 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.39299 |
+| RBF_2 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.38968 |
+| RBF_2 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.38968 |
+| RBF_3 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.41161 |
+| RBF_3 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.41161 |
+| RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.34267 |
+| RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.34267 |
+| RBF_4 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.4217  |
+| RBF_4 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.4217  |
+| RBF_4 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.42283 |
+| RBF_4 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.42283 |
+| RBF_5 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.41315 |
+| RBF_5 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.41315 |
+| RBF_5 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.41812 |
+| RBF_5 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.41812 |
+| RBF_6 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.42221 |
+| RBF_6 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.42221 |
+| RBF_6 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.44004 |
+| RBF_6 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.44004 |
+| RBF_7 + Matern32_2 * Matern32_0      |                       1 |              0 |         1.42219 |
+| RBF_7 + Matern32_2 * Matern32_0      |                       1 |              1 |         1.42219 |
+| RBF_7 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.4343  |
+| RBF_7 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.4343  |
+| Matern32_0 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.39663 |
+| Matern32_0 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.39663 |
+| Matern32_0 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39013 |
+| Matern32_0 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39013 |
+| Matern32_1 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.42063 |
+| Matern32_1 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.42063 |
+| Matern32_1 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37212 |
+| Matern32_1 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37212 |
+| Matern32_2 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.39974 |
+| Matern32_2 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.39974 |
+| Matern32_2 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39786 |
+| Matern32_2 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39786 |
+| Matern32_3 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.41112 |
+| Matern32_3 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.41112 |
+| Matern32_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37797 |
+| Matern32_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37797 |
+| Matern32_4 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.41951 |
+| Matern32_4 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.41951 |
+| Matern32_4 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.4367  |
+| Matern32_4 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.4367  |
+| Matern32_5 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.4253  |
+| Matern32_5 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.4253  |
+| Matern32_5 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.425   |
+| Matern32_5 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.425   |
+| Matern32_6 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.4362  |
+| Matern32_6 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.4362  |
+| Matern32_6 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.44935 |
+| Matern32_6 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.44935 |
+| Matern32_7 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.44247 |
+| Matern32_7 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.44247 |
+| Matern32_7 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.45119 |
+| Matern32_7 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.45119 |
+| Matern52_0 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.39998 |
+| Matern52_0 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.39998 |
+| Matern52_0 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38851 |
+| Matern52_0 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38851 |
+| Matern52_1 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.42533 |
+| Matern52_1 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.42533 |
+| Matern52_1 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35595 |
+| Matern52_1 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35595 |
+| Matern52_2 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.39923 |
+| Matern52_2 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.39923 |
+| Matern52_2 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39659 |
+| Matern52_2 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39659 |
+| Matern52_3 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.40785 |
+| Matern52_3 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.40785 |
+| Matern52_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36093 |
+| Matern52_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36093 |
+| Matern52_4 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.41576 |
+| Matern52_4 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.41576 |
+| Matern52_4 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.42926 |
+| Matern52_4 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.42926 |
+| Matern52_5 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.41223 |
+| Matern52_5 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.41223 |
+| Matern52_5 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.41704 |
+| Matern52_5 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.41704 |
+| Matern52_6 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.43635 |
+| Matern52_6 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.43635 |
+| Matern52_6 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.45271 |
+| Matern52_6 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.45271 |
+| Matern52_7 + Matern32_2 * Matern32_0 |                       1 |              0 |         1.4238  |
+| Matern52_7 + Matern32_2 * Matern32_0 |                       1 |              1 |         1.4238  |
+| Matern52_7 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.4336  |
+| Matern52_7 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.4336  |
+| Cosine_0 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.38612 |
+| Cosine_0 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.38612 |
+| Cosine_0 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.38749 |
+| Cosine_0 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.38749 |
+| Cosine_1 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.42277 |
+| Cosine_1 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.42277 |
+| Cosine_1 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.47511 |
+| Cosine_1 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.47511 |
+| Cosine_2 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.40828 |
+| Cosine_2 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.40828 |
+| Cosine_2 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.40686 |
+| Cosine_2 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.40686 |
+| Cosine_3 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.41857 |
+| Cosine_3 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.41857 |
+| Cosine_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.39427 |
+| Cosine_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.39427 |
+| Cosine_4 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.40172 |
+| Cosine_4 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.40172 |
+| Cosine_4 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.53146 |
+| Cosine_4 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.53146 |
+| Cosine_5 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.4106  |
+| Cosine_5 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.4106  |
+| Cosine_5 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.45856 |
+| Cosine_5 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.45856 |
+| Cosine_6 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.41999 |
+| Cosine_6 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.41999 |
+| Cosine_6 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.49968 |
+| Cosine_6 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.49968 |
+| Cosine_7 + Matern32_2 * Matern32_0   |                       1 |              0 |         1.4232  |
+| Cosine_7 + Matern32_2 * Matern32_0   |                       1 |              1 |         1.4232  |
+| Cosine_7 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.42874 |
+| Cosine_7 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.42874 |
+| RQ_0 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.401   |
+| RQ_0 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.401   |
+| RQ_0 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.38996 |
+| RQ_0 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.38996 |
+| RQ_1 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.42134 |
+| RQ_1 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.42134 |
+| RQ_1 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.35869 |
+| RQ_1 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.35869 |
+| RQ_2 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.39711 |
+| RQ_2 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.39711 |
+| RQ_2 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.39341 |
+| RQ_2 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.39341 |
+| RQ_3 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.40571 |
+| RQ_3 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.40571 |
+| RQ_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.36796 |
+| RQ_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.36796 |
+| RQ_4 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.41644 |
+| RQ_4 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.41644 |
+| RQ_4 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.42124 |
+| RQ_4 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.42124 |
+| RQ_5 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.41727 |
+| RQ_5 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.41727 |
+| RQ_5 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.41856 |
+| RQ_5 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.41856 |
+| RQ_6 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.42424 |
+| RQ_6 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.42424 |
+| RQ_6 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.4285  |
+| RQ_6 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.4285  |
+| RQ_7 + Matern32_2 * Matern32_0       |                       1 |              0 |         1.42315 |
+| RQ_7 + Matern32_2 * Matern32_0       |                       1 |              1 |         1.42315 |
+| RQ_7 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.425   |
+| RQ_7 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.425   |
+
+| Kernel Combination                           |   Initialization Number |   Epoch Number |   Training Loss |
+|----------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39214 |
+| Periodic_0 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39214 |
+| Periodic_0 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40973 |
+| Periodic_0 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40973 |
+| Periodic_1 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37316 |
+| Periodic_1 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37316 |
+| Periodic_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39756 |
+| Periodic_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39756 |
+| Periodic_2 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36237 |
+| Periodic_2 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36237 |
+| Periodic_2 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.3936  |
+| Periodic_2 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.3936  |
+| Periodic_3 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39931 |
+| Periodic_3 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39931 |
+| Periodic_3 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.42031 |
+| Periodic_3 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.42031 |
+| Periodic_4 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38804 |
+| Periodic_4 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38804 |
+| Periodic_4 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40403 |
+| Periodic_4 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40403 |
+| Periodic_5 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38082 |
+| Periodic_5 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38082 |
+| Periodic_5 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39328 |
+| Periodic_5 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39328 |
+| Periodic_6 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39493 |
+| Periodic_6 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39493 |
+| Periodic_6 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.42094 |
+| Periodic_6 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.42094 |
+| Periodic_7 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40436 |
+| Periodic_7 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40436 |
+| Periodic_7 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.42292 |
+| Periodic_7 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.42292 |
+| RBF_0 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.35924 |
+| RBF_0 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.35924 |
+| RBF_0 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.35762 |
+| RBF_0 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.35762 |
+| RBF_1 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.39544 |
+| RBF_1 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.39544 |
+| RBF_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.32195 |
+| RBF_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.32195 |
+| RBF_2 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.35713 |
+| RBF_2 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.35713 |
+| RBF_2 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.36026 |
+| RBF_2 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.36026 |
+| RBF_3 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.39452 |
+| RBF_3 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.39452 |
+| RBF_3 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.40269 |
+| RBF_3 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.40269 |
+| RBF_4 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.3872  |
+| RBF_4 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.3872  |
+| RBF_4 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.40607 |
+| RBF_4 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.40607 |
+| RBF_5 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.37279 |
+| RBF_5 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.37279 |
+| RBF_5 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.39157 |
+| RBF_5 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.39157 |
+| RBF_6 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.39816 |
+| RBF_6 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.39816 |
+| RBF_6 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.42496 |
+| RBF_6 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.42496 |
+| RBF_7 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.39652 |
+| RBF_7 + RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.39652 |
+| RBF_7 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.41622 |
+| RBF_7 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.41622 |
+| Matern32_0 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37404 |
+| Matern32_0 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37404 |
+| Matern32_0 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38118 |
+| Matern32_0 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38118 |
+| Matern32_1 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40695 |
+| Matern32_1 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40695 |
+| Matern32_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34465 |
+| Matern32_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34465 |
+| Matern32_2 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34715 |
+| Matern32_2 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34715 |
+| Matern32_2 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35735 |
+| Matern32_2 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35735 |
+| Matern32_3 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36801 |
+| Matern32_3 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36801 |
+| Matern32_3 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39436 |
+| Matern32_3 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39436 |
+| Matern32_4 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.41021 |
+| Matern32_4 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.41021 |
+| Matern32_4 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.42962 |
+| Matern32_4 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.42962 |
+| Matern32_5 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37753 |
+| Matern32_5 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37753 |
+| Matern32_5 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40093 |
+| Matern32_5 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40093 |
+| Matern32_6 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.41616 |
+| Matern32_6 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.41616 |
+| Matern32_6 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.43101 |
+| Matern32_6 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.43101 |
+| Matern32_7 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39382 |
+| Matern32_7 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39382 |
+| Matern32_7 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40775 |
+| Matern32_7 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40775 |
+| Matern52_0 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35879 |
+| Matern52_0 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35879 |
+| Matern52_0 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37551 |
+| Matern52_0 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37551 |
+| Matern52_1 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.41148 |
+| Matern52_1 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.41148 |
+| Matern52_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35011 |
+| Matern52_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35011 |
+| Matern52_2 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37516 |
+| Matern52_2 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37516 |
+| Matern52_2 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37739 |
+| Matern52_2 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37739 |
+| Matern52_3 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37388 |
+| Matern52_3 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37388 |
+| Matern52_3 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38033 |
+| Matern52_3 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38033 |
+| Matern52_4 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38633 |
+| Matern52_4 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38633 |
+| Matern52_4 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39402 |
+| Matern52_4 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39402 |
+| Matern52_5 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36424 |
+| Matern52_5 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36424 |
+| Matern52_5 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39428 |
+| Matern52_5 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39428 |
+| Matern52_6 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37412 |
+| Matern52_6 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37412 |
+| Matern52_6 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.4017  |
+| Matern52_6 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.4017  |
+| Matern52_7 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.43135 |
+| Matern52_7 + RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.43135 |
+| Matern52_7 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.43766 |
+| Matern52_7 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.43766 |
+| Cosine_0 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.35603 |
+| Cosine_0 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.35603 |
+| Cosine_0 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.39132 |
+| Cosine_0 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.39132 |
+| Cosine_1 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.37089 |
+| Cosine_1 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.37089 |
+| Cosine_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.43385 |
+| Cosine_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.43385 |
+| Cosine_2 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.38658 |
+| Cosine_2 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.38658 |
+| Cosine_2 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.4296  |
+| Cosine_2 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.4296  |
+| Cosine_3 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.35114 |
+| Cosine_3 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.35114 |
+| Cosine_3 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.44999 |
+| Cosine_3 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.44999 |
+| Cosine_4 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.38466 |
+| Cosine_4 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.38466 |
+| Cosine_4 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.45948 |
+| Cosine_4 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.45948 |
+| Cosine_5 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.40114 |
+| Cosine_5 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.40114 |
+| Cosine_5 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.47663 |
+| Cosine_5 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.47663 |
+| Cosine_6 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.38024 |
+| Cosine_6 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.38024 |
+| Cosine_6 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.48684 |
+| Cosine_6 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.48684 |
+| Cosine_7 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.38701 |
+| Cosine_7 + RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.38701 |
+| Cosine_7 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.43852 |
+| Cosine_7 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.43852 |
+| RQ_0 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.34841 |
+| RQ_0 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.34841 |
+| RQ_0 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.36195 |
+| RQ_0 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.36195 |
+| RQ_1 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.39391 |
+| RQ_1 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.39391 |
+| RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.32043 |
+| RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.32043 |
+| RQ_2 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.35158 |
+| RQ_2 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.35158 |
+| RQ_2 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.35397 |
+| RQ_2 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.35397 |
+| RQ_3 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.32789 |
+| RQ_3 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.32789 |
+| RQ_3 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.34518 |
+| RQ_3 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.34518 |
+| RQ_4 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.38861 |
+| RQ_4 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.38861 |
+| RQ_4 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.38827 |
+| RQ_4 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.38827 |
+| RQ_5 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.40168 |
+| RQ_5 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.40168 |
+| RQ_5 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.41224 |
+| RQ_5 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.41224 |
+| RQ_6 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.3911  |
+| RQ_6 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.3911  |
+| RQ_6 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.39123 |
+| RQ_6 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.39123 |
+| RQ_7 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.39096 |
+| RQ_7 + RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.39096 |
+| RQ_7 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.39554 |
+| RQ_7 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.39554 |
+
+| Kernel Combination                                  |   Initialization Number |   Epoch Number |   Training Loss |
+|-----------------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34735 |
+| Periodic_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34735 |
+| Periodic_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38719 |
+| Periodic_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38719 |
+| Periodic_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37138 |
+| Periodic_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37138 |
+| Periodic_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.3992  |
+| Periodic_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.3992  |
+| Periodic_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38335 |
+| Periodic_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38335 |
+| Periodic_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39798 |
+| Periodic_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39798 |
+| Periodic_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36406 |
+| Periodic_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36406 |
+| Periodic_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39697 |
+| Periodic_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39697 |
+| Periodic_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.32493 |
+| Periodic_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.32493 |
+| Periodic_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37443 |
+| Periodic_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37443 |
+| Periodic_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34831 |
+| Periodic_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34831 |
+| Periodic_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36805 |
+| Periodic_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36805 |
+| Periodic_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36236 |
+| Periodic_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36236 |
+| Periodic_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39001 |
+| Periodic_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39001 |
+| Periodic_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37551 |
+| Periodic_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37551 |
+| Periodic_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.40036 |
+| Periodic_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.40036 |
+| RBF_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.36373 |
+| RBF_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.36373 |
+| RBF_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.36027 |
+| RBF_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.36027 |
+| RBF_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.35101 |
+| RBF_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.35101 |
+| RBF_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.33914 |
+| RBF_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.33914 |
+| RBF_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.31808 |
+| RBF_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.31808 |
+| RBF_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.32875 |
+| RBF_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.32875 |
+| RBF_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.31655 |
+| RBF_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.31655 |
+| RBF_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.32411 |
+| RBF_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.32411 |
+| RBF_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.37373 |
+| RBF_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.37373 |
+| RBF_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.39459 |
+| RBF_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.39459 |
+| RBF_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.33663 |
+| RBF_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.33663 |
+| RBF_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.34853 |
+| RBF_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.34853 |
+| RBF_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.33191 |
+| RBF_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.33191 |
+| RBF_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.36076 |
+| RBF_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.36076 |
+| RBF_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.35984 |
+| RBF_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.35984 |
+| RBF_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              0 |         1.36707 |
+| RBF_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0      |                       1 |              1 |         1.36707 |
+| Matern32_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34123 |
+| Matern32_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34123 |
+| Matern32_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35031 |
+| Matern32_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35031 |
+| Matern32_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36863 |
+| Matern32_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36863 |
+| Matern32_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35066 |
+| Matern32_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35066 |
+| Matern32_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.33709 |
+| Matern32_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.33709 |
+| Matern32_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34609 |
+| Matern32_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34609 |
+| Matern32_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37279 |
+| Matern32_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37279 |
+| Matern32_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37852 |
+| Matern32_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37852 |
+| Matern32_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.33053 |
+| Matern32_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.33053 |
+| Matern32_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35564 |
+| Matern32_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35564 |
+| Matern32_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37216 |
+| Matern32_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37216 |
+| Matern32_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39281 |
+| Matern32_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39281 |
+| Matern32_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.3238  |
+| Matern32_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.3238  |
+| Matern32_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34812 |
+| Matern32_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34812 |
+| Matern32_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37352 |
+| Matern32_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37352 |
+| Matern32_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38426 |
+| Matern32_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38426 |
+| Matern52_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.3427  |
+| Matern52_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.3427  |
+| Matern52_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34347 |
+| Matern52_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34347 |
+| Matern52_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36787 |
+| Matern52_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36787 |
+| Matern52_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.34832 |
+| Matern52_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.34832 |
+| Matern52_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.32269 |
+| Matern52_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.32269 |
+| Matern52_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.3266  |
+| Matern52_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.3266  |
+| Matern52_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.3099  |
+| Matern52_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.3099  |
+| Matern52_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.33334 |
+| Matern52_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.33334 |
+| Matern52_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36352 |
+| Matern52_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36352 |
+| Matern52_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39151 |
+| Matern52_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39151 |
+| Matern52_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.38267 |
+| Matern52_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.38267 |
+| Matern52_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.39931 |
+| Matern52_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.39931 |
+| Matern52_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.35548 |
+| Matern52_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.35548 |
+| Matern52_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.36603 |
+| Matern52_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.36603 |
+| Matern52_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37003 |
+| Matern52_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37003 |
+| Matern52_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              0 |         1.37887 |
+| Matern52_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0 |                       1 |              1 |         1.37887 |
+| Cosine_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.35016 |
+| Cosine_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.35016 |
+| Cosine_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.40408 |
+| Cosine_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.40408 |
+| Cosine_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.35476 |
+| Cosine_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.35476 |
+| Cosine_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.44409 |
+| Cosine_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.44409 |
+| Cosine_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.36675 |
+| Cosine_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.36675 |
+| Cosine_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.45095 |
+| Cosine_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.45095 |
+| Cosine_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.34048 |
+| Cosine_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.34048 |
+| Cosine_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.41826 |
+| Cosine_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.41826 |
+| Cosine_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.34523 |
+| Cosine_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.34523 |
+| Cosine_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.4714  |
+| Cosine_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.4714  |
+| Cosine_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.37112 |
+| Cosine_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.37112 |
+| Cosine_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.47063 |
+| Cosine_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.47063 |
+| Cosine_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.39478 |
+| Cosine_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.39478 |
+| Cosine_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.48335 |
+| Cosine_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.48335 |
+| Cosine_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.3678  |
+| Cosine_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.3678  |
+| Cosine_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              0 |         1.46118 |
+| Cosine_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0   |                       1 |              1 |         1.46118 |
+| RQ_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.33342 |
+| RQ_0 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.33342 |
+| RQ_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.32419 |
+| RQ_0 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.32419 |
+| RQ_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.36214 |
+| RQ_1 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.36214 |
+| RQ_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.3405  |
+| RQ_1 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.3405  |
+| RQ_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.32742 |
+| RQ_2 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.32742 |
+| RQ_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.33114 |
+| RQ_2 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.33114 |
+| RQ_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.34138 |
+| RQ_3 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.34138 |
+| RQ_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.34689 |
+| RQ_3 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.34689 |
+| RQ_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.31588 |
+| RQ_4 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.31588 |
+| RQ_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.32544 |
+| RQ_4 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.32544 |
+| RQ_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.35003 |
+| RQ_5 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.35003 |
+| RQ_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.35139 |
+| RQ_5 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.35139 |
+| RQ_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.34958 |
+| RQ_6 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.34958 |
+| RQ_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.36098 |
+| RQ_6 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.36098 |
+| RQ_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.37261 |
+| RQ_7 + RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.37261 |
+| RQ_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              0 |         1.37539 |
+| RQ_7 * RQ_1 * RBF_3 * Matern32_2 * Matern32_0       |                       1 |              1 |         1.37539 |
+

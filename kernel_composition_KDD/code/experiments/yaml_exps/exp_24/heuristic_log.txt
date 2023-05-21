@@ -1,0 +1,67 @@
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic + periodic  |                       1 |       -0.273644 |
+| periodic * periodic  |                       1 |       -0.273649 |
+| periodic + RQ        |                       1 |       -0.598176 |
+| periodic * RQ        |                       1 |       -0.607002 |
+| periodic + SE        |                       1 |       -0.621801 |
+| periodic * SE        |                       1 |       -0.596022 |
+| periodic + Matern    |                       1 |       -0.620032 |
+| periodic * Matern    |                       1 |       -0.602867 |
+| RQ + RQ              |                       1 |       -0.606964 |
+| RQ * RQ              |                       1 |       -0.606987 |
+| RQ + SE              |                       1 |       -0.59838  |
+| RQ * SE              |                       1 |       -0.60705  |
+| RQ + Matern          |                       1 |       -0.598152 |
+| RQ * Matern          |                       1 |       -0.607    |
+| SE + SE              |                       1 |       -0.595733 |
+| SE * SE              |                       1 |       -0.595776 |
+| SE + Matern          |                       1 |       -0.594773 |
+| SE * Matern          |                       1 |       -0.603204 |
+| Matern + Matern      |                       1 |       -0.603256 |
+| Matern * Matern      |                       1 |       -0.603396 |
+
+| Kernel Combination            |   Initialization Number |   Training Loss |
+|-------------------------------|-------------------------|-----------------|
+| periodic + SE + periodic + SE |                       1 |       -0.590703 |
+| periodic + SE * periodic + SE |                       1 |       -0.60853  |
+
+| Kernel Combination                  |   Initialization Number |   Training Loss |
+|-------------------------------------|-------------------------|-----------------|
+| periodic + periodic + periodic + SE |                       1 |       -0.607525 |
+| periodic + periodic * periodic + SE |                       1 |       -0.601304 |
+| periodic * periodic * periodic + SE |                       1 |       -0.598115 |
+| periodic + RQ + periodic + SE       |                       1 |       -0.59389  |
+| periodic + RQ * periodic + SE       |                       1 |       -0.598322 |
+| periodic * RQ * periodic + SE       |                       1 |       -0.606965 |
+| periodic + SE + periodic + SE       |                       1 |       -0.590703 |
+| periodic + SE * periodic + SE       |                       1 |       -0.60853  |
+| periodic * SE * periodic + SE       |                       1 |       -0.60129  |
+| periodic + Matern + periodic + SE   |                       1 |       -0.590455 |
+| periodic + Matern * periodic + SE   |                       1 |       -0.60853  |
+| periodic * Matern * periodic + SE   |                       1 |       -0.601287 |
+| RQ + RQ + periodic + SE             |                       1 |       -0.598291 |
+| RQ + RQ * periodic + SE             |                       1 |       -0.607004 |
+| RQ * RQ + periodic + SE             |                       1 |       -0.595583 |
+| RQ * RQ * periodic + SE             |                       1 |       -0.606962 |
+| RQ + SE + periodic + SE             |                       1 |       -0.593953 |
+| RQ + SE * periodic + SE             |                       1 |       -0.598359 |
+| RQ * SE + periodic + SE             |                       1 |       -0.595629 |
+| RQ * SE * periodic + SE             |                       1 |       -0.60697  |
+| RQ + Matern + periodic + SE         |                       1 |       -0.593905 |
+| RQ + Matern * periodic + SE         |                       1 |       -0.598307 |
+| RQ * Matern + periodic + SE         |                       1 |       -0.595613 |
+| RQ * Matern * periodic + SE         |                       1 |       -0.606984 |
+| SE + SE + periodic + SE             |                       1 |       -0.58664  |
+| SE + SE * periodic + SE             |                       1 |       -0.589894 |
+| SE * SE + periodic + SE             |                       1 |       -0.587242 |
+| SE * SE * periodic + SE             |                       1 |       -0.589804 |
+| SE + Matern + periodic + SE         |                       1 |       -0.586586 |
+| SE + Matern * periodic + SE         |                       1 |       -0.589855 |
+| SE * Matern + periodic + SE         |                       1 |       -0.587319 |
+| SE * Matern * periodic + SE         |                       1 |       -0.589842 |
+| Matern + Matern + periodic + SE     |                       1 |       -0.586489 |
+| Matern + Matern * periodic + SE     |                       1 |       -0.589894 |
+| Matern * Matern + periodic + SE     |                       1 |       -0.587216 |
+| Matern * Matern * periodic + SE     |                       1 |       -0.589854 |
+

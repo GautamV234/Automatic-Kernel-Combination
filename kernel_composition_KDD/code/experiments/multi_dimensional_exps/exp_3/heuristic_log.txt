@@ -1,0 +1,612 @@
+| Kernel Combination             |   Initialization Number |   Epoch Number |   Training Loss |
+|--------------------------------|-------------------------|----------------|-----------------|
+| periodic + periodic + periodic |                       1 |              0 |        252.48   |
+| periodic + periodic + periodic |                       1 |            100 |         34.8874 |
+| periodic + periodic + periodic |                       1 |            200 |         25.5478 |
+| periodic + periodic * periodic |                       1 |              0 |        263.665  |
+| periodic + periodic * periodic |                       1 |            100 |         39.7337 |
+| periodic + periodic * periodic |                       1 |            200 |         28.9364 |
+| periodic * periodic * periodic |                       1 |              0 |        369.489  |
+| periodic * periodic * periodic |                       1 |            100 |         55.9086 |
+| periodic * periodic * periodic |                       1 |            200 |         40.2623 |
+| periodic + periodic + RQ       |                       1 |              0 |        127.484  |
+| periodic + periodic + RQ       |                       1 |            100 |         15.7194 |
+| periodic + periodic + RQ       |                       1 |            200 |         11.6505 |
+| periodic + periodic * RQ       |                       1 |              0 |        139.116  |
+| periodic + periodic * RQ       |                       1 |            100 |         19.4419 |
+| periodic + periodic * RQ       |                       1 |            200 |         14.253  |
+| periodic * periodic + RQ       |                       1 |              0 |        109.559  |
+| periodic * periodic + RQ       |                       1 |            100 |         18.0332 |
+| periodic * periodic + RQ       |                       1 |            200 |         13.4153 |
+| periodic * periodic * RQ       |                       1 |              0 |        219.772  |
+| periodic * periodic * RQ       |                       1 |            100 |         34.0112 |
+| periodic * periodic * RQ       |                       1 |            200 |         24.6926 |
+| periodic + periodic + SE       |                       1 |              0 |        138.924  |
+| periodic + periodic + SE       |                       1 |            100 |         16.7508 |
+| periodic + periodic + SE       |                       1 |            200 |         12.4039 |
+| periodic + periodic * SE       |                       1 |              0 |        180.857  |
+| periodic + periodic * SE       |                       1 |            100 |         20.948  |
+| periodic + periodic * SE       |                       1 |            200 |         15.4186 |
+| periodic * periodic + SE       |                       1 |              0 |        113.067  |
+| periodic * periodic + SE       |                       1 |            100 |         18.1999 |
+| periodic * periodic + SE       |                       1 |            200 |         13.5408 |
+| periodic * periodic * SE       |                       1 |              0 |        221.261  |
+| periodic * periodic * SE       |                       1 |            100 |         34.3211 |
+| periodic * periodic * SE       |                       1 |            200 |         24.8848 |
+| periodic + periodic + Linear   |                       1 |              0 |        229.335  |
+| periodic + periodic + Linear   |                       1 |            100 |         23.4245 |
+| periodic + periodic + Linear   |                       1 |            200 |         16.9147 |
+| periodic + periodic * Linear   |                       1 |              0 |      79929.1    |
+| periodic + periodic * Linear   |                       1 |            100 |      11518.4    |
+| periodic + periodic * Linear   |                       1 |            200 |       1956.29   |
+| periodic * periodic + Linear   |                       1 |              0 |      40502.2    |
+| periodic * periodic + Linear   |                       1 |            100 |        898.354  |
+| periodic * periodic + Linear   |                       1 |            200 |        216.697  |
+| periodic * periodic * Linear   |                       1 |              0 |      65655.7    |
+| periodic * periodic * Linear   |                       1 |            100 |        880.648  |
+| periodic * periodic * Linear   |                       1 |            200 |        677.881  |
+| periodic + periodic + Matern32 |                       1 |              0 |        164.884  |
+| periodic + periodic + Matern32 |                       1 |            100 |         17.1566 |
+| periodic + periodic + Matern32 |                       1 |            200 |         12.6405 |
+| periodic + periodic * Matern32 |                       1 |              0 |        158.425  |
+| periodic + periodic * Matern32 |                       1 |            100 |         20.6482 |
+| periodic + periodic * Matern32 |                       1 |            200 |         15.1345 |
+| periodic * periodic + Matern32 |                       1 |              0 |        114.072  |
+| periodic * periodic + Matern32 |                       1 |            100 |         18.2728 |
+| periodic * periodic + Matern32 |                       1 |            200 |         13.5805 |
+| periodic * periodic * Matern32 |                       1 |              0 |        223.124  |
+| periodic * periodic * Matern32 |                       1 |            100 |         34.5269 |
+| periodic * periodic * Matern32 |                       1 |            200 |         25.0027 |
+| periodic + RQ + RQ             |                       1 |              0 |        132.741  |
+| periodic + RQ + RQ             |                       1 |            100 |         15.0489 |
+| periodic + RQ + RQ             |                       1 |            200 |         11.3059 |
+| periodic + RQ * RQ             |                       1 |              0 |        122.734  |
+| periodic + RQ * RQ             |                       1 |            100 |         18.4452 |
+| periodic + RQ * RQ             |                       1 |            200 |         13.7159 |
+| periodic * RQ + RQ             |                       1 |              0 |        108.008  |
+| periodic * RQ + RQ             |                       1 |            100 |         17.9202 |
+| periodic * RQ + RQ             |                       1 |            200 |         13.3426 |
+| periodic * RQ * RQ             |                       1 |              0 |        216.896  |
+| periodic * RQ * RQ             |                       1 |            100 |         33.6904 |
+| periodic * RQ * RQ             |                       1 |            200 |         24.5355 |
+| periodic + RQ + SE             |                       1 |              0 |        128.174  |
+| periodic + RQ + SE             |                       1 |            100 |         15.0966 |
+| periodic + RQ + SE             |                       1 |            200 |         11.2858 |
+| periodic + RQ * SE             |                       1 |              0 |        127.626  |
+| periodic + RQ * SE             |                       1 |            100 |         18.705  |
+| periodic + RQ * SE             |                       1 |            200 |         13.9131 |
+| periodic * RQ + SE             |                       1 |              0 |        109.033  |
+| periodic * RQ + SE             |                       1 |            100 |         17.9536 |
+| periodic * RQ + SE             |                       1 |            200 |         13.3641 |
+| periodic * RQ * SE             |                       1 |              0 |        217.68   |
+| periodic * RQ * SE             |                       1 |            100 |         33.734  |
+| periodic * RQ * SE             |                       1 |            200 |         24.5618 |
+| periodic + RQ + Linear         |                       1 |              0 |        196.716  |
+| periodic + RQ + Linear         |                       1 |            100 |         20.7826 |
+| periodic + RQ + Linear         |                       1 |            200 |         15.1722 |
+| periodic + RQ * Linear         |                       1 |              0 |      20772.4    |
+| periodic + RQ * Linear         |                       1 |            100 |       1024.08   |
+| periodic + RQ * Linear         |                       1 |            200 |        722.857  |
+| periodic * RQ + Linear         |                       1 |              0 |       2628.77   |
+| periodic * RQ + Linear         |                       1 |            100 |         90.1991 |
+| periodic * RQ + Linear         |                       1 |            200 |         57.934  |
+| periodic * RQ * Linear         |                       1 |              0 |      11271.1    |
+| periodic * RQ * Linear         |                       1 |            100 |        732.348  |
+| periodic * RQ * Linear         |                       1 |            200 |        523.029  |
+| periodic + RQ + Matern32       |                       1 |              0 |        129.276  |
+| periodic + RQ + Matern32       |                       1 |            100 |         15.1589 |
+| periodic + RQ + Matern32       |                       1 |            200 |         11.3367 |
+| periodic + RQ * Matern32       |                       1 |              0 |        135.18   |
+| periodic + RQ * Matern32       |                       1 |            100 |         19.7805 |
+| periodic + RQ * Matern32       |                       1 |            200 |         14.5479 |
+| periodic * RQ + Matern32       |                       1 |              0 |        113.057  |
+| periodic * RQ + Matern32       |                       1 |            100 |         18.1239 |
+| periodic * RQ + Matern32       |                       1 |            200 |         13.5296 |
+| periodic * RQ * Matern32       |                       1 |              0 |        217.561  |
+| periodic * RQ * Matern32       |                       1 |            100 |         33.7328 |
+| periodic * RQ * Matern32       |                       1 |            200 |         24.5734 |
+| periodic + SE + SE             |                       1 |              0 |        136.188  |
+| periodic + SE + SE             |                       1 |            100 |         17.0583 |
+| periodic + SE + SE             |                       1 |            200 |         12.3828 |
+| periodic + SE * SE             |                       1 |              0 |        150.248  |
+| periodic + SE * SE             |                       1 |            100 |         21.0107 |
+| periodic + SE * SE             |                       1 |            200 |         15.5255 |
+| periodic * SE + SE             |                       1 |              0 |        120.544  |
+| periodic * SE + SE             |                       1 |            100 |         19.6627 |
+| periodic * SE + SE             |                       1 |            200 |         14.6071 |
+| periodic * SE * SE             |                       1 |              0 |        232.654  |
+| periodic * SE * SE             |                       1 |            100 |         35.9496 |
+| periodic * SE * SE             |                       1 |            200 |         26.1194 |
+| periodic + SE + Linear         |                       1 |              0 |        208.754  |
+| periodic + SE + Linear         |                       1 |            100 |         23.1983 |
+| periodic + SE + Linear         |                       1 |            200 |         16.2618 |
+| periodic + SE * Linear         |                       1 |              0 |      35030      |
+| periodic + SE * Linear         |                       1 |            100 |        809.762  |
+| periodic + SE * Linear         |                       1 |            200 |        615.143  |
+| periodic * SE + Linear         |                       1 |              0 |       5147.4    |
+| periodic * SE + Linear         |                       1 |            100 |        135.566  |
+| periodic * SE + Linear         |                       1 |            200 |         78.8196 |
+| periodic * SE * Linear         |                       1 |              0 |       9161.07   |
+| periodic * SE * Linear         |                       1 |            100 |        627.842  |
+| periodic * SE * Linear         |                       1 |            200 |        442.511  |
+| periodic + SE + Matern32       |                       1 |              0 |        138.962  |
+| periodic + SE + Matern32       |                       1 |            100 |         15.9852 |
+| periodic + SE + Matern32       |                       1 |            200 |         11.8357 |
+| periodic + SE * Matern32       |                       1 |              0 |        147.211  |
+| periodic + SE * Matern32       |                       1 |            100 |         19.6685 |
+| periodic + SE * Matern32       |                       1 |            200 |         14.5341 |
+| periodic * SE + Matern32       |                       1 |              0 |        109.726  |
+| periodic * SE + Matern32       |                       1 |            100 |         18.0352 |
+| periodic * SE + Matern32       |                       1 |            200 |         13.4385 |
+| periodic * SE * Matern32       |                       1 |              0 |        217.271  |
+| periodic * SE * Matern32       |                       1 |            100 |         33.8446 |
+| periodic * SE * Matern32       |                       1 |            200 |         24.6053 |
+| periodic + Linear + Linear     |                       1 |              0 |        474.547  |
+| periodic + Linear + Linear     |                       1 |            100 |         45.0499 |
+| periodic + Linear + Linear     |                       1 |            200 |         31.8584 |
+| periodic + Linear * Linear     |                       1 |              0 |        nan      |
+| periodic + Linear * Linear     |                       1 |            100 |        nan      |
+| periodic + Linear * Linear     |                       1 |            200 |        nan      |
+| periodic * Linear + Linear     |                       1 |              0 |        nan      |
+| periodic * Linear + Linear     |                       1 |            100 |        nan      |
+| periodic * Linear + Linear     |                       1 |            200 |        nan      |
+| periodic * Linear * Linear     |                       1 |              0 |        nan      |
+| periodic * Linear * Linear     |                       1 |            100 |        nan      |
+| periodic * Linear * Linear     |                       1 |            200 |        nan      |
+| periodic + Linear + Matern32   |                       1 |              0 |        197.902  |
+| periodic + Linear + Matern32   |                       1 |            100 |         22.2112 |
+| periodic + Linear + Matern32   |                       1 |            200 |         16.1064 |
+| periodic + Linear * Matern32   |                       1 |              0 |        225.311  |
+| periodic + Linear * Matern32   |                       1 |            100 |         31.1262 |
+| periodic + Linear * Matern32   |                       1 |            200 |         22.766  |
+| periodic * Linear + Matern32   |                       1 |              0 |        185.544  |
+| periodic * Linear + Matern32   |                       1 |            100 |         29.458  |
+| periodic * Linear + Matern32   |                       1 |            200 |         21.1056 |
+| periodic * Linear * Matern32   |                       1 |              0 |       3983.09   |
+| periodic * Linear * Matern32   |                       1 |            100 |        552.161  |
+| periodic * Linear * Matern32   |                       1 |            200 |        380.713  |
+| periodic + Matern32 + Matern32 |                       1 |              0 |        145.095  |
+| periodic + Matern32 + Matern32 |                       1 |            100 |         16.2745 |
+| periodic + Matern32 + Matern32 |                       1 |            200 |         12.0249 |
+| periodic + Matern32 * Matern32 |                       1 |              0 |        142.707  |
+| periodic + Matern32 * Matern32 |                       1 |            100 |         19.5534 |
+| periodic + Matern32 * Matern32 |                       1 |            200 |         14.4406 |
+| periodic * Matern32 + Matern32 |                       1 |              0 |        109.884  |
+| periodic * Matern32 + Matern32 |                       1 |            100 |         18.0426 |
+| periodic * Matern32 + Matern32 |                       1 |            200 |         13.4439 |
+| periodic * Matern32 * Matern32 |                       1 |              0 |        217.617  |
+| periodic * Matern32 * Matern32 |                       1 |            100 |         33.8916 |
+| periodic * Matern32 * Matern32 |                       1 |            200 |         24.6298 |
+| RQ + RQ + RQ                   |                       1 |              0 |        125.328  |
+| RQ + RQ + RQ                   |                       1 |            100 |         14.1514 |
+| RQ + RQ + RQ                   |                       1 |            200 |         10.7279 |
+| RQ + RQ * RQ                   |                       1 |              0 |        111.343  |
+| RQ + RQ * RQ                   |                       1 |            100 |         18.0069 |
+| RQ + RQ * RQ                   |                       1 |            200 |         13.4088 |
+| RQ * RQ * RQ                   |                       1 |              0 |        212.372  |
+| RQ * RQ * RQ                   |                       1 |            100 |         33.4308 |
+| RQ * RQ * RQ                   |                       1 |            200 |         24.3612 |
+| RQ + RQ + SE                   |                       1 |              0 |        137.588  |
+| RQ + RQ + SE                   |                       1 |            100 |         14.577  |
+| RQ + RQ + SE                   |                       1 |            200 |         11.0315 |
+| RQ + RQ * SE                   |                       1 |              0 |        117.754  |
+| RQ + RQ * SE                   |                       1 |            100 |         18.3331 |
+| RQ + RQ * SE                   |                       1 |            200 |         13.6217 |
+| RQ * RQ + SE                   |                       1 |              0 |        108.2    |
+| RQ * RQ + SE                   |                       1 |            100 |         17.9282 |
+| RQ * RQ + SE                   |                       1 |            200 |         13.3484 |
+| RQ * RQ * SE                   |                       1 |              0 |        216.97   |
+| RQ * RQ * SE                   |                       1 |            100 |         33.5906 |
+| RQ * RQ * SE                   |                       1 |            200 |         24.4739 |
+| RQ + RQ + Linear               |                       1 |              0 |        162.117  |
+| RQ + RQ + Linear               |                       1 |            100 |         18.4593 |
+| RQ + RQ + Linear               |                       1 |            200 |         13.646  |
+| RQ + RQ * Linear               |                       1 |              0 |      17907.5    |
+| RQ + RQ * Linear               |                       1 |            100 |        836.097  |
+| RQ + RQ * Linear               |                       1 |            200 |        617.232  |
+| RQ * RQ + Linear               |                       1 |              0 |       4160.28   |
+| RQ * RQ + Linear               |                       1 |            100 |         68.9765 |
+| RQ * RQ + Linear               |                       1 |            200 |         51.3181 |
+| RQ * RQ * Linear               |                       1 |              0 |       7831.91   |
+| RQ * RQ * Linear               |                       1 |            100 |        668.573  |
+| RQ * RQ * Linear               |                       1 |            200 |        466.597  |
+| RQ + RQ + Matern32             |                       1 |              0 |        138.165  |
+| RQ + RQ + Matern32             |                       1 |            100 |         14.7166 |
+| RQ + RQ + Matern32             |                       1 |            200 |         11.0558 |
+| RQ + RQ * Matern32             |                       1 |              0 |        124.224  |
+| RQ + RQ * Matern32             |                       1 |            100 |         18.774  |
+| RQ + RQ * Matern32             |                       1 |            200 |         13.8909 |
+| RQ * RQ + Matern32             |                       1 |              0 |        108.327  |
+| RQ * RQ + Matern32             |                       1 |            100 |         17.9389 |
+| RQ * RQ + Matern32             |                       1 |            200 |         13.3553 |
+| RQ * RQ * Matern32             |                       1 |              0 |        216.891  |
+| RQ * RQ * Matern32             |                       1 |            100 |         33.614  |
+| RQ * RQ * Matern32             |                       1 |            200 |         24.489  |
+| RQ + SE + SE                   |                       1 |              0 |        144.086  |
+| RQ + SE + SE                   |                       1 |            100 |         15.361  |
+| RQ + SE + SE                   |                       1 |            200 |         11.2996 |
+| RQ + SE * SE                   |                       1 |              0 |        122.033  |
+| RQ + SE * SE                   |                       1 |            100 |         18.5513 |
+| RQ + SE * SE                   |                       1 |            200 |         13.7574 |
+| RQ * SE + SE                   |                       1 |              0 |        108.318  |
+| RQ * SE + SE                   |                       1 |            100 |         17.9388 |
+| RQ * SE + SE                   |                       1 |            200 |         13.3556 |
+| RQ * SE * SE                   |                       1 |              0 |        217.264  |
+| RQ * SE * SE                   |                       1 |            100 |         33.6182 |
+| RQ * SE * SE                   |                       1 |            200 |         24.4904 |
+| RQ + SE + Linear               |                       1 |              0 |        172.48   |
+| RQ + SE + Linear               |                       1 |            100 |         19.419  |
+| RQ + SE + Linear               |                       1 |            200 |         14.2792 |
+| RQ + SE * Linear               |                       1 |              0 |      18504.5    |
+| RQ + SE * Linear               |                       1 |            100 |        958.73   |
+| RQ + SE * Linear               |                       1 |            200 |        618.728  |
+| RQ * SE + Linear               |                       1 |              0 |       4312.57   |
+| RQ * SE + Linear               |                       1 |            100 |        106.667  |
+| RQ * SE + Linear               |                       1 |            200 |         70.637  |
+| RQ * SE * Linear               |                       1 |              0 |       9793.65   |
+| RQ * SE * Linear               |                       1 |            100 |        715.308  |
+| RQ * SE * Linear               |                       1 |            200 |        505.368  |
+| RQ + SE + Matern32             |                       1 |              0 |        138.591  |
+| RQ + SE + Matern32             |                       1 |            100 |         15.148  |
+| RQ + SE + Matern32             |                       1 |            200 |         11.2983 |
+| RQ + SE * Matern32             |                       1 |              0 |        128.332  |
+| RQ + SE * Matern32             |                       1 |            100 |         19.0324 |
+| RQ + SE * Matern32             |                       1 |            200 |         14.0445 |
+| RQ * SE + Matern32             |                       1 |              0 |        108.628  |
+| RQ * SE + Matern32             |                       1 |            100 |         17.9609 |
+| RQ * SE + Matern32             |                       1 |            200 |         13.3697 |
+| RQ * SE * Matern32             |                       1 |              0 |        217.281  |
+| RQ * SE * Matern32             |                       1 |            100 |         33.6585 |
+| RQ * SE * Matern32             |                       1 |            200 |         24.5151 |
+| RQ + Linear + Linear           |                       1 |              0 |        328.371  |
+| RQ + Linear + Linear           |                       1 |            100 |         34.896  |
+| RQ + Linear + Linear           |                       1 |            200 |         25.1927 |
+| RQ + Linear * Linear           |                       1 |              0 |        nan      |
+| RQ + Linear * Linear           |                       1 |            100 |        nan      |
+| RQ + Linear * Linear           |                       1 |            200 |        nan      |
+| RQ * Linear + Linear           |                       1 |              0 |        nan      |
+| RQ * Linear + Linear           |                       1 |            100 |        nan      |
+| RQ * Linear + Linear           |                       1 |            200 |        nan      |
+| RQ * Linear * Linear           |                       1 |              0 |        nan      |
+| RQ * Linear * Linear           |                       1 |            100 |        nan      |
+| RQ * Linear * Linear           |                       1 |            200 |        nan      |
+| RQ + Linear + Matern32         |                       1 |              0 |        213.006  |
+| RQ + Linear + Matern32         |                       1 |            100 |         21.1404 |
+| RQ + Linear + Matern32         |                       1 |            200 |         15.4241 |
+| RQ + Linear * Matern32         |                       1 |              0 |        187.582  |
+| RQ + Linear * Matern32         |                       1 |            100 |         29.6248 |
+| RQ + Linear * Matern32         |                       1 |            200 |         21.604  |
+| RQ * Linear + Matern32         |                       1 |              0 |        205.198  |
+| RQ * Linear + Matern32         |                       1 |            100 |         29.9849 |
+| RQ * Linear + Matern32         |                       1 |            200 |         21.7195 |
+| RQ * Linear * Matern32         |                       1 |              0 |       7599.47   |
+| RQ * Linear * Matern32         |                       1 |            100 |        716.015  |
+| RQ * Linear * Matern32         |                       1 |            200 |        494.353  |
+| RQ + Matern32 + Matern32       |                       1 |              0 |        147.133  |
+| RQ + Matern32 + Matern32       |                       1 |            100 |         15.6082 |
+| RQ + Matern32 + Matern32       |                       1 |            200 |         11.5957 |
+| RQ + Matern32 * Matern32       |                       1 |              0 |        132.119  |
+| RQ + Matern32 * Matern32       |                       1 |            100 |         19.3555 |
+| RQ + Matern32 * Matern32       |                       1 |            200 |         14.2254 |
+| RQ * Matern32 + Matern32       |                       1 |              0 |        109.32   |
+| RQ * Matern32 + Matern32       |                       1 |            100 |         18.0029 |
+| RQ * Matern32 + Matern32       |                       1 |            200 |         13.3969 |
+| RQ * Matern32 * Matern32       |                       1 |              0 |        217.998  |
+| RQ * Matern32 * Matern32       |                       1 |            100 |         33.7406 |
+| RQ * Matern32 * Matern32       |                       1 |            200 |         24.5661 |
+| SE + SE + SE                   |                       1 |              0 |        147.993  |
+| SE + SE + SE                   |                       1 |            100 |         18.1962 |
+| SE + SE + SE                   |                       1 |            200 |         13.1298 |
+| SE + SE * SE                   |                       1 |              0 |        148.217  |
+| SE + SE * SE                   |                       1 |            100 |         20.5566 |
+| SE + SE * SE                   |                       1 |            200 |         15.2534 |
+| SE * SE * SE                   |                       1 |              0 |        222.05   |
+| SE * SE * SE                   |                       1 |            100 |         34.6907 |
+| SE * SE * SE                   |                       1 |            200 |         25.2986 |
+| SE + SE + Linear               |                       1 |              0 |        199.441  |
+| SE + SE + Linear               |                       1 |            100 |         23.7769 |
+| SE + SE + Linear               |                       1 |            200 |         16.006  |
+| SE + SE * Linear               |                       1 |              0 |      35160.5    |
+| SE + SE * Linear               |                       1 |            100 |        685.234  |
+| SE + SE * Linear               |                       1 |            200 |        535.349  |
+| SE * SE + Linear               |                       1 |              0 |       5570.26   |
+| SE * SE + Linear               |                       1 |            100 |        146.259  |
+| SE * SE + Linear               |                       1 |            200 |         92.3491 |
+| SE * SE * Linear               |                       1 |              0 |      13599.2    |
+| SE * SE * Linear               |                       1 |            100 |        671.734  |
+| SE * SE * Linear               |                       1 |            200 |        475.665  |
+| SE + SE + Matern32             |                       1 |              0 |        133.337  |
+| SE + SE + Matern32             |                       1 |            100 |         15.5754 |
+| SE + SE + Matern32             |                       1 |            200 |         11.5371 |
+| SE + SE * Matern32             |                       1 |              0 |        143.799  |
+| SE + SE * Matern32             |                       1 |            100 |         20.4528 |
+| SE + SE * Matern32             |                       1 |            200 |         15.0209 |
+| SE * SE + Matern32             |                       1 |              0 |        113.23   |
+| SE * SE + Matern32             |                       1 |            100 |         18.5533 |
+| SE * SE + Matern32             |                       1 |            200 |         13.7754 |
+| SE * SE * Matern32             |                       1 |              0 |        229.795  |
+| SE * SE * Matern32             |                       1 |            100 |         34.8566 |
+| SE * SE * Matern32             |                       1 |            200 |         25.3769 |
+| SE + Linear + Linear           |                       1 |              0 |        374.543  |
+| SE + Linear + Linear           |                       1 |            100 |         40.0506 |
+| SE + Linear + Linear           |                       1 |            200 |         28.0043 |
+| SE + Linear * Linear           |                       1 |              0 |        nan      |
+| SE + Linear * Linear           |                       1 |            100 |        nan      |
+| SE + Linear * Linear           |                       1 |            200 |        nan      |
+| SE * Linear + Linear           |                       1 |              0 |        nan      |
+| SE * Linear + Linear           |                       1 |            100 |        nan      |
+| SE * Linear + Linear           |                       1 |            200 |        nan      |
+| SE * Linear * Linear           |                       1 |              0 |        nan      |
+| SE * Linear * Linear           |                       1 |            100 |        nan      |
+| SE * Linear * Linear           |                       1 |            200 |        nan      |
+| SE + Linear + Matern32         |                       1 |              0 |        197.269  |
+| SE + Linear + Matern32         |                       1 |            100 |         21.968  |
+| SE + Linear + Matern32         |                       1 |            200 |         15.9351 |
+| SE + Linear * Matern32         |                       1 |              0 |        186.83   |
+| SE + Linear * Matern32         |                       1 |            100 |         29.5989 |
+| SE + Linear * Matern32         |                       1 |            200 |         21.5852 |
+| SE * Linear + Matern32         |                       1 |              0 |        186.977  |
+| SE * Linear + Matern32         |                       1 |            100 |         29.6079 |
+| SE * Linear + Matern32         |                       1 |            200 |         21.5286 |
+| SE * Linear * Matern32         |                       1 |              0 |      19313.6    |
+| SE * Linear * Matern32         |                       1 |            100 |        808.598  |
+| SE * Linear * Matern32         |                       1 |            200 |        578.952  |
+| SE + Matern32 + Matern32       |                       1 |              0 |        135.026  |
+| SE + Matern32 + Matern32       |                       1 |            100 |         15.7864 |
+| SE + Matern32 + Matern32       |                       1 |            200 |         11.6863 |
+| SE + Matern32 * Matern32       |                       1 |              0 |        135.163  |
+| SE + Matern32 * Matern32       |                       1 |            100 |         20.0628 |
+| SE + Matern32 * Matern32       |                       1 |            200 |         14.7748 |
+| SE * Matern32 + Matern32       |                       1 |              0 |        113.884  |
+| SE * Matern32 + Matern32       |                       1 |            100 |         18.7618 |
+| SE * Matern32 + Matern32       |                       1 |            200 |         13.9664 |
+| SE * Matern32 * Matern32       |                       1 |              0 |        223.705  |
+| SE * Matern32 * Matern32       |                       1 |            100 |         34.6306 |
+| SE * Matern32 * Matern32       |                       1 |            200 |         25.2287 |
+| Linear + Linear + Linear       |                       1 |              0 |      81017.8    |
+| Linear + Linear + Linear       |                       1 |            100 |      12228.4    |
+| Linear + Linear + Linear       |                       1 |            200 |       8658.29   |
+| Linear + Linear * Linear       |                       1 |              0 |        nan      |
+| Linear + Linear * Linear       |                       1 |            100 |        nan      |
+| Linear + Linear * Linear       |                       1 |            200 |        nan      |
+| Linear * Linear * Linear       |                       1 |              0 |        nan      |
+| Linear * Linear * Linear       |                       1 |            100 |        nan      |
+| Linear * Linear * Linear       |                       1 |            200 |        nan      |
+| Linear + Linear + Matern32     |                       1 |              0 |        531.591  |
+| Linear + Linear + Matern32     |                       1 |            100 |         47.0061 |
+| Linear + Linear + Matern32     |                       1 |            200 |         33.0699 |
+| Linear + Linear * Matern32     |                       1 |              0 |      17850.2    |
+| Linear + Linear * Matern32     |                       1 |            100 |        810.098  |
+| Linear + Linear * Matern32     |                       1 |            200 |        607.394  |
+| Linear * Linear + Matern32     |                       1 |              0 |       1281.94   |
+| Linear * Linear + Matern32     |                       1 |            100 |         54.6203 |
+| Linear * Linear + Matern32     |                       1 |            200 |         38.533  |
+| Linear * Linear * Matern32     |                       1 |              0 |       8156.74   |
+| Linear * Linear * Matern32     |                       1 |            100 |        829.556  |
+| Linear * Linear * Matern32     |                       1 |            200 |        567.153  |
+| Linear + Matern32 + Matern32   |                       1 |              0 |        216.607  |
+| Linear + Matern32 + Matern32   |                       1 |            100 |         22.9933 |
+| Linear + Matern32 + Matern32   |                       1 |            200 |         16.6073 |
+| Linear + Matern32 * Matern32   |                       1 |              0 |        189.759  |
+| Linear + Matern32 * Matern32   |                       1 |            100 |         29.7962 |
+| Linear + Matern32 * Matern32   |                       1 |            200 |         21.7161 |
+| Linear * Matern32 + Matern32   |                       1 |              0 |        184.927  |
+| Linear * Matern32 + Matern32   |                       1 |            100 |         29.4834 |
+| Linear * Matern32 + Matern32   |                       1 |            200 |         21.5117 |
+| Linear * Matern32 * Matern32   |                       1 |              0 |      17286.4    |
+| Linear * Matern32 * Matern32   |                       1 |            100 |        739.229  |
+| Linear * Matern32 * Matern32   |                       1 |            200 |        560.207  |
+| Matern32 + Matern32 + Matern32 |                       1 |              0 |        178.08   |
+| Matern32 + Matern32 + Matern32 |                       1 |            100 |         17.4576 |
+| Matern32 + Matern32 + Matern32 |                       1 |            200 |         12.7642 |
+| Matern32 + Matern32 * Matern32 |                       1 |              0 |        144.582  |
+| Matern32 + Matern32 * Matern32 |                       1 |            100 |         20.6858 |
+| Matern32 + Matern32 * Matern32 |                       1 |            200 |         15.1613 |
+| Matern32 * Matern32 * Matern32 |                       1 |              0 |        239.177  |
+| Matern32 * Matern32 * Matern32 |                       1 |            100 |         35.7088 |
+| Matern32 * Matern32 * Matern32 |                       1 |            200 |         25.8279 |
+
+| Kernel Combination                 |   Initialization Number |   Epoch Number |   Training Loss |
+|------------------------------------|-------------------------|----------------|-----------------|
+| periodic + periodic + RQ + RQ + RQ |                       1 |              0 |        81.2319  |
+| periodic + periodic + RQ + RQ + RQ |                       1 |            100 |        10.0397  |
+| periodic + periodic + RQ + RQ + RQ |                       1 |            200 |         7.72743 |
+| periodic + periodic * RQ + RQ + RQ |                       1 |              0 |        47.6004  |
+| periodic + periodic * RQ + RQ + RQ |                       1 |            100 |         7.91901 |
+| periodic + periodic * RQ + RQ + RQ |                       1 |            200 |         6.21165 |
+| periodic * periodic + RQ + RQ + RQ |                       1 |              0 |        56.4492  |
+| periodic * periodic + RQ + RQ + RQ |                       1 |            100 |        10.1069  |
+| periodic * periodic + RQ + RQ + RQ |                       1 |            200 |         7.79701 |
+| periodic * periodic * RQ + RQ + RQ |                       1 |              0 |        79.6499  |
+| periodic * periodic * RQ + RQ + RQ |                       1 |            100 |        13.096   |
+| periodic * periodic * RQ + RQ + RQ |                       1 |            200 |         9.86    |
+| periodic + RQ + RQ + RQ + RQ       |                       1 |              0 |        76.1328  |
+| periodic + RQ + RQ + RQ + RQ       |                       1 |            100 |         9.62998 |
+| periodic + RQ + RQ + RQ + RQ       |                       1 |            200 |         7.47336 |
+| periodic + RQ * RQ + RQ + RQ       |                       1 |              0 |        43.3489  |
+| periodic + RQ * RQ + RQ + RQ       |                       1 |            100 |         7.85193 |
+| periodic + RQ * RQ + RQ + RQ       |                       1 |            200 |         6.18286 |
+| periodic * RQ + RQ + RQ + RQ       |                       1 |              0 |        57.7149  |
+| periodic * RQ + RQ + RQ + RQ       |                       1 |            100 |        10.2382  |
+| periodic * RQ + RQ + RQ + RQ       |                       1 |            200 |         7.8854  |
+| periodic * RQ * RQ + RQ + RQ       |                       1 |              0 |        79.4756  |
+| periodic * RQ * RQ + RQ + RQ       |                       1 |            100 |        13.2472  |
+| periodic * RQ * RQ + RQ + RQ       |                       1 |            200 |        10.0065  |
+| periodic + SE + RQ + RQ + RQ       |                       1 |              0 |        69.6128  |
+| periodic + SE + RQ + RQ + RQ       |                       1 |            100 |         9.45541 |
+| periodic + SE + RQ + RQ + RQ       |                       1 |            200 |         7.34401 |
+| periodic + SE * RQ + RQ + RQ       |                       1 |              0 |        43.397   |
+| periodic + SE * RQ + RQ + RQ       |                       1 |            100 |         7.84538 |
+| periodic + SE * RQ + RQ + RQ       |                       1 |            200 |         6.04403 |
+| periodic * SE + RQ + RQ + RQ       |                       1 |              0 |        56.3823  |
+| periodic * SE + RQ + RQ + RQ       |                       1 |            100 |        10.1012  |
+| periodic * SE + RQ + RQ + RQ       |                       1 |            200 |         7.79363 |
+| periodic * SE * RQ + RQ + RQ       |                       1 |              0 |        77.8563  |
+| periodic * SE * RQ + RQ + RQ       |                       1 |            100 |        12.9465  |
+| periodic * SE * RQ + RQ + RQ       |                       1 |            200 |         9.80407 |
+| periodic + Linear + RQ + RQ + RQ   |                       1 |              0 |        99.0202  |
+| periodic + Linear + RQ + RQ + RQ   |                       1 |            100 |        11.1037  |
+| periodic + Linear + RQ + RQ + RQ   |                       1 |            200 |         8.4329  |
+| periodic + Linear * RQ + RQ + RQ   |                       1 |              0 |        79.0624  |
+| periodic + Linear * RQ + RQ + RQ   |                       1 |            100 |        11.9287  |
+| periodic + Linear * RQ + RQ + RQ   |                       1 |            200 |         9.10909 |
+| periodic * Linear + RQ + RQ + RQ   |                       1 |              0 |        65.8728  |
+| periodic * Linear + RQ + RQ + RQ   |                       1 |            100 |        11.3684  |
+| periodic * Linear + RQ + RQ + RQ   |                       1 |            200 |         8.67983 |
+| periodic * Linear * RQ + RQ + RQ   |                       1 |              0 |     18378.4     |
+| periodic * Linear * RQ + RQ + RQ   |                       1 |            100 |       528.007   |
+| periodic * Linear * RQ + RQ + RQ   |                       1 |            200 |       416.823   |
+| periodic + Matern32 + RQ + RQ + RQ |                       1 |              0 |        75.5778  |
+| periodic + Matern32 + RQ + RQ + RQ |                       1 |            100 |         9.62156 |
+| periodic + Matern32 + RQ + RQ + RQ |                       1 |            200 |         7.47323 |
+| periodic + Matern32 * RQ + RQ + RQ |                       1 |              0 |        44.2383  |
+| periodic + Matern32 * RQ + RQ + RQ |                       1 |            100 |         7.89785 |
+| periodic + Matern32 * RQ + RQ + RQ |                       1 |            200 |         6.2138  |
+| periodic * Matern32 + RQ + RQ + RQ |                       1 |              0 |        57.7053  |
+| periodic * Matern32 + RQ + RQ + RQ |                       1 |            100 |        10.1482  |
+| periodic * Matern32 + RQ + RQ + RQ |                       1 |            200 |         7.83162 |
+| periodic * Matern32 * RQ + RQ + RQ |                       1 |              0 |        78.9217  |
+| periodic * Matern32 * RQ + RQ + RQ |                       1 |            100 |        13.0164  |
+| periodic * Matern32 * RQ + RQ + RQ |                       1 |            200 |         9.84522 |
+| RQ + RQ + RQ + RQ + RQ             |                       1 |              0 |        87.619   |
+| RQ + RQ + RQ + RQ + RQ             |                       1 |            100 |         9.64138 |
+| RQ + RQ + RQ + RQ + RQ             |                       1 |            200 |         7.5266  |
+| RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |        40.0608  |
+| RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |         7.50986 |
+| RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |         5.95674 |
+| RQ * RQ * RQ + RQ + RQ             |                       1 |              0 |        74.1834  |
+| RQ * RQ * RQ + RQ + RQ             |                       1 |            100 |        12.7279  |
+| RQ * RQ * RQ + RQ + RQ             |                       1 |            200 |         9.65937 |
+| RQ + SE + RQ + RQ + RQ             |                       1 |              0 |        74.2708  |
+| RQ + SE + RQ + RQ + RQ             |                       1 |            100 |         9.34759 |
+| RQ + SE + RQ + RQ + RQ             |                       1 |            200 |         7.31125 |
+| RQ + SE * RQ + RQ + RQ             |                       1 |              0 |        40.2861  |
+| RQ + SE * RQ + RQ + RQ             |                       1 |            100 |         7.53378 |
+| RQ + SE * RQ + RQ + RQ             |                       1 |            200 |         5.97228 |
+| RQ * SE * RQ + RQ + RQ             |                       1 |              0 |        74.6564  |
+| RQ * SE * RQ + RQ + RQ             |                       1 |            100 |        12.7633  |
+| RQ * SE * RQ + RQ + RQ             |                       1 |            200 |         9.68162 |
+| RQ + Linear + RQ + RQ + RQ         |                       1 |              0 |        90.9091  |
+| RQ + Linear + RQ + RQ + RQ         |                       1 |            100 |        10.5635  |
+| RQ + Linear + RQ + RQ + RQ         |                       1 |            200 |         8.08391 |
+| RQ + Linear * RQ + RQ + RQ         |                       1 |              0 |        65.4526  |
+| RQ + Linear * RQ + RQ + RQ         |                       1 |            100 |        11.4005  |
+| RQ + Linear * RQ + RQ + RQ         |                       1 |            200 |         8.69343 |
+| RQ * Linear * RQ + RQ + RQ         |                       1 |              0 |     17843.2     |
+| RQ * Linear * RQ + RQ + RQ         |                       1 |            100 |      1308.21    |
+| RQ * Linear * RQ + RQ + RQ         |                       1 |            200 |       438.701   |
+| RQ + Matern32 + RQ + RQ + RQ       |                       1 |              0 |        71.6597  |
+| RQ + Matern32 + RQ + RQ + RQ       |                       1 |            100 |         9.29672 |
+| RQ + Matern32 + RQ + RQ + RQ       |                       1 |            200 |         7.2534  |
+| RQ + Matern32 * RQ + RQ + RQ       |                       1 |              0 |        40.8098  |
+| RQ + Matern32 * RQ + RQ + RQ       |                       1 |            100 |         7.56808 |
+| RQ + Matern32 * RQ + RQ + RQ       |                       1 |            200 |         5.99521 |
+| RQ * Matern32 * RQ + RQ + RQ       |                       1 |              0 |        75.5846  |
+| RQ * Matern32 * RQ + RQ + RQ       |                       1 |            100 |        12.8272  |
+| RQ * Matern32 * RQ + RQ + RQ       |                       1 |            200 |         9.72323 |
+| SE + SE + RQ + RQ + RQ             |                       1 |              0 |        72.3124  |
+| SE + SE + RQ + RQ + RQ             |                       1 |            100 |         9.37218 |
+| SE + SE + RQ + RQ + RQ             |                       1 |            200 |         7.29749 |
+| SE + SE * RQ + RQ + RQ             |                       1 |              0 |        41.4214  |
+| SE + SE * RQ + RQ + RQ             |                       1 |            100 |         7.59284 |
+| SE + SE * RQ + RQ + RQ             |                       1 |            200 |         6.01178 |
+| SE * SE + RQ + RQ + RQ             |                       1 |              0 |        56.5708  |
+| SE * SE + RQ + RQ + RQ             |                       1 |            100 |        10.1117  |
+| SE * SE + RQ + RQ + RQ             |                       1 |            200 |         7.80108 |
+| SE * SE * RQ + RQ + RQ             |                       1 |              0 |        75.075   |
+| SE * SE * RQ + RQ + RQ             |                       1 |            100 |        12.7796  |
+| SE * SE * RQ + RQ + RQ             |                       1 |            200 |         9.69269 |
+| SE + Linear + RQ + RQ + RQ         |                       1 |              0 |        85.0785  |
+| SE + Linear + RQ + RQ + RQ         |                       1 |            100 |        10.5551  |
+| SE + Linear + RQ + RQ + RQ         |                       1 |            200 |         8.07823 |
+| SE + Linear * RQ + RQ + RQ         |                       1 |              0 |        65.6395  |
+| SE + Linear * RQ + RQ + RQ         |                       1 |            100 |        11.3868  |
+| SE + Linear * RQ + RQ + RQ         |                       1 |            200 |         8.69232 |
+| SE * Linear + RQ + RQ + RQ         |                       1 |              0 |        65.0804  |
+| SE * Linear + RQ + RQ + RQ         |                       1 |            100 |        11.3516  |
+| SE * Linear + RQ + RQ + RQ         |                       1 |            200 |         8.66536 |
+| SE * Linear * RQ + RQ + RQ         |                       1 |              0 |     22458.1     |
+| SE * Linear * RQ + RQ + RQ         |                       1 |            100 |       578.814   |
+| SE * Linear * RQ + RQ + RQ         |                       1 |            200 |       429.019   |
+| SE + Matern32 + RQ + RQ + RQ       |                       1 |              0 |        80.2103  |
+| SE + Matern32 + RQ + RQ + RQ       |                       1 |            100 |         9.6264  |
+| SE + Matern32 + RQ + RQ + RQ       |                       1 |            200 |         7.45667 |
+| SE + Matern32 * RQ + RQ + RQ       |                       1 |              0 |        43.0452  |
+| SE + Matern32 * RQ + RQ + RQ       |                       1 |            100 |         7.68555 |
+| SE + Matern32 * RQ + RQ + RQ       |                       1 |            200 |         6.07129 |
+| SE * Matern32 + RQ + RQ + RQ       |                       1 |              0 |        56.5673  |
+| SE * Matern32 + RQ + RQ + RQ       |                       1 |            100 |        10.1152  |
+| SE * Matern32 + RQ + RQ + RQ       |                       1 |            200 |         7.80332 |
+| SE * Matern32 * RQ + RQ + RQ       |                       1 |              0 |        75.7979  |
+| SE * Matern32 * RQ + RQ + RQ       |                       1 |            100 |        12.8275  |
+| SE * Matern32 * RQ + RQ + RQ       |                       1 |            200 |         9.72373 |
+| Linear + Linear + RQ + RQ + RQ     |                       1 |              0 |       120.151   |
+| Linear + Linear + RQ + RQ + RQ     |                       1 |            100 |        13.3429  |
+| Linear + Linear + RQ + RQ + RQ     |                       1 |            200 |        10.0435  |
+| Linear + Linear * RQ + RQ + RQ     |                       1 |              0 |     13802.1     |
+| Linear + Linear * RQ + RQ + RQ     |                       1 |            100 |       588.714   |
+| Linear + Linear * RQ + RQ + RQ     |                       1 |            200 |       443.192   |
+| Linear * Linear + RQ + RQ + RQ     |                       1 |              0 |       570.46    |
+| Linear * Linear + RQ + RQ + RQ     |                       1 |            100 |        20.4062  |
+| Linear * Linear + RQ + RQ + RQ     |                       1 |            200 |        15.278   |
+| Linear * Linear * RQ + RQ + RQ     |                       1 |              0 |      6522.28    |
+| Linear * Linear * RQ + RQ + RQ     |                       1 |            100 |       696.647   |
+| Linear * Linear * RQ + RQ + RQ     |                       1 |            200 |       475.197   |
+| Linear + Matern32 + RQ + RQ + RQ   |                       1 |              0 |        98.9955  |
+| Linear + Matern32 + RQ + RQ + RQ   |                       1 |            100 |        11.0683  |
+| Linear + Matern32 + RQ + RQ + RQ   |                       1 |            200 |         8.41221 |
+| Linear + Matern32 * RQ + RQ + RQ   |                       1 |              0 |        67.7378  |
+| Linear + Matern32 * RQ + RQ + RQ   |                       1 |            100 |        11.483   |
+| Linear + Matern32 * RQ + RQ + RQ   |                       1 |            200 |         8.75775 |
+| Linear * Matern32 + RQ + RQ + RQ   |                       1 |              0 |        64.7651  |
+| Linear * Matern32 + RQ + RQ + RQ   |                       1 |            100 |        11.3345  |
+| Linear * Matern32 + RQ + RQ + RQ   |                       1 |            200 |         8.65993 |
+| Linear * Matern32 * RQ + RQ + RQ   |                       1 |              0 |     12451.2     |
+| Linear * Matern32 * RQ + RQ + RQ   |                       1 |            100 |       573.338   |
+| Linear * Matern32 * RQ + RQ + RQ   |                       1 |            200 |       433.236   |
+| Matern32 + Matern32 + RQ + RQ + RQ |                       1 |              0 |        80.1115  |
+| Matern32 + Matern32 + RQ + RQ + RQ |                       1 |            100 |         9.64582 |
+| Matern32 + Matern32 + RQ + RQ + RQ |                       1 |            200 |         7.46158 |
+| Matern32 + Matern32 * RQ + RQ + RQ |                       1 |              0 |        43.7222  |
+| Matern32 + Matern32 * RQ + RQ + RQ |                       1 |            100 |         7.74257 |
+| Matern32 + Matern32 * RQ + RQ + RQ |                       1 |            200 |         6.10459 |
+| Matern32 * Matern32 + RQ + RQ + RQ |                       1 |              0 |        56.5294  |
+| Matern32 * Matern32 + RQ + RQ + RQ |                       1 |            100 |        10.1164  |
+| Matern32 * Matern32 + RQ + RQ + RQ |                       1 |            200 |         7.80403 |
+| Matern32 * Matern32 * RQ + RQ + RQ |                       1 |              0 |        76.1597  |
+| Matern32 * Matern32 * RQ + RQ + RQ |                       1 |            100 |        12.858   |
+| Matern32 * Matern32 * RQ + RQ + RQ |                       1 |            200 |         9.74251 |
+
+| Kernel Combination                |   Initialization Number |   Epoch Number |   Training Loss |
+|-----------------------------------|-------------------------|----------------|-----------------|
+| periodic + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |        67.523   |
+| periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |         7.76556 |
+| periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |         6.17375 |
+| periodic * RQ + RQ * RQ + RQ + RQ |                       1 |              0 |        47.9838  |
+| periodic * RQ + RQ * RQ + RQ + RQ |                       1 |            100 |         7.90997 |
+| periodic * RQ + RQ * RQ + RQ + RQ |                       1 |            200 |         6.24403 |
+| RQ + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |        62.1713  |
+| RQ + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |         7.48994 |
+| RQ + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |         6.00249 |
+| RQ * RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |        39.4487  |
+| RQ * RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |         7.49353 |
+| RQ * RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |         5.94505 |
+| SE + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |        76.5647  |
+| SE + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |         7.7998  |
+| SE + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |         6.24587 |
+| SE * RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |        44.1146  |
+| SE * RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |         7.71231 |
+| SE * RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |         6.09168 |
+| Linear + RQ + RQ * RQ + RQ + RQ   |                       1 |              0 |        82.7051  |
+| Linear + RQ + RQ * RQ + RQ + RQ   |                       1 |            100 |         8.31474 |
+| Linear + RQ + RQ * RQ + RQ + RQ   |                       1 |            200 |         6.49519 |
+| Linear * RQ + RQ * RQ + RQ + RQ   |                       1 |              0 |     11032.1     |
+| Linear * RQ + RQ * RQ + RQ + RQ   |                       1 |            100 |       542.163   |
+| Linear * RQ + RQ * RQ + RQ + RQ   |                       1 |            200 |       404.248   |
+| Matern32 + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |        63.0393  |
+| Matern32 + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |         7.52081 |
+| Matern32 + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |         6.02102 |
+| Matern32 * RQ + RQ * RQ + RQ + RQ |                       1 |              0 |        44.926   |
+| Matern32 * RQ + RQ * RQ + RQ + RQ |                       1 |            100 |         7.80489 |
+| Matern32 * RQ + RQ * RQ + RQ + RQ |                       1 |            200 |         6.1438  |
+

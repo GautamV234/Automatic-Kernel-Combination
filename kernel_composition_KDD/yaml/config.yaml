@@ -1,0 +1,5 @@
+combination_list: [2,2,1]
+ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt
+heuristic: True
+base_kernels: ['RBF','Matern32','Matern52']
+inference_loss: NLPD

@@ -1,0 +1,25 @@
+Metric      Value
+--------  -------
+NLPD      2.41154
+RMSE      2.59667
+mul.periodic_exponential.variance : 0.7845735916808525
+mul.periodic_exponential.lengthscale : 0.04226597339329773
+mul.periodic_exponential.period : 3.3477577214877487
+mul.Mat32.variance : 0.7845735916801243
+mul.Mat32.lengthscale : 2.433418104102911
+mul.linear.variances : 0.7845735916808814
+Gaussian_noise.variance : 0.0699533784320567
+Metric      Value
+--------  -------
+NLPD      2.45852
+RMSE      2.71241
+sum.Cosine.variance : 0.05848897844213774
+sum.Cosine.lengthscale : 0.6784465800482449
+sum.mul.periodic_exponential.variance : 0.8239756078684732
+sum.mul.periodic_exponential.lengthscale : 0.0303366451646205
+sum.mul.periodic_exponential.period : 3.3499839046572517
+sum.mul.Mat32.variance : 0.8239756078677295
+sum.mul.Mat32.lengthscale : 2.4512601262570413
+sum.mul.linear.variances : 0.8239756078684288
+Gaussian_noise.variance : 0.06203758467980264
+Time taken for experiment 3 : 3108.3351085186005

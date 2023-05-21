@@ -1,0 +1,127 @@
+| Kernel Combination   |   Initialization Number |   Epoch Number |   Training Loss |
+|----------------------|-------------------------|----------------|-----------------|
+| Periodic_0           |                       1 |              0 |   nan           |
+| Periodic_0           |                       1 |            100 |   nan           |
+| RBF_0                |                       1 |              0 |   nan           |
+| RBF_0                |                       1 |            100 |   nan           |
+| Matern32_0           |                       1 |              0 |     1.29948e+06 |
+| Matern32_0           |                       1 |            100 |   540.032       |
+| Matern52_0           |                       1 |              0 |   nan           |
+| Matern52_0           |                       1 |            100 |   nan           |
+| Cosine_0             |                       1 |              0 |   nan           |
+| Cosine_0             |                       1 |            100 |   nan           |
+| RQ_0                 |                       1 |              0 |   nan           |
+| RQ_0                 |                       1 |            100 |   nan           |
+
+| Kernel Combination      |   Initialization Number |   Epoch Number |   Training Loss |
+|-------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Periodic_0 * Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 * Periodic_0 |                       1 |            100 |             nan |
+| RBF_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 + Periodic_0      |                       1 |            100 |             nan |
+| RBF_0 * Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 * Periodic_0      |                       1 |            100 |             nan |
+| Matern32_0 + Periodic_0 |                       1 |              0 |          159671 |
+| Matern32_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern32_0 * Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 * Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 * Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 * Periodic_0 |                       1 |            100 |             nan |
+| Cosine_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 + Periodic_0   |                       1 |            100 |             nan |
+| Cosine_0 * Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 * Periodic_0   |                       1 |            100 |             nan |
+| RQ_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 + Periodic_0       |                       1 |            100 |             nan |
+| RQ_0 * Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 * Periodic_0       |                       1 |            100 |             nan |
+| Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Periodic_0 * Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 * Periodic_0 |                       1 |            100 |             nan |
+
+| Kernel Combination                   |   Initialization Number |   Epoch Number |   Training Loss |
+|--------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Periodic_0 * Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 * Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| RBF_0 + Periodic_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 + Periodic_0 + Periodic_0      |                       1 |            100 |             nan |
+| RBF_0 * Periodic_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 * Periodic_0 + Periodic_0      |                       1 |            100 |             nan |
+| Matern32_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern32_0 * Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 * Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 * Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 * Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Cosine_0 + Periodic_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 + Periodic_0 + Periodic_0   |                       1 |            100 |             nan |
+| Cosine_0 * Periodic_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 * Periodic_0 + Periodic_0   |                       1 |            100 |             nan |
+| RQ_0 + Periodic_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 + Periodic_0 + Periodic_0       |                       1 |            100 |             nan |
+| RQ_0 * Periodic_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 * Periodic_0 + Periodic_0       |                       1 |            100 |             nan |
+
+| Kernel Combination                                |   Initialization Number |   Epoch Number |   Training Loss |
+|---------------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Periodic_0 * Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 * Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| RBF_0 + Periodic_0 + Periodic_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 + Periodic_0 + Periodic_0 + Periodic_0      |                       1 |            100 |             nan |
+| RBF_0 * Periodic_0 + Periodic_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 * Periodic_0 + Periodic_0 + Periodic_0      |                       1 |            100 |             nan |
+| Matern32_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern32_0 * Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 * Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 * Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 * Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Cosine_0 + Periodic_0 + Periodic_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 + Periodic_0 + Periodic_0 + Periodic_0   |                       1 |            100 |             nan |
+| Cosine_0 * Periodic_0 + Periodic_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 * Periodic_0 + Periodic_0 + Periodic_0   |                       1 |            100 |             nan |
+| RQ_0 + Periodic_0 + Periodic_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 + Periodic_0 + Periodic_0 + Periodic_0       |                       1 |            100 |             nan |
+| RQ_0 * Periodic_0 + Periodic_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 * Periodic_0 + Periodic_0 + Periodic_0       |                       1 |            100 |             nan |
+
+| Kernel Combination                                             |   Initialization Number |   Epoch Number |   Training Loss |
+|----------------------------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Periodic_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Periodic_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| RBF_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0      |                       1 |            100 |             nan |
+| RBF_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0      |                       1 |              0 |             nan |
+| RBF_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0      |                       1 |            100 |             nan |
+| Matern32_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern32_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern32_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Matern52_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |              0 |             nan |
+| Matern52_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0 |                       1 |            100 |             nan |
+| Cosine_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0   |                       1 |            100 |             nan |
+| Cosine_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0   |                       1 |              0 |             nan |
+| Cosine_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0   |                       1 |            100 |             nan |
+| RQ_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 + Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0       |                       1 |            100 |             nan |
+| RQ_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0       |                       1 |              0 |             nan |
+| RQ_0 * Periodic_0 + Periodic_0 + Periodic_0 + Periodic_0       |                       1 |            100 |             nan |
+

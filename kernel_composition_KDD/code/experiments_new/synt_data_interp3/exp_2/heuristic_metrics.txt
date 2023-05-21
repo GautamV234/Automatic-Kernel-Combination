@@ -1,0 +1,22 @@
+Metric      Value
+--------  -------
+NLPD      5.65176
+RMSE      1.27124
+mul.rbf.variance : 0.16609017123776826
+mul.rbf.lengthscale : 0.0783600795920385
+mul.linear.variances : 0.39627679655273534
+Gaussian_noise.variance : 0.0061137122291116085
+Metric       Value
+--------  --------
+NLPD      19.0707
+RMSE       1.55157
+sum.mul.Cosine.variance : 0.11379176001647796
+sum.mul.Cosine.lengthscale : 0.02725216846557156
+sum.mul.RatQuad.variance : 0.42656365591030015
+sum.mul.RatQuad.lengthscale : 0.0036925414251373144
+sum.mul.RatQuad.power : 0.0265958650739762
+sum.mul_1.rbf.variance : 0.19794145963604076
+sum.mul_1.rbf.lengthscale : 0.11062119566059168
+sum.mul_1.linear.variances : 0.257886543551041
+Gaussian_noise.variance : 0.00012573415469421787
+Time taken for experiment 2 : 1056.6953637599945

@@ -1,0 +1,179 @@
+| Kernel Combination      |   Initialization Number | Epoch Number   |   Training Loss |
+|-------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 |                       5 |                |        152.491  |
+| Periodic_0 * Periodic_0 |                       5 |                |        142.608  |
+| Periodic_0 + RBF_0      |                       5 |                |         91.5047 |
+| Periodic_0 * RBF_0      |                       5 |                |         99.5721 |
+| Periodic_0 + Matern32_0 |                       5 |                |         93.8765 |
+| Periodic_0 * Matern32_0 |                       5 |                |         96.6183 |
+| Periodic_0 + Matern52_0 |                       5 |                |         94.1162 |
+| Periodic_0 * Matern52_0 |                       5 |                |         97.0028 |
+| Periodic_0 + Cosine_0   |                       5 |                |        149.272  |
+| Periodic_0 * Cosine_0   |                       5 |                |        138.086  |
+| Periodic_0 + RQ_0       |                       5 |                |         92.57   |
+| Periodic_0 * RQ_0       |                       5 |                |         95.6589 |
+| Periodic_0 + Linear_0   |                       5 |                |        152.454  |
+| Periodic_0 * Linear_0   |                       5 |                |        138.41   |
+| RBF_0 + RBF_0           |                       5 |                |         96.779  |
+| RBF_0 * RBF_0           |                       5 |                |        100.896  |
+| RBF_0 + Matern32_0      |                       5 |                |         96.6974 |
+| RBF_0 * Matern32_0      |                       5 |                |         97.1223 |
+| RBF_0 + Matern52_0      |                       5 |                |         96.7785 |
+| RBF_0 * Matern52_0      |                       5 |                |         98.309  |
+| RBF_0 + Cosine_0        |                       5 |                |         97.5965 |
+| RBF_0 * Cosine_0        |                       5 |                |        100.896  |
+| RBF_0 + RQ_0            |                       5 |                |         96.5213 |
+| RBF_0 * RQ_0            |                       5 |                |         96.7899 |
+| RBF_0 + Linear_0        |                       5 |                |        100.896  |
+| RBF_0 * Linear_0        |                       5 |                |         85.6561 |
+| Matern32_0 + Matern32_0 |                       5 |                |         96.6974 |
+| Matern32_0 * Matern32_0 |                       5 |                |         97.1281 |
+| Matern32_0 + Matern52_0 |                       5 |                |         96.978  |
+| Matern32_0 * Matern52_0 |                       5 |                |         97.1251 |
+| Matern32_0 + Cosine_0   |                       5 |                |         94.36   |
+| Matern32_0 * Cosine_0   |                       5 |                |         97.1207 |
+| Matern32_0 + RQ_0       |                       5 |                |         96.6603 |
+| Matern32_0 * RQ_0       |                       5 |                |         97.1223 |
+| Matern32_0 + Linear_0   |                       5 |                |         97.1217 |
+| Matern32_0 * Linear_0   |                       5 |                |         88.1683 |
+| Matern52_0 + Matern52_0 |                       5 |                |         96.9568 |
+| Matern52_0 * Matern52_0 |                       5 |                |         98.309  |
+| Matern52_0 + Cosine_0   |                       5 |                |         97.589  |
+| Matern52_0 * Cosine_0   |                       5 |                |         98.309  |
+| Matern52_0 + RQ_0       |                       5 |                |         96.5931 |
+| Matern52_0 * RQ_0       |                       5 |                |         98.309  |
+| Matern52_0 + Linear_0   |                       5 |                |         98.3044 |
+| Matern52_0 * Linear_0   |                       5 |                |         86.7428 |
+| Cosine_0 + Cosine_0     |                       5 |                |        159.904  |
+| Cosine_0 * Cosine_0     |                       5 |                |        159.6    |
+| Cosine_0 + RQ_0         |                       5 |                |         97.5996 |
+| Cosine_0 * RQ_0         |                       5 |                |         96.1199 |
+| Cosine_0 + Linear_0     |                       5 |                |        168.009  |
+| Cosine_0 * Linear_0     |                       5 |                |        163.164  |
+| RQ_0 + RQ_0             |                       5 |                |         98.0905 |
+| RQ_0 * RQ_0             |                       5 |                |         96.79   |
+| RQ_0 + Linear_0         |                       5 |                |         98.3054 |
+| RQ_0 * Linear_0         |                       5 |                |         85.6562 |
+| Linear_0 + Linear_0     |                       5 |                |        168.852  |
+| Linear_0 * Linear_0     |                       5 |                |        168.212  |
+
+| Kernel Combination                  |   Initialization Number | Epoch Number   |   Training Loss |
+|-------------------------------------|-------------------------|----------------|-----------------|
+| RBF_0 * Linear_0 + RBF_0 * Linear_0 |                       5 |                |         85.4954 |
+| RBF_0 * Linear_0 * RBF_0 * Linear_0 |                       5 |                |        101.049  |
+
+| Kernel Combination                         |   Initialization Number | Epoch Number   |   Training Loss |
+|--------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 + RBF_0 * Linear_0 |                       5 |                |         67.35   |
+| Periodic_0 + Periodic_0 * RBF_0 * Linear_0 |                       5 |                |         82.6816 |
+| Periodic_0 * Periodic_0 + RBF_0 * Linear_0 |                       5 |                |         67.5821 |
+| Periodic_0 * Periodic_0 * RBF_0 * Linear_0 |                       5 |                |         81.538  |
+| Periodic_0 + RBF_0 + RBF_0 * Linear_0      |                       5 |                |         65.4874 |
+| Periodic_0 + RBF_0 * RBF_0 * Linear_0      |                       5 |                |         85.4948 |
+| Periodic_0 * RBF_0 + RBF_0 * Linear_0      |                       5 |                |         68.0153 |
+| Periodic_0 * RBF_0 * RBF_0 * Linear_0      |                       5 |                |         84.476  |
+| Periodic_0 + Matern32_0 + RBF_0 * Linear_0 |                       5 |                |         67.875  |
+| Periodic_0 + Matern32_0 * RBF_0 * Linear_0 |                       5 |                |         85.2723 |
+| Periodic_0 * Matern32_0 + RBF_0 * Linear_0 |                       5 |                |         68.1293 |
+| Periodic_0 * Matern32_0 * RBF_0 * Linear_0 |                       5 |                |         85.4953 |
+| Periodic_0 + Matern52_0 + RBF_0 * Linear_0 |                       5 |                |         66.992  |
+| Periodic_0 + Matern52_0 * RBF_0 * Linear_0 |                       5 |                |         84.5239 |
+| Periodic_0 * Matern52_0 + RBF_0 * Linear_0 |                       5 |                |         64.0104 |
+| Periodic_0 * Matern52_0 * RBF_0 * Linear_0 |                       5 |                |         84.3673 |
+| Periodic_0 + Cosine_0 + RBF_0 * Linear_0   |                       5 |                |         64.1229 |
+| Periodic_0 + Cosine_0 * RBF_0 * Linear_0   |                       5 |                |         84.3348 |
+| Periodic_0 * Cosine_0 + RBF_0 * Linear_0   |                       5 |                |         71.8769 |
+| Periodic_0 * Cosine_0 * RBF_0 * Linear_0   |                       5 |                |         83.6624 |
+| Periodic_0 + RQ_0 + RBF_0 * Linear_0       |                       5 |                |         72.0247 |
+| Periodic_0 + RQ_0 * RBF_0 * Linear_0       |                       5 |                |         81.9919 |
+| Periodic_0 * RQ_0 + RBF_0 * Linear_0       |                       5 |                |         66.497  |
+| Periodic_0 * RQ_0 * RBF_0 * Linear_0       |                       5 |                |         85.4484 |
+| Periodic_0 + Linear_0 + RBF_0 * Linear_0   |                       5 |                |         72.587  |
+| Periodic_0 + Linear_0 * RBF_0 * Linear_0   |                       5 |                |         83.7513 |
+| Periodic_0 * Linear_0 + RBF_0 * Linear_0   |                       5 |                |         84.8066 |
+| Periodic_0 * Linear_0 * RBF_0 * Linear_0   |                       5 |                |        100.519  |
+| RBF_0 + RBF_0 + RBF_0 * Linear_0           |                       5 |                |         73.0417 |
+| RBF_0 + RBF_0 * RBF_0 * Linear_0           |                       5 |                |         85.6561 |
+| RBF_0 * RBF_0 + RBF_0 * Linear_0           |                       5 |                |         73.0417 |
+| RBF_0 * RBF_0 * RBF_0 * Linear_0           |                       5 |                |         85.6561 |
+| RBF_0 + Matern32_0 + RBF_0 * Linear_0      |                       5 |                |         73.274  |
+| RBF_0 + Matern32_0 * RBF_0 * Linear_0      |                       5 |                |         85.6561 |
+| RBF_0 * Matern32_0 + RBF_0 * Linear_0      |                       5 |                |         73.0417 |
+| RBF_0 * Matern32_0 * RBF_0 * Linear_0      |                       5 |                |         85.6561 |
+| RBF_0 + Matern52_0 + RBF_0 * Linear_0      |                       5 |                |         73.0417 |
+| RBF_0 + Matern52_0 * RBF_0 * Linear_0      |                       5 |                |         85.6561 |
+| RBF_0 * Matern52_0 + RBF_0 * Linear_0      |                       5 |                |         73.0417 |
+| RBF_0 * Matern52_0 * RBF_0 * Linear_0      |                       5 |                |         85.6561 |
+| RBF_0 + Cosine_0 + RBF_0 * Linear_0        |                       5 |                |         72.9873 |
+| RBF_0 + Cosine_0 * RBF_0 * Linear_0        |                       5 |                |         84.3977 |
+| RBF_0 * Cosine_0 + RBF_0 * Linear_0        |                       5 |                |         73.0417 |
+| RBF_0 * Cosine_0 * RBF_0 * Linear_0        |                       5 |                |         84.678  |
+| RBF_0 + RQ_0 + RBF_0 * Linear_0            |                       5 |                |         73.0417 |
+| RBF_0 + RQ_0 * RBF_0 * Linear_0            |                       5 |                |         85.6561 |
+| RBF_0 * RQ_0 + RBF_0 * Linear_0            |                       5 |                |         73.0417 |
+| RBF_0 * RQ_0 * RBF_0 * Linear_0            |                       5 |                |         85.6561 |
+| RBF_0 + Linear_0 + RBF_0 * Linear_0        |                       5 |                |         73.0417 |
+| RBF_0 + Linear_0 * RBF_0 * Linear_0        |                       5 |                |         85.3308 |
+| RBF_0 * Linear_0 + RBF_0 * Linear_0        |                       5 |                |         85.4954 |
+| RBF_0 * Linear_0 * RBF_0 * Linear_0        |                       5 |                |        101.049  |
+| Matern32_0 + Matern32_0 + RBF_0 * Linear_0 |                       5 |                |         73.274  |
+| Matern32_0 + Matern32_0 * RBF_0 * Linear_0 |                       5 |                |         85.6561 |
+| Matern32_0 * Matern32_0 + RBF_0 * Linear_0 |                       5 |                |         73.1959 |
+| Matern32_0 * Matern32_0 * RBF_0 * Linear_0 |                       5 |                |         85.6561 |
+| Matern32_0 + Matern52_0 + RBF_0 * Linear_0 |                       5 |                |         73.274  |
+| Matern32_0 + Matern52_0 * RBF_0 * Linear_0 |                       5 |                |         85.6561 |
+| Matern32_0 * Matern52_0 + RBF_0 * Linear_0 |                       5 |                |         73.1191 |
+| Matern32_0 * Matern52_0 * RBF_0 * Linear_0 |                       5 |                |         85.6561 |
+| Matern32_0 + Cosine_0 + RBF_0 * Linear_0   |                       5 |                |         73.2425 |
+| Matern32_0 + Cosine_0 * RBF_0 * Linear_0   |                       5 |                |         84.4158 |
+| Matern32_0 * Cosine_0 + RBF_0 * Linear_0   |                       5 |                |         72.957  |
+| Matern32_0 * Cosine_0 * RBF_0 * Linear_0   |                       5 |                |         84.544  |
+| Matern32_0 + RQ_0 + RBF_0 * Linear_0       |                       5 |                |         73.274  |
+| Matern32_0 + RQ_0 * RBF_0 * Linear_0       |                       5 |                |         85.6561 |
+| Matern32_0 * RQ_0 + RBF_0 * Linear_0       |                       5 |                |         73.0418 |
+| Matern32_0 * RQ_0 * RBF_0 * Linear_0       |                       5 |                |         85.6561 |
+| Matern32_0 + Linear_0 + RBF_0 * Linear_0   |                       5 |                |         73.274  |
+| Matern32_0 + Linear_0 * RBF_0 * Linear_0   |                       5 |                |         85.6561 |
+| Matern32_0 * Linear_0 + RBF_0 * Linear_0   |                       5 |                |         85.5462 |
+| Matern32_0 * Linear_0 * RBF_0 * Linear_0   |                       5 |                |        101.049  |
+| Matern52_0 + Matern52_0 + RBF_0 * Linear_0 |                       5 |                |         73.1297 |
+| Matern52_0 + Matern52_0 * RBF_0 * Linear_0 |                       5 |                |         85.6561 |
+| Matern52_0 * Matern52_0 + RBF_0 * Linear_0 |                       5 |                |         73.0947 |
+| Matern52_0 * Matern52_0 * RBF_0 * Linear_0 |                       5 |                |         85.6561 |
+| Matern52_0 + Cosine_0 + RBF_0 * Linear_0   |                       5 |                |         72.6344 |
+| Matern52_0 + Cosine_0 * RBF_0 * Linear_0   |                       5 |                |         83.9943 |
+| Matern52_0 * Cosine_0 + RBF_0 * Linear_0   |                       5 |                |         73.0456 |
+| Matern52_0 * Cosine_0 * RBF_0 * Linear_0   |                       5 |                |         84.5588 |
+| Matern52_0 + RQ_0 + RBF_0 * Linear_0       |                       5 |                |         73.0417 |
+| Matern52_0 + RQ_0 * RBF_0 * Linear_0       |                       5 |                |         85.6561 |
+| Matern52_0 * RQ_0 + RBF_0 * Linear_0       |                       5 |                |         73.0417 |
+| Matern52_0 * RQ_0 * RBF_0 * Linear_0       |                       5 |                |         85.6561 |
+| Matern52_0 + Linear_0 + RBF_0 * Linear_0   |                       5 |                |         73.1297 |
+| Matern52_0 + Linear_0 * RBF_0 * Linear_0   |                       5 |                |         85.6561 |
+| Matern52_0 * Linear_0 + RBF_0 * Linear_0   |                       5 |                |         85.5308 |
+| Matern52_0 * Linear_0 * RBF_0 * Linear_0   |                       5 |                |        101.049  |
+| Cosine_0 + Cosine_0 + RBF_0 * Linear_0     |                       5 |                |         80.9648 |
+| Cosine_0 + Cosine_0 * RBF_0 * Linear_0     |                       5 |                |         84.678  |
+| Cosine_0 * Cosine_0 + RBF_0 * Linear_0     |                       5 |                |         81.3346 |
+| Cosine_0 * Cosine_0 * RBF_0 * Linear_0     |                       5 |                |         84.678  |
+| Cosine_0 + RQ_0 + RBF_0 * Linear_0         |                       5 |                |         72.5746 |
+| Cosine_0 + RQ_0 * RBF_0 * Linear_0         |                       5 |                |         84.3431 |
+| Cosine_0 * RQ_0 + RBF_0 * Linear_0         |                       5 |                |         61.6281 |
+| Cosine_0 * RQ_0 * RBF_0 * Linear_0         |                       5 |                |         84.5527 |
+| Cosine_0 + Linear_0 + RBF_0 * Linear_0     |                       5 |                |         85.6561 |
+| Cosine_0 + Linear_0 * RBF_0 * Linear_0     |                       5 |                |         84.678  |
+| Cosine_0 * Linear_0 + RBF_0 * Linear_0     |                       5 |                |         84.9565 |
+| Cosine_0 * Linear_0 * RBF_0 * Linear_0     |                       5 |                |        100.618  |
+| RQ_0 + RQ_0 + RBF_0 * Linear_0             |                       5 |                |         73.0417 |
+| RQ_0 + RQ_0 * RBF_0 * Linear_0             |                       5 |                |         85.6561 |
+| RQ_0 * RQ_0 + RBF_0 * Linear_0             |                       5 |                |         73.0418 |
+| RQ_0 * RQ_0 * RBF_0 * Linear_0             |                       5 |                |         85.6561 |
+| RQ_0 + Linear_0 + RBF_0 * Linear_0         |                       5 |                |         73.0417 |
+| RQ_0 + Linear_0 * RBF_0 * Linear_0         |                       5 |                |         85.3308 |
+| RQ_0 * Linear_0 + RBF_0 * Linear_0         |                       5 |                |         85.4955 |
+| RQ_0 * Linear_0 * RBF_0 * Linear_0         |                       5 |                |        101.049  |
+| Linear_0 + Linear_0 + RBF_0 * Linear_0     |                       5 |                |         85.6561 |
+| Linear_0 + Linear_0 * RBF_0 * Linear_0     |                       5 |                |        101.049  |
+| Linear_0 * Linear_0 + RBF_0 * Linear_0     |                       5 |                |         85.3307 |
+| Linear_0 * Linear_0 * RBF_0 * Linear_0     |                       5 |                |        117.317  |
+

@@ -1,0 +1,64 @@
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic             |                       1 |       -0.595955 |
+| RQ                   |                       1 |       -0.606963 |
+| SE                   |                       1 |       -0.595768 |
+| Matern               |                       1 |       -0.603189 |
+
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic + RQ        |                       1 |       -0.598172 |
+| periodic * RQ        |                       1 |       -0.606995 |
+| RQ + RQ              |                       1 |       -0.606964 |
+| RQ * RQ              |                       1 |       -0.606987 |
+| SE + RQ              |                       1 |       -0.598369 |
+| SE * RQ              |                       1 |       -0.60699  |
+| Matern + RQ          |                       1 |       -0.598133 |
+| Matern * RQ          |                       1 |       -0.607007 |
+| RQ + RQ              |                       1 |       -0.606964 |
+| RQ * RQ              |                       1 |       -0.606987 |
+
+| Kernel Combination     |   Initialization Number |   Training Loss |
+|------------------------|-------------------------|-----------------|
+| periodic + Matern * RQ |                       1 |       -0.598163 |
+| periodic * Matern * RQ |                       1 |       -0.606979 |
+| RQ + Matern * RQ       |                       1 |       -0.606951 |
+| RQ * Matern * RQ       |                       1 |       -0.606989 |
+| SE + Matern * RQ       |                       1 |       -0.598395 |
+| SE * Matern * RQ       |                       1 |       -0.606964 |
+| Matern + Matern * RQ   |                       1 |       -0.598145 |
+| Matern * Matern * RQ   |                       1 |       -0.607009 |
+
+| Kernel Combination              |   Initialization Number |   Training Loss |
+|---------------------------------|-------------------------|-----------------|
+| periodic + Matern * Matern * RQ |                       1 |       -0.598201 |
+| periodic * Matern * Matern * RQ |                       1 |       -0.607005 |
+| RQ + Matern * Matern * RQ       |                       1 |       -0.606962 |
+| RQ * Matern * Matern * RQ       |                       1 |       -0.607008 |
+| SE + Matern * Matern * RQ       |                       1 |       -0.598354 |
+| SE * Matern * Matern * RQ       |                       1 |       -0.606971 |
+| Matern + Matern * Matern * RQ   |                       1 |       -0.598141 |
+| Matern * Matern * Matern * RQ   |                       1 |       -0.607019 |
+
+| Kernel Combination                       |   Initialization Number |   Training Loss |
+|------------------------------------------|-------------------------|-----------------|
+| periodic + Matern * Matern * Matern * RQ |                       1 |       -0.598194 |
+| periodic * Matern * Matern * Matern * RQ |                       1 |       -0.606982 |
+| RQ + Matern * Matern * Matern * RQ       |                       1 |       -0.606957 |
+| RQ * Matern * Matern * Matern * RQ       |                       1 |       -0.607017 |
+| SE + Matern * Matern * Matern * RQ       |                       1 |       -0.598401 |
+| SE * Matern * Matern * Matern * RQ       |                       1 |       -0.607027 |
+| Matern + Matern * Matern * Matern * RQ   |                       1 |       -0.598134 |
+| Matern * Matern * Matern * Matern * RQ   |                       1 |       -0.606987 |
+
+| Kernel Combination                            |   Initialization Number |   Training Loss |
+|-----------------------------------------------|-------------------------|-----------------|
+| periodic + SE * Matern * Matern * Matern * RQ |                       1 |       -0.598205 |
+| periodic * SE * Matern * Matern * Matern * RQ |                       1 |       -0.606996 |
+| RQ + SE * Matern * Matern * Matern * RQ       |                       1 |       -0.606932 |
+| RQ * SE * Matern * Matern * Matern * RQ       |                       1 |       -0.607002 |
+| SE + SE * Matern * Matern * Matern * RQ       |                       1 |       -0.598402 |
+| SE * SE * Matern * Matern * Matern * RQ       |                       1 |       -0.607013 |
+| Matern + SE * Matern * Matern * Matern * RQ   |                       1 |       -0.598127 |
+| Matern * SE * Matern * Matern * Matern * RQ   |                       1 |       -0.607022 |
+

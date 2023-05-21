@@ -1,0 +1,8 @@
+Metric         Value
+--------  ----------
+NLPD      -1.5511
+RMSE       0.0497095
+Cosine.variance : 0.5007655990743484
+Cosine.lengthscale : 1.0004052760128357
+Gaussian_noise.variance : 0.0017327460748007217
+Time taken for experiment 1 : 8.453887224197388

@@ -1,0 +1,1347 @@
+| Kernel Combination      |   Initialization Number |   Epoch Number |   Training Loss |
+|-------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 |                       1 |              0 |       313.828   |
+| Periodic_0 + Periodic_0 |                       1 |            100 |        41.8384  |
+| Periodic_0 + Periodic_0 |                       1 |            200 |        30.3256  |
+| Periodic_0 + Periodic_0 |                       1 |            300 |        25.0109  |
+| Periodic_0 + Periodic_0 |                       1 |            400 |        21.7797  |
+| Periodic_0 + Periodic_0 |                       1 |            500 |        19.5629  |
+| Periodic_0 * Periodic_0 |                       1 |              0 |       378.343   |
+| Periodic_0 * Periodic_0 |                       1 |            100 |        56.426   |
+| Periodic_0 * Periodic_0 |                       1 |            200 |        40.5355  |
+| Periodic_0 * Periodic_0 |                       1 |            300 |        33.1651  |
+| Periodic_0 * Periodic_0 |                       1 |            400 |        28.6639  |
+| Periodic_0 * Periodic_0 |                       1 |            500 |        25.5644  |
+| Periodic_0 + RBF_0      |                       1 |              0 |       234.378   |
+| Periodic_0 + RBF_0      |                       1 |            100 |        24.8978  |
+| Periodic_0 + RBF_0      |                       1 |            200 |        17.7282  |
+| Periodic_0 + RBF_0      |                       1 |            300 |        14.5883  |
+| Periodic_0 + RBF_0      |                       1 |            400 |        12.7732  |
+| Periodic_0 + RBF_0      |                       1 |            500 |        11.5423  |
+| Periodic_0 * RBF_0      |                       1 |              0 |       266.249   |
+| Periodic_0 * RBF_0      |                       1 |            100 |        35.8658  |
+| Periodic_0 * RBF_0      |                       1 |            200 |        25.8659  |
+| Periodic_0 * RBF_0      |                       1 |            300 |        21.1679  |
+| Periodic_0 * RBF_0      |                       1 |            400 |        18.2807  |
+| Periodic_0 * RBF_0      |                       1 |            500 |        16.2834  |
+| Periodic_0 + Matern32_0 |                       1 |              0 |       250.89    |
+| Periodic_0 + Matern32_0 |                       1 |            100 |        24.543   |
+| Periodic_0 + Matern32_0 |                       1 |            200 |        17.7182  |
+| Periodic_0 + Matern32_0 |                       1 |            300 |        14.5993  |
+| Periodic_0 + Matern32_0 |                       1 |            400 |        12.716   |
+| Periodic_0 + Matern32_0 |                       1 |            500 |        11.4266  |
+| Periodic_0 * Matern32_0 |                       1 |              0 |       275.633   |
+| Periodic_0 * Matern32_0 |                       1 |            100 |        37.0474  |
+| Periodic_0 * Matern32_0 |                       1 |            200 |        26.6256  |
+| Periodic_0 * Matern32_0 |                       1 |            300 |        21.7539  |
+| Periodic_0 * Matern32_0 |                       1 |            400 |        18.767   |
+| Periodic_0 * Matern32_0 |                       1 |            500 |        16.7036  |
+| Periodic_0 + Matern52_0 |                       1 |              0 |       247.6     |
+| Periodic_0 + Matern52_0 |                       1 |            100 |        24.7283  |
+| Periodic_0 + Matern52_0 |                       1 |            200 |        17.9081  |
+| Periodic_0 + Matern52_0 |                       1 |            300 |        14.7778  |
+| Periodic_0 + Matern52_0 |                       1 |            400 |        12.8855  |
+| Periodic_0 + Matern52_0 |                       1 |            500 |        11.5908  |
+| Periodic_0 * Matern52_0 |                       1 |              0 |       282.558   |
+| Periodic_0 * Matern52_0 |                       1 |            100 |        39.1444  |
+| Periodic_0 * Matern52_0 |                       1 |            200 |        28.1569  |
+| Periodic_0 * Matern52_0 |                       1 |            300 |        23.0577  |
+| Periodic_0 * Matern52_0 |                       1 |            400 |        19.9327  |
+| Periodic_0 * Matern52_0 |                       1 |            500 |        16.5606  |
+| Periodic_0 + Cosine_0   |                       1 |              0 |       544.074   |
+| Periodic_0 + Cosine_0   |                       1 |            100 |        60.5658  |
+| Periodic_0 + Cosine_0   |                       1 |            200 |        43.1443  |
+| Periodic_0 + Cosine_0   |                       1 |            300 |        35.1237  |
+| Periodic_0 + Cosine_0   |                       1 |            400 |        30.2594  |
+| Periodic_0 + Cosine_0   |                       1 |            500 |        26.9263  |
+| Periodic_0 * Cosine_0   |                       1 |              0 |     80301.6     |
+| Periodic_0 * Cosine_0   |                       1 |            100 |     10463.5     |
+| Periodic_0 * Cosine_0   |                       1 |            200 |      7405.52    |
+| Periodic_0 * Cosine_0   |                       1 |            300 |      5953.02    |
+| Periodic_0 * Cosine_0   |                       1 |            400 |      5051.34    |
+| Periodic_0 * Cosine_0   |                       1 |            500 |      4422.23    |
+| Periodic_0 + RQ_0       |                       1 |              0 |       172.991   |
+| Periodic_0 + RQ_0       |                       1 |            100 |        21.2607  |
+| Periodic_0 + RQ_0       |                       1 |            200 |        15.5671  |
+| Periodic_0 + RQ_0       |                       1 |            300 |        12.9128  |
+| Periodic_0 + RQ_0       |                       1 |            400 |        11.2854  |
+| Periodic_0 + RQ_0       |                       1 |            500 |        10.1593  |
+| Periodic_0 * RQ_0       |                       1 |              0 |       248.457   |
+| Periodic_0 * RQ_0       |                       1 |            100 |        35.1023  |
+| Periodic_0 * RQ_0       |                       1 |            200 |        25.3836  |
+| Periodic_0 * RQ_0       |                       1 |            300 |        20.9038  |
+| Periodic_0 * RQ_0       |                       1 |            400 |        18.1272  |
+| Periodic_0 * RQ_0       |                       1 |            500 |        16.1841  |
+| RBF_0 + RBF_0           |                       1 |              0 |       242.863   |
+| RBF_0 + RBF_0           |                       1 |            100 |        26.4679  |
+| RBF_0 + RBF_0           |                       1 |            200 |        18.3849  |
+| RBF_0 + RBF_0           |                       1 |            300 |        14.5805  |
+| RBF_0 + RBF_0           |                       1 |            400 |        12.5773  |
+| RBF_0 + RBF_0           |                       1 |            500 |        11.3221  |
+| RBF_0 * RBF_0           |                       1 |              0 |       243.704   |
+| RBF_0 * RBF_0           |                       1 |            100 |        35.4251  |
+| RBF_0 * RBF_0           |                       1 |            200 |        25.7133  |
+| RBF_0 * RBF_0           |                       1 |            300 |        21.178   |
+| RBF_0 * RBF_0           |                       1 |            400 |        18.3844  |
+| RBF_0 * RBF_0           |                       1 |            500 |        16.4446  |
+| RBF_0 + Matern32_0      |                       1 |              0 |       260.408   |
+| RBF_0 + Matern32_0      |                       1 |            100 |        24.5689  |
+| RBF_0 + Matern32_0      |                       1 |            200 |        17.626   |
+| RBF_0 + Matern32_0      |                       1 |            300 |        14.5019  |
+| RBF_0 + Matern32_0      |                       1 |            400 |        12.6241  |
+| RBF_0 + Matern32_0      |                       1 |            500 |        11.3419  |
+| RBF_0 * Matern32_0      |                       1 |              0 |       255.254   |
+| RBF_0 * Matern32_0      |                       1 |            100 |        36.332   |
+| RBF_0 * Matern32_0      |                       1 |            200 |        26.1836  |
+| RBF_0 * Matern32_0      |                       1 |            300 |        21.508   |
+| RBF_0 * Matern32_0      |                       1 |            400 |        18.6527  |
+| RBF_0 * Matern32_0      |                       1 |            500 |        16.68    |
+| RBF_0 + Matern52_0      |                       1 |              0 |       218.608   |
+| RBF_0 + Matern52_0      |                       1 |            100 |        23.5746  |
+| RBF_0 + Matern52_0      |                       1 |            200 |        16.994   |
+| RBF_0 + Matern52_0      |                       1 |            300 |        14.0366  |
+| RBF_0 + Matern52_0      |                       1 |            400 |        12.2464  |
+| RBF_0 + Matern52_0      |                       1 |            500 |        11.0166  |
+| RBF_0 * Matern52_0      |                       1 |              0 |       263.623   |
+| RBF_0 * Matern52_0      |                       1 |            100 |        36.6497  |
+| RBF_0 * Matern52_0      |                       1 |            200 |        26.4723  |
+| RBF_0 * Matern52_0      |                       1 |            300 |        21.7857  |
+| RBF_0 * Matern52_0      |                       1 |            400 |        18.915   |
+| RBF_0 * Matern52_0      |                       1 |            500 |        16.9266  |
+| RBF_0 + Cosine_0        |                       1 |              0 |       375.759   |
+| RBF_0 + Cosine_0        |                       1 |            100 |        40.3986  |
+| RBF_0 + Cosine_0        |                       1 |            200 |        28.8509  |
+| RBF_0 + Cosine_0        |                       1 |            300 |        23.7255  |
+| RBF_0 + Cosine_0        |                       1 |            400 |        20.6003  |
+| RBF_0 + Cosine_0        |                       1 |            500 |        18.4407  |
+| RBF_0 * Cosine_0        |                       1 |              0 |     77203.9     |
+| RBF_0 * Cosine_0        |                       1 |            100 |       102.699   |
+| RBF_0 * Cosine_0        |                       1 |            200 |        88.5318  |
+| RBF_0 * Cosine_0        |                       1 |            300 |        78.115   |
+| RBF_0 * Cosine_0        |                       1 |            400 |        70.1426  |
+| RBF_0 * Cosine_0        |                       1 |            500 |        63.8402  |
+| RBF_0 + RQ_0            |                       1 |              0 |       197.06    |
+| RBF_0 + RQ_0            |                       1 |            100 |        20.8228  |
+| RBF_0 + RQ_0            |                       1 |            200 |        15.3405  |
+| RBF_0 + RQ_0            |                       1 |            300 |        12.8002  |
+| RBF_0 + RQ_0            |                       1 |            400 |        11.2345  |
+| RBF_0 + RQ_0            |                       1 |            500 |        10.1461  |
+| RBF_0 * RQ_0            |                       1 |              0 |       219.735   |
+| RBF_0 * RQ_0            |                       1 |            100 |        33.7771  |
+| RBF_0 * RQ_0            |                       1 |            200 |        24.5293  |
+| RBF_0 * RQ_0            |                       1 |            300 |        20.1745  |
+| RBF_0 * RQ_0            |                       1 |            400 |        17.4794  |
+| RBF_0 * RQ_0            |                       1 |            500 |        15.6012  |
+| Matern32_0 + Matern32_0 |                       1 |              0 |       276.015   |
+| Matern32_0 + Matern32_0 |                       1 |            100 |        25.3309  |
+| Matern32_0 + Matern32_0 |                       1 |            200 |        18.155   |
+| Matern32_0 + Matern32_0 |                       1 |            300 |        14.8976  |
+| Matern32_0 + Matern32_0 |                       1 |            400 |        12.9422  |
+| Matern32_0 + Matern32_0 |                       1 |            500 |        11.6104  |
+| Matern32_0 * Matern32_0 |                       1 |              0 |       258.957   |
+| Matern32_0 * Matern32_0 |                       1 |            100 |        36.8238  |
+| Matern32_0 * Matern32_0 |                       1 |            200 |        26.4354  |
+| Matern32_0 * Matern32_0 |                       1 |            300 |        21.6628  |
+| Matern32_0 * Matern32_0 |                       1 |            400 |        18.7602  |
+| Matern32_0 * Matern32_0 |                       1 |            500 |        16.7623  |
+| Matern32_0 + Matern52_0 |                       1 |              0 |       241.391   |
+| Matern32_0 + Matern52_0 |                       1 |            100 |        24.219   |
+| Matern32_0 + Matern52_0 |                       1 |            200 |        17.4389  |
+| Matern32_0 + Matern52_0 |                       1 |            300 |        14.3446  |
+| Matern32_0 + Matern52_0 |                       1 |            400 |        12.4808  |
+| Matern32_0 + Matern52_0 |                       1 |            500 |        11.2088  |
+| Matern32_0 * Matern52_0 |                       1 |              0 |       254.023   |
+| Matern32_0 * Matern52_0 |                       1 |            100 |        36.3942  |
+| Matern32_0 * Matern52_0 |                       1 |            200 |        26.2044  |
+| Matern32_0 * Matern52_0 |                       1 |            300 |        21.5197  |
+| Matern32_0 * Matern52_0 |                       1 |            400 |        18.6618  |
+| Matern32_0 * Matern52_0 |                       1 |            500 |        16.6883  |
+| Matern32_0 + Cosine_0   |                       1 |              0 |       369.623   |
+| Matern32_0 + Cosine_0   |                       1 |            100 |        38.4608  |
+| Matern32_0 + Cosine_0   |                       1 |            200 |        27.4972  |
+| Matern32_0 + Cosine_0   |                       1 |            300 |        22.4397  |
+| Matern32_0 + Cosine_0   |                       1 |            400 |        19.3622  |
+| Matern32_0 + Cosine_0   |                       1 |            500 |        17.2441  |
+| Matern32_0 * Cosine_0   |                       1 |              0 |      8324.66    |
+| Matern32_0 * Cosine_0   |                       1 |            100 |       175.007   |
+| Matern32_0 * Cosine_0   |                       1 |            200 |       110.94    |
+| Matern32_0 * Cosine_0   |                       1 |            300 |        86.9019  |
+| Matern32_0 * Cosine_0   |                       1 |            400 |        74.4203  |
+| Matern32_0 * Cosine_0   |                       1 |            500 |        66.1154  |
+| Matern32_0 + RQ_0       |                       1 |              0 |       187.859   |
+| Matern32_0 + RQ_0       |                       1 |            100 |        20.7483  |
+| Matern32_0 + RQ_0       |                       1 |            200 |        15.274   |
+| Matern32_0 + RQ_0       |                       1 |            300 |        12.7416  |
+| Matern32_0 + RQ_0       |                       1 |            400 |        11.1832  |
+| Matern32_0 + RQ_0       |                       1 |            500 |        10.0986  |
+| Matern32_0 * RQ_0       |                       1 |              0 |       225.302   |
+| Matern32_0 * RQ_0       |                       1 |            100 |        34.1611  |
+| Matern32_0 * RQ_0       |                       1 |            200 |        24.7677  |
+| Matern32_0 * RQ_0       |                       1 |            300 |        20.3579  |
+| Matern32_0 * RQ_0       |                       1 |            400 |        17.6335  |
+| Matern32_0 * RQ_0       |                       1 |            500 |        15.737   |
+| Matern52_0 + Matern52_0 |                       1 |              0 |       205.645   |
+| Matern52_0 + Matern52_0 |                       1 |            100 |        23.3069  |
+| Matern52_0 + Matern52_0 |                       1 |            200 |        16.9373  |
+| Matern52_0 + Matern52_0 |                       1 |            300 |        13.9899  |
+| Matern52_0 + Matern52_0 |                       1 |            400 |        12.199   |
+| Matern52_0 + Matern52_0 |                       1 |            500 |        10.9731  |
+| Matern52_0 * Matern52_0 |                       1 |              0 |       250.641   |
+| Matern52_0 * Matern52_0 |                       1 |            100 |        36.0616  |
+| Matern52_0 * Matern52_0 |                       1 |            200 |        26.0808  |
+| Matern52_0 * Matern52_0 |                       1 |            300 |        21.4647  |
+| Matern52_0 * Matern52_0 |                       1 |            400 |        18.6334  |
+| Matern52_0 * Matern52_0 |                       1 |            500 |        16.6711  |
+| Matern52_0 + Cosine_0   |                       1 |              0 |       367.852   |
+| Matern52_0 + Cosine_0   |                       1 |            100 |        37.7774  |
+| Matern52_0 + Cosine_0   |                       1 |            200 |        27.1151  |
+| Matern52_0 + Cosine_0   |                       1 |            300 |        22.1751  |
+| Matern52_0 + Cosine_0   |                       1 |            400 |        19.1603  |
+| Matern52_0 + Cosine_0   |                       1 |            500 |        17.0805  |
+| Matern52_0 * Cosine_0   |                       1 |              0 |      9616.41    |
+| Matern52_0 * Cosine_0   |                       1 |            100 |       177.846   |
+| Matern52_0 * Cosine_0   |                       1 |            200 |       112.056   |
+| Matern52_0 * Cosine_0   |                       1 |            300 |        88.3722  |
+| Matern52_0 * Cosine_0   |                       1 |            400 |        76.2813  |
+| Matern52_0 * Cosine_0   |                       1 |            500 |        68.0681  |
+| Matern52_0 + RQ_0       |                       1 |              0 |       183.255   |
+| Matern52_0 + RQ_0       |                       1 |            100 |        20.6504  |
+| Matern52_0 + RQ_0       |                       1 |            200 |        15.1933  |
+| Matern52_0 + RQ_0       |                       1 |            300 |        12.6569  |
+| Matern52_0 + RQ_0       |                       1 |            400 |        11.0956  |
+| Matern52_0 + RQ_0       |                       1 |            500 |        10.0114  |
+| Matern52_0 * RQ_0       |                       1 |              0 |       221.889   |
+| Matern52_0 * RQ_0       |                       1 |            100 |        33.9221  |
+| Matern52_0 * RQ_0       |                       1 |            200 |        24.6204  |
+| Matern52_0 * RQ_0       |                       1 |            300 |        20.2442  |
+| Matern52_0 * RQ_0       |                       1 |            400 |        17.5375  |
+| Matern52_0 * RQ_0       |                       1 |            500 |        15.6521  |
+| Cosine_0 + Cosine_0     |                       1 |              0 |     75045.7     |
+| Cosine_0 + Cosine_0     |                       1 |            100 |     11158       |
+| Cosine_0 + Cosine_0     |                       1 |            200 |      7880.3     |
+| Cosine_0 + Cosine_0     |                       1 |            300 |      6330.15    |
+| Cosine_0 + Cosine_0     |                       1 |            400 |      5368.49    |
+| Cosine_0 + Cosine_0     |                       1 |            500 |      4697.63    |
+| Cosine_0 * Cosine_0     |                       1 |              0 |       498.243   |
+| Cosine_0 * Cosine_0     |                       1 |            100 |        77.4844  |
+| Cosine_0 * Cosine_0     |                       1 |            200 |        55.738   |
+| Cosine_0 * Cosine_0     |                       1 |            300 |        45.5177  |
+| Cosine_0 * Cosine_0     |                       1 |            400 |        39.2106  |
+| Cosine_0 * Cosine_0     |                       1 |            500 |        34.831   |
+| Cosine_0 + RQ_0         |                       1 |              0 |       372.136   |
+| Cosine_0 + RQ_0         |                       1 |            100 |        37.711   |
+| Cosine_0 + RQ_0         |                       1 |            200 |        27.491   |
+| Cosine_0 + RQ_0         |                       1 |            300 |        22.6351  |
+| Cosine_0 + RQ_0         |                       1 |            400 |        19.3777  |
+| Cosine_0 + RQ_0         |                       1 |            500 |        16.5602  |
+| Cosine_0 * RQ_0         |                       1 |              0 |      4336.98    |
+| Cosine_0 * RQ_0         |                       1 |            100 |       115.295   |
+| Cosine_0 * RQ_0         |                       1 |            200 |        81.9682  |
+| Cosine_0 * RQ_0         |                       1 |            300 |        65.068   |
+| Cosine_0 * RQ_0         |                       1 |            400 |        54.6867  |
+| Cosine_0 * RQ_0         |                       1 |            500 |        47.6117  |
+| RQ_0 + RQ_0             |                       1 |              0 |       176.533   |
+| RQ_0 + RQ_0             |                       1 |            100 |        19.8417  |
+| RQ_0 + RQ_0             |                       1 |            200 |        14.798   |
+| RQ_0 + RQ_0             |                       1 |            300 |        12.3773  |
+| RQ_0 + RQ_0             |                       1 |            400 |        10.8747  |
+| RQ_0 + RQ_0             |                       1 |            500 |         9.82711 |
+| RQ_0 * RQ_0             |                       1 |              0 |       216.704   |
+| RQ_0 * RQ_0             |                       1 |            100 |        33.5541  |
+| RQ_0 * RQ_0             |                       1 |            200 |        24.3926  |
+| RQ_0 * RQ_0             |                       1 |            300 |        20.0739  |
+| RQ_0 * RQ_0             |                       1 |            400 |        17.3984  |
+| RQ_0 * RQ_0             |                       1 |            500 |        15.5322  |
+
+| Kernel Combination        |   Initialization Number |   Epoch Number |   Training Loss |
+|---------------------------|-------------------------|----------------|-----------------|
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 |                       1 |              0 |        97.2108  |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 |                       1 |            100 |        11.2308  |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 |                       1 |            200 |         8.62581 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.38782 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 |                       1 |            400 |         6.62056 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.08591 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        57.9504  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.1446  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.81178 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.7145  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.03481 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.56077 |
+
+| Kernel Combination                    |   Initialization Number |   Epoch Number |   Training Loss |
+|---------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 |                       1 |              0 |       107.129   |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.4228  |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.36705 |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.94127 |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.06931 |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.46728 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 |                       1 |              0 |        67.443   |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.6504  |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 |                       1 |            200 |         8.11583 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.96578 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.25228 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.7541  |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 |                       1 |              0 |        73.7114  |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.7195  |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.63117 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 |                       1 |            300 |         8.1775  |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.27693 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.64878 |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 |                       1 |              0 |       112.963   |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 |                       1 |            100 |        18.2206  |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 |                       1 |            200 |        13.4933  |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 |                       1 |            300 |        11.2825  |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 |                       1 |            400 |         9.91695 |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 |                       1 |            500 |         8.96553 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0      |                       1 |              0 |       100.458   |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0      |                       1 |            100 |        11.7967  |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0      |                       1 |            200 |         8.99095 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0      |                       1 |            300 |         7.66457 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0      |                       1 |            400 |         6.84638 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0      |                       1 |            500 |         6.27879 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0      |                       1 |              0 |        62.3682  |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0      |                       1 |            100 |        10.3342  |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0      |                       1 |            200 |         7.94575 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0      |                       1 |            300 |         6.83012 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0      |                       1 |            400 |         6.13724 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.65333 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0      |                       1 |              0 |        73.7596  |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0      |                       1 |            100 |        12.7168  |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0      |                       1 |            200 |         9.62947 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0      |                       1 |            300 |         8.17602 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0      |                       1 |            400 |         7.27552 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0      |                       1 |            500 |         6.64736 |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0      |                       1 |              0 |       112.648   |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0      |                       1 |            100 |        18.1423  |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0      |                       1 |            200 |        13.4723  |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0      |                       1 |            300 |        11.2738  |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0      |                       1 |            400 |         9.91089 |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0      |                       1 |            500 |         8.95979 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |              0 |        96.7343  |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            100 |        11.6723  |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            200 |         8.89638 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.59548 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            400 |         6.79124 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.23146 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |              0 |        62.5948  |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.6232  |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            200 |         8.12498 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.95663 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.2361  |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.73525 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |              0 |        75.2097  |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.8916  |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.74631 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            300 |         8.26686 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.35102 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.71264 |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |              0 |       113.661   |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            100 |        18.451   |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            200 |        13.6721  |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            300 |        11.4228  |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            400 |        10.0305  |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            500 |         9.06026 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |              0 |        99.4185  |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            100 |        11.7732  |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            200 |         8.96877 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.6499  |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            400 |         6.83474 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.26816 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |              0 |        62.5601  |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.5793  |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            200 |         8.09577 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.93294 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.21539 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.71636 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |              0 |        74.8923  |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.762   |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.66525 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            300 |         8.20626 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.3021  |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.67134 |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |              0 |       112.466   |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            100 |        18.1191  |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            200 |        13.4589  |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            300 |        11.2646  |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            400 |         9.90373 |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            500 |         8.95348 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |              0 |       123.098   |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            100 |        14.2329  |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            200 |        10.4599  |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            300 |         8.74418 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            400 |         7.41438 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            500 |         6.534   |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |              0 |        69.4309  |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            100 |        11.0405  |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            200 |         8.37785 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            300 |         7.14733 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.39413 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.87299 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |              0 |        75.2795  |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            100 |        12.8993  |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            200 |         9.75097 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            300 |         8.27066 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            400 |         7.35451 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            500 |         6.71602 |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |              0 |       113.864   |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            100 |        18.4697  |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            200 |        13.6821  |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            300 |        11.4296  |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            400 |        10.0359  |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            500 |         9.0649  |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |              0 |        95.9215  |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            100 |        11.6303  |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            200 |         8.87047 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            300 |         7.56556 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            400 |         6.76164 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            500 |         6.20375 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        62.0513  |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        10.3055  |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         7.92654 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.81697 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         6.12657 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.64416 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |              0 |        73.799   |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            100 |        12.7152  |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            200 |         9.62877 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            300 |         8.17566 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            400 |         7.27531 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            500 |         6.64724 |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |       113.721   |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        18.1796  |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |        13.4951  |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |        11.2888  |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         9.92249 |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         8.96972 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0           |                       1 |              0 |       108.69    |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0           |                       1 |            100 |        11.796   |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0           |                       1 |            200 |         8.95006 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0           |                       1 |            300 |         7.63814 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0           |                       1 |            400 |         6.83367 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0           |                       1 |            500 |         6.27584 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0           |                       1 |              0 |        59.0438  |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0           |                       1 |            100 |        10.222   |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0           |                       1 |            200 |         7.86228 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0           |                       1 |            300 |         6.75412 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0           |                       1 |            400 |         6.06852 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0           |                       1 |            500 |         5.59069 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0           |                       1 |              0 |        73.8625  |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0           |                       1 |            100 |        12.7232  |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0           |                       1 |            200 |         9.63455 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0           |                       1 |            300 |         8.18047 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0           |                       1 |            400 |         7.27955 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0           |                       1 |            500 |         6.65109 |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0           |                       1 |              0 |       109.974   |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0           |                       1 |            100 |        17.9833  |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0           |                       1 |            200 |        13.3592  |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0           |                       1 |            300 |        11.1804  |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0           |                       1 |            400 |         9.83027 |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0           |                       1 |            500 |         8.88824 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0      |                       1 |              0 |        94.3749  |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0      |                       1 |            100 |        11.4302  |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0      |                       1 |            200 |         8.71624 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0      |                       1 |            300 |         7.45119 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0      |                       1 |            400 |         6.66922 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0      |                       1 |            500 |         6.12444 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0      |                       1 |              0 |        59.5096  |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0      |                       1 |            100 |        10.263   |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0      |                       1 |            200 |         7.8879  |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0      |                       1 |            300 |         6.77405 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0      |                       1 |            400 |         6.0854  |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.60565 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0      |                       1 |              0 |        73.8612  |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0      |                       1 |            100 |        12.7264  |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0      |                       1 |            200 |         9.63648 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0      |                       1 |            300 |         8.18192 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0      |                       1 |            400 |         7.28072 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0      |                       1 |            500 |         6.65211 |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0      |                       1 |              0 |       110.259   |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0      |                       1 |            100 |        18.0036  |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0      |                       1 |            200 |        13.3725  |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0      |                       1 |            300 |        11.1908  |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0      |                       1 |            400 |         9.83895 |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0      |                       1 |            500 |         8.89586 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0      |                       1 |              0 |       104.003   |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0      |                       1 |            100 |        11.7169  |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0      |                       1 |            200 |         8.90365 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0      |                       1 |            300 |         7.59354 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0      |                       1 |            400 |         6.78871 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0      |                       1 |            500 |         6.23149 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0      |                       1 |              0 |        59.3057  |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0      |                       1 |            100 |        10.2429  |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0      |                       1 |            200 |         7.87567 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0      |                       1 |            300 |         6.76465 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0      |                       1 |            400 |         6.07748 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.59865 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0      |                       1 |              0 |        73.8651  |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0      |                       1 |            100 |        12.7247  |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0      |                       1 |            200 |         9.63547 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0      |                       1 |            300 |         8.18117 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0      |                       1 |            400 |         7.28012 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0      |                       1 |            500 |         6.65158 |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0      |                       1 |              0 |       110.071   |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0      |                       1 |            100 |        17.9903  |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0      |                       1 |            200 |        13.3638  |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0      |                       1 |            300 |        11.1839  |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0      |                       1 |            400 |         9.83319 |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0      |                       1 |            500 |         8.89081 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0        |                       1 |              0 |       120.232   |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0        |                       1 |            100 |        14.0247  |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0        |                       1 |            200 |        10.6321  |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0        |                       1 |            300 |         9.0122  |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0        |                       1 |            400 |         8.00636 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0        |                       1 |            500 |         7.30521 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0        |                       1 |              0 |       109.367   |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0        |                       1 |            100 |        16.9924  |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0        |                       1 |            200 |         9.06847 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0        |                       1 |            300 |         7.59726 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0        |                       1 |            400 |         6.86133 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0        |                       1 |            500 |         6.34822 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0        |                       1 |              0 |        74.3955  |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0        |                       1 |            100 |        12.7753  |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0        |                       1 |            200 |         9.66825 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0        |                       1 |            300 |         8.20685 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0        |                       1 |            400 |         7.30196 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0        |                       1 |            500 |         6.67099 |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0        |                       1 |              0 |       111.704   |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0        |                       1 |            100 |        18.1296  |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0        |                       1 |            200 |        13.4497  |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0        |                       1 |            300 |        11.249   |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0        |                       1 |            400 |         9.88709 |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0        |                       1 |            500 |         8.93778 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0            |                       1 |              0 |        88.5475  |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0            |                       1 |            100 |        11.0631  |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0            |                       1 |            200 |         8.51449 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0            |                       1 |            300 |         7.29851 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0            |                       1 |            400 |         6.54345 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0            |                       1 |            500 |         6.01708 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |              0 |        57.9969  |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            100 |        10.1629  |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            200 |         7.82276 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            300 |         6.72269 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            400 |         6.0416  |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            500 |         5.56672 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0            |                       1 |              0 |        73.8405  |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0            |                       1 |            100 |        12.7189  |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0            |                       1 |            200 |         9.63185 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0            |                       1 |            300 |         8.17841 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0            |                       1 |            400 |         7.27784 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0            |                       1 |            500 |         6.6496  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0            |                       1 |              0 |       111.764   |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0            |                       1 |            100 |        18.0324  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0            |                       1 |            200 |        13.396   |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0            |                       1 |            300 |        11.2114  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0            |                       1 |            400 |         9.85758 |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0            |                       1 |            500 |         8.91298 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |              0 |        99.2164  |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            100 |        11.6093  |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            200 |         8.81438 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.52291 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            400 |         6.73035 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.17973 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |              0 |        60.4642  |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.3319  |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.92998 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.80629 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.11246 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.62946 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |              0 |        73.8609  |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.7292  |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.63823 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            300 |         8.18325 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.28184 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.65308 |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |              0 |       110.441   |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            100 |        18.0185  |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            200 |        13.3822  |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            300 |        11.1982  |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            400 |         9.84512 |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 |                       1 |            500 |         8.90125 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |              0 |        93.477   |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            100 |        11.4763  |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            200 |         8.73002 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.45695 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            400 |         6.67158 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.12458 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |              0 |        60.1591  |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.303   |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.91254 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.79305 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.10142 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.6198  |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |              0 |        73.8633  |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.7278  |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.63739 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            300 |         8.18263 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.28132 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.65263 |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |              0 |       110.316   |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            100 |        18.0085  |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            200 |        13.3757  |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            300 |        11.1932  |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            400 |         9.84092 |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            500 |         8.89758 |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |              0 |       150.407   |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            100 |        14.9658  |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            200 |        11.1976  |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            300 |         9.46607 |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            400 |         8.40302 |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            500 |         7.66356 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |              0 |       116.013   |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            100 |        17.6671  |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            200 |        13.0566  |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            300 |        10.8837  |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            400 |         9.54042 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            500 |         6.54282 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |              0 |        81.4414  |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            100 |        13.1822  |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            200 |         9.92074 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            300 |         8.40218 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            400 |         7.46684 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            500 |         6.8166  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |              0 |       117.244   |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            100 |        18.5895  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            200 |        13.7202  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            300 |        11.4489  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            400 |        10.0506  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            500 |         9.07918 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |              0 |        97.2094  |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            100 |        11.3211  |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            200 |         8.66131 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            300 |         7.41995 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            400 |         6.65214 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            500 |         6.11642 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        58.3456  |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        10.199   |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         7.84589 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.74078 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         6.05695 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.58033 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |              0 |        73.8686  |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            100 |        12.7233  |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            200 |         9.63458 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            300 |         8.18044 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            400 |         7.27948 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            500 |         6.65099 |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |       112.207   |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        18.0661  |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |        13.4181  |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |        11.2285  |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         9.87192 |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         8.92553 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |              0 |        98.3628  |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            100 |        11.5887  |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            200 |         8.81804 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            300 |         7.52131 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            400 |         6.72263 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.16961 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |              0 |        59.5789  |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.263   |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.88854 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.77471 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.08601 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.60621 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |              0 |        73.8678  |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            100 |        12.7259  |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            200 |         9.63619 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            300 |         8.18171 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            400 |         7.28058 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 |                       1 |            500 |         6.65197 |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |              0 |       110.141   |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            100 |        17.9957  |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            200 |        13.3673  |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            300 |        11.1867  |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            400 |         9.83546 |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 |                       1 |            500 |         8.89279 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |              0 |       121.291   |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            100 |        14.1397  |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            200 |        10.6688  |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            300 |         9.03996 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            400 |         8.03002 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0   |                       1 |            500 |         7.32553 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |              0 |       111.427   |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            100 |        17.2478  |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            200 |        12.742   |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            300 |         7.83876 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.75111 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0   |                       1 |            500 |         6.23929 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |              0 |        74.9496  |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            100 |        12.8109  |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            200 |         9.69112 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            300 |         8.22474 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            400 |         7.31714 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0   |                       1 |            500 |         6.68444 |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |              0 |       112.489   |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            100 |        18.1985  |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            200 |        13.4904  |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            300 |        11.2793  |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            400 |         9.91212 |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0   |                       1 |            500 |         8.95957 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |              0 |        89.2786  |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            100 |        11.0995  |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            200 |         8.51308 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            300 |         7.29637 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            400 |         6.54211 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0       |                       1 |            500 |         6.01597 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        58.1901  |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        10.1813  |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         7.83468 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.73204 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         6.04954 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.57375 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |              0 |        73.8575  |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            100 |        12.7211  |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            200 |         9.63322 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            300 |         8.17944 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            400 |         7.27868 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0       |                       1 |            500 |         6.65032 |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |       111.932   |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        18.0451  |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |        13.4042  |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |        11.2177  |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         9.86285 |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         8.91757 |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0     |                       1 |              0 |       177.989   |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0     |                       1 |            100 |        19.7957  |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0     |                       1 |            200 |        14.7333  |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0     |                       1 |            300 |        12.3241  |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0     |                       1 |            400 |        10.7778  |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0     |                       1 |            500 |         9.38576 |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0     |                       1 |              0 |      1325.85    |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0     |                       1 |            100 |        34.5381  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0     |                       1 |            200 |        25.2841  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0     |                       1 |            300 |        20.4496  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0     |                       1 |            400 |        17.4391  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0     |                       1 |            500 |        15.3791  |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0     |                       1 |              0 |       100.512   |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0     |                       1 |            100 |        13.928   |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0     |                       1 |            200 |        10.3735  |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0     |                       1 |            300 |         8.76709 |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0     |                       1 |            400 |         7.78534 |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0     |                       1 |            500 |         7.10402 |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0     |                       1 |              0 |       117.61    |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0     |                       1 |            100 |        18.7069  |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0     |                       1 |            200 |        13.7851  |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0     |                       1 |            300 |        11.492   |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0     |                       1 |            400 |        10.0823  |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0     |                       1 |            500 |         9.10423 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0         |                       1 |              0 |       111.269   |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0         |                       1 |            100 |        13.7537  |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0         |                       1 |            200 |        10.4155  |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0         |                       1 |            300 |         8.82987 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0         |                       1 |            400 |         7.60092 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0         |                       1 |            500 |         6.77612 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |              0 |        94.7892  |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            100 |        12.1209  |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            200 |         9.06184 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            300 |         7.67481 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            400 |         6.83636 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            500 |         6.26106 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0         |                       1 |              0 |        74.5145  |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0         |                       1 |            100 |        12.7781  |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0         |                       1 |            200 |         9.67051 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0         |                       1 |            300 |         8.20888 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0         |                       1 |            400 |         7.30385 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0         |                       1 |            500 |         6.67278 |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0         |                       1 |              0 |       113.646   |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0         |                       1 |            100 |        18.2015  |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0         |                       1 |            200 |        13.5011  |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0         |                       1 |            300 |        11.2909  |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0         |                       1 |            400 |         9.92331 |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0         |                       1 |            500 |         8.97008 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0             |                       1 |              0 |        93.7606  |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0             |                       1 |            100 |        11.1436  |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0             |                       1 |            200 |         8.58289 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0             |                       1 |            300 |         7.35581 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0             |                       1 |            400 |         6.59427 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0             |                       1 |            500 |         6.06331 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |              0 |        57.8449  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            100 |        10.1415  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            200 |         7.80945 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            300 |         6.71254 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            400 |         6.0331  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            500 |         5.55924 |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0             |                       1 |              0 |       109.179   |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0             |                       1 |            100 |        17.9459  |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0             |                       1 |            200 |        13.335   |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0             |                       1 |            300 |        11.1618  |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0             |                       1 |            400 |         9.81462 |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0             |                       1 |            500 |         8.87451 |
+
+| Kernel Combination                                  |   Initialization Number |   Epoch Number |   Training Loss |
+|-----------------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        88.0486  |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         9.13241 |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.14896 |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.1892  |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.59575 |
+| Periodic_0 + Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.18391 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        35.5497  |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.40747 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.16891 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.58887 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.22914 |
+| Periodic_0 + Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         3.97852 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        46.5043  |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.54441 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.67652 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.79892 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.25554 |
+| Periodic_0 * Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.87662 |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        61.1768  |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.4034  |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.94714 |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.82052 |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.12667 |
+| Periodic_0 * Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.64363 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        76.1823  |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         8.66376 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         6.8235  |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         5.93579 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         5.38446 |
+| Periodic_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.00055 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        33.5033  |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         6.43515 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         5.07854 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         4.5145  |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         4.17131 |
+| Periodic_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         3.93057 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        46.648   |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         8.5468  |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         6.67798 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         5.79998 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         5.25637 |
+| Periodic_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         4.87728 |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        60.1727  |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |        10.3101  |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         7.91723 |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         6.79563 |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         6.10231 |
+| Periodic_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.61969 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        84.1026  |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.89498 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.94767 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.03622 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.47291 |
+| Periodic_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.08065 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        34.3708  |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.49539 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.21646 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.62128 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.25494 |
+| Periodic_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.00053 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        46.664   |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.60295 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.71714 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.83147 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.28333 |
+| Periodic_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.90125 |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        59.3845  |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.4021  |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.98287 |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.84689 |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.14447 |
+| Periodic_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.65534 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        75.0674  |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.66634 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.79804 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.91316 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.36509 |
+| Periodic_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.98357 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        33.8068  |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.46199 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.1953  |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.58629 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.16844 |
+| Periodic_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         3.93068 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        46.6468  |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.5469  |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.67804 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.80001 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.25638 |
+| Periodic_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.87729 |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        60.2354  |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.3158  |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.91992 |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.79756 |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.1038  |
+| Periodic_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.62078 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |       102.036   |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |        10.2371  |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         7.92265 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.81176 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.07559 |
+| Periodic_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.46549 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        60.1818  |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         7.75208 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         6.02889 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         5.25274 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         4.78502 |
+| Periodic_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         4.46492 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        46.6668  |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         8.62255 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         6.7301  |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         5.84171 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         5.29204 |
+| Periodic_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         4.909   |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        60.208   |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |        10.4842  |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         8.03397 |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.88547 |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.17619 |
+| Periodic_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.68266 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        78.0639  |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         8.68416 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         6.84729 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         5.95522 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         5.40143 |
+| Periodic_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.01588 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        32.9184  |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         6.27473 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         5.06535 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         4.51037 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         4.16489 |
+| Periodic_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         3.92335 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        46.5079  |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         8.54136 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         6.67464 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         5.79759 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         5.25452 |
+| Periodic_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         4.8758  |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        59.754   |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        10.2694  |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         7.89254 |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.77692 |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         6.08756 |
+| Periodic_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.6075  |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |              0 |        78.8504  |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            100 |         8.62084 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            200 |         6.76372 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            300 |         5.89265 |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            400 |         5.3527  |
+| RBF_0 + RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            500 |         4.97615 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |              0 |        32.0694  |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            100 |         6.25374 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            200 |         5.05555 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            300 |         4.4955  |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            400 |         4.14951 |
+| RBF_0 + RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            500 |         3.9085  |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |              0 |        46.0278  |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            100 |         8.53392 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            200 |         6.67047 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            300 |         5.79484 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            400 |         5.25262 |
+| RBF_0 * RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            500 |         4.87448 |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |              0 |        57.0391  |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            100 |        10.1312  |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            200 |         7.80054 |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            300 |         6.70459 |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            400 |         6.02591 |
+| RBF_0 * RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0           |                       1 |            500 |         5.55263 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        84.9864  |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         8.79472 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         6.87275 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         5.97937 |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         5.4282  |
+| RBF_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.04416 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        32.975   |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         6.31016 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         5.09153 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         4.52366 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         4.17344 |
+| RBF_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         3.92971 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        46.1001  |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         8.53684 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         6.6724  |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         5.79631 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         5.25382 |
+| RBF_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         4.87549 |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        57.502   |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |        10.1585  |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         7.81854 |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         6.7188  |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         6.03801 |
+| RBF_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.56337 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        73.9334  |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         8.48766 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         6.69024 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         5.83346 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         5.30054 |
+| RBF_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         4.92876 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        32.1826  |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         6.26381 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         5.06178 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         4.50033 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         4.15361 |
+| RBF_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         3.91212 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        46.0461  |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         8.5347  |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         6.67099 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         5.79524 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         5.25294 |
+| RBF_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         4.87475 |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        57.1558  |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |        10.1381  |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         7.80511 |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         6.70821 |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         6.02898 |
+| RBF_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         5.55536 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |              0 |        95.7694  |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            100 |         9.83574 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            200 |         7.65423 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            300 |         6.62092 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            400 |         5.97794 |
+| RBF_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            500 |         5.52874 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |              0 |        58.9792  |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            100 |         9.7882  |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            200 |         7.51277 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            300 |         6.35145 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            400 |         4.52094 |
+| RBF_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            500 |         4.22318 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |              0 |        46.1838  |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            100 |         8.5545  |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            200 |         6.68436 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            300 |         5.80598 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            400 |         5.26222 |
+| RBF_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            500 |         4.88309 |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |              0 |        58.8531  |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            100 |        10.2657  |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            200 |         7.88415 |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            300 |         6.76855 |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            400 |         6.07934 |
+| RBF_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0        |                       1 |            500 |         5.59944 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |              0 |        82.1992  |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            100 |         8.61008 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            200 |         6.79673 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            300 |         5.92913 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            400 |         5.38734 |
+| RBF_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            500 |         5.00848 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |              0 |        31.4312  |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            100 |         6.21713 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            200 |         5.03116 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            300 |         4.47608 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            400 |         4.13289 |
+| RBF_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            500 |         3.89375 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |              0 |        46.1181  |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            100 |         8.53438 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            200 |         6.67069 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            300 |         5.79497 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            400 |         5.25267 |
+| RBF_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            500 |         4.87448 |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |              0 |        57.6815  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            100 |        10.1464  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            200 |         7.81213 |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            300 |         6.7144  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            400 |         6.0346  |
+| RBF_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0            |                       1 |            500 |         5.56053 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        92.3511  |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.97564 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.0061  |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.08767 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.52202 |
+| Matern32_0 + Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.1286  |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        34.0045  |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.38147 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.13463 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.55624 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.20048 |
+| Matern32_0 + Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         3.95337 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        46.1301  |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.53911 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.67389 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.79745 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.25475 |
+| Matern32_0 * Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.87627 |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        57.9215  |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.1871  |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.83688 |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.73306 |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.05005 |
+| Matern32_0 * Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.57399 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        83.6876  |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.74184 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.86325 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.97467 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.42402 |
+| Matern32_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.03993 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        33.233   |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.33128 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.10418 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.53323 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.18139 |
+| Matern32_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         3.93669 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        46.1051  |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.53751 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.67284 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.79665 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.25409 |
+| Matern32_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.87573 |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        57.6035  |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.1658  |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.82323 |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.72243 |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.04106 |
+| Matern32_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.56605 |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |       104.748   |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |        10.0215  |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         7.8049  |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.74924 |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.09193 |
+| Matern32_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.63245 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        61.9466  |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         9.99858 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         7.70884 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.61454 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         5.93571 |
+| Matern32_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.46158 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        51.8553  |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         8.7989  |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         6.87458 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         5.96502 |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         5.4004  |
+| Matern32_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.00641 |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        82.9834  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |        11.9814  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         8.90687 |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         7.5226  |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.69015 |
+| Matern32_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         6.12136 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        70.5787  |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         8.35034 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         6.60481 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         5.76802 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         5.24627 |
+| Matern32_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         4.88163 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        31.5989  |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         6.23306 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         5.04161 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         4.48434 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         4.13995 |
+| Matern32_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         3.90003 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        46.2398  |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         8.53796 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         6.67308 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         5.79679 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         5.25415 |
+| Matern32_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         4.87573 |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        58.2749  |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        10.1805  |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         7.83504 |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.73263 |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         6.05014 |
+| Matern32_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.57434 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        72.959   |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.46297 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.68453 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.82945 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.29674 |
+| Matern52_0 + Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.92498 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        32.6583  |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.29319 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.08039 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.51485 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.16589 |
+| Matern52_0 + Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         3.92302 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        46.067   |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         8.53585 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         6.67174 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         5.79582 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         5.25341 |
+| Matern52_0 * Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.87516 |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        57.3051  |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |        10.1473  |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         7.81111 |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         6.71291 |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         6.03297 |
+| Matern52_0 * Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         5.55889 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        93.5927  |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         9.80925 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         7.61191 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.58255 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         5.94451 |
+| Matern52_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.49902 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        60.476   |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         9.92251 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         7.60963 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.52455 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         5.85442 |
+| Matern52_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         4.98374 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        54.4791  |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         8.9145  |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         6.92936 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         6.00106 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         5.42805 |
+| Matern52_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         5.02926 |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        84.5755  |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |        11.9627  |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         8.90259 |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         7.52646 |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         6.69845 |
+| Matern52_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         6.13215 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        92.9057  |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         8.8337  |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         6.96338 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.07142 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         5.51397 |
+| Matern52_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.12364 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        31.8374  |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         6.24229 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         5.04833 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         4.48994 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         4.14482 |
+| Matern52_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         3.9044  |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        46.1841  |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         8.5366  |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         6.67217 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         5.79608 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         5.25358 |
+| Matern52_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         4.87526 |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        57.9704  |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |        10.1623  |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         7.82282 |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         6.7229  |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         6.04185 |
+| Matern52_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         5.56695 |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |              0 |       131.076   |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            100 |        11.9264  |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            200 |         9.20832 |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            300 |         7.88865 |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            400 |         7.04474 |
+| Cosine_0 + Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            500 |         6.37611 |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |              0 |       976.753   |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            100 |        22.1804  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            200 |        16.4376  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            300 |        13.423   |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            400 |        11.5534  |
+| Cosine_0 + Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            500 |        10.2826  |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |              0 |        63.4547  |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            100 |         9.11098 |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            200 |         7.09133 |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            300 |         6.14387 |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            400 |         5.55706 |
+| Cosine_0 * Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            500 |         5.14801 |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |              0 |        63.0234  |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            100 |        10.6504  |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            200 |         8.11047 |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            300 |         6.9323  |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            400 |         6.21006 |
+| Cosine_0 * Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0     |                       1 |            500 |         5.71001 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |              0 |        77.1626  |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            100 |         9.38919 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            200 |         7.32385 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            300 |         6.17631 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            400 |         5.48498 |
+| Cosine_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            500 |         4.98983 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |              0 |        40.9227  |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            100 |         6.77183 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            200 |         5.37468 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            300 |         4.73595 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            400 |         4.34763 |
+| Cosine_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            500 |         4.08006 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |              0 |        46.0608  |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            100 |         8.54208 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            200 |         6.67601 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            300 |         5.7993  |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            400 |         5.25646 |
+| Cosine_0 * RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            500 |         4.87791 |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |              0 |        58.5783  |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            100 |        10.2129  |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            200 |         7.85533 |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            300 |         6.74786 |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            400 |         6.06265 |
+| Cosine_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0         |                       1 |            500 |         5.58513 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |              0 |        68.8969  |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            100 |         8.30047 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            200 |         6.56441 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            300 |         5.72881 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            400 |         5.20943 |
+| RQ_0 + RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            500 |         4.84712 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |              0 |        30.8352  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            100 |         6.18252 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            200 |         5.00762 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            300 |         4.4572  |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            400 |         4.11667 |
+| RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            500 |         3.87927 |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |              0 |        56.5221  |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            100 |        10.1058  |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            200 |         7.78346 |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            300 |         6.691   |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            400 |         6.01426 |
+| RQ_0 * RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0             |                       1 |            500 |         5.54223 |
+
+| Kernel Combination                                   |   Initialization Number |   Epoch Number |   Training Loss |
+|------------------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        74.4412  |
+| Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.92099 |
+| Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.62422 |
+| Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.98316 |
+| Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.58136 |
+| Periodic_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.3006  |
+| Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        36.061   |
+| Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.71847 |
+| Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.36122 |
+| Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.73148 |
+| Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.34498 |
+| Periodic_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.07724 |
+| RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        74.955   |
+| RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         6.8069  |
+| RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         5.55985 |
+| RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         4.94105 |
+| RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         4.5508  |
+| RBF_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         4.27701 |
+| RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |              0 |        36.2726  |
+| RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            100 |         6.43569 |
+| RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            200 |         5.17679 |
+| RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            300 |         4.59172 |
+| RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            400 |         4.23163 |
+| RBF_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0      |                       1 |            500 |         3.98139 |
+| Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        73.2655  |
+| Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.76579 |
+| Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.53561 |
+| Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.92272 |
+| Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.53578 |
+| Matern32_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.26412 |
+| Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        37.3157  |
+| Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.55825 |
+| Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.24454 |
+| Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.63971 |
+| Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.26973 |
+| Matern32_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.01364 |
+| Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        75.3057  |
+| Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.86904 |
+| Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.55678 |
+| Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.9321  |
+| Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.54219 |
+| Matern52_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         4.26919 |
+| Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |              0 |        36.4569  |
+| Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            100 |         6.48207 |
+| Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            200 |         5.20207 |
+| Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            300 |         4.60996 |
+| Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            400 |         4.24646 |
+| Matern52_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 |                       1 |            500 |         3.99416 |
+| Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |        74.312   |
+| Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |         7.19823 |
+| Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |         5.83483 |
+| Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |         5.15506 |
+| Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |         4.69688 |
+| Cosine_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         4.31208 |
+| Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |              0 |       764.479   |
+| Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            100 |        18.9757  |
+| Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            200 |        14.139   |
+| Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            300 |        11.6264  |
+| Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            400 |        10.0629  |
+| Cosine_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0   |                       1 |            500 |         8.99567 |
+| RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        54.8708  |
+| RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         6.43086 |
+| RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         5.26552 |
+| RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         4.68781 |
+| RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         4.3264  |
+| RQ_0 + RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         4.07361 |
+| RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |              0 |        30.4987  |
+| RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            100 |         6.17402 |
+| RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            200 |         5.00157 |
+| RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            300 |         4.45219 |
+| RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            400 |         4.11229 |
+| RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0 * RQ_0 + RQ_0       |                       1 |            500 |         3.87528 |
+

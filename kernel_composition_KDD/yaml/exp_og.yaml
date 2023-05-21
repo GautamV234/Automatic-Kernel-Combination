@@ -1,0 +1,318 @@
+# # without using the ckpt David's experiment using 5 kernels num epochs:500
+# 1:
+#     combination_list: [1,1,1,1,1]
+#     ckpt: False
+#     ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#     heuristic: True
+#     num_epochs: 500
+#     lr: 0.1
+
+# # without using the ckpt David's experiment using 5 kernels num epochs:1000
+# 2: 
+#   combination_list: [1,1,1,1,1]
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 1000
+#   lr: 0.1
+
+# # without using the ckpt David's experiment using 7 kernels num epochs:500
+# 3:
+#   combination_list: [1,1,1,1,1,1,1]
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using the ckpt David's experiment using 7 kernels num epochs:1000
+# 4:
+#   combination_list: [1,1,1,1,1,1,1]
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 1000
+#   lr: 0.1
+
+# # with using the ckpt David's experiment using 5 kernels num epochs:500
+# 5:
+#   combination_list: [1,1,1,1,1]
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 500
+#   lr: 0.1
+
+# # with using the ckpt David's experiment using 5 kernels num epochs:1000
+# 6:
+#   combination_list: [1,1,1,1,1]
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 1000
+#   lr: 0.1
+
+# # with using the ckpt David's experiment using 7 kernels num epochs:500
+# 7:
+#   combination_list: [1,1,1,1,1,1,1]
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 500
+#   lr: 0.1
+
+
+# # with using the ckpt David's experiment using 7 kernels num epochs:1000
+# 8:
+#   combination_list: [1,1,1,1,1,1,1]
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   heuristic: True
+#   num_epochs: 1000
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 5 kernels (4,1) num_epochs:500
+# 9:
+#   combination_list: [4,1]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 5 kernels (3,2) num_epochs:500
+# 10:
+#   combination_list: [3,2]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+
+# # without using ckpt performing heuristic of 7 kernels (4,3) num_epochs:500
+# 11:
+#   combination_list: [4,3]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 7 kernels (3,3,1) num_epochs:500
+# 12:
+#   combination_list: [3,3,1]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 7 kernels (2,2,2,1) num_epochs:500
+# 13:
+#   combination_list: [2,2,2,1]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 9 kernels (4,4,1) num_epochs:500
+# 14:
+#   combination_list: [4,4,1]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 9 kernels (3,3,3) num_epochs:500
+# 15:
+#   combination_list: [3,3,3]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing heuristic of 9 kernels (2,2,2,2,1) num_epochs:500
+# 16:
+#   combination_list: [2,2,2,2,1]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # with using ckpt performing heuristic of 7 kernels (4,3) num_epochs:500
+# 17:
+#   combination_list: [4,3]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # with using ckpt performing heuristic of 7 kernels (3,3,1) num_epochs:500
+# 18:
+#   combination_list: [3,3,1]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # with using ckpt performing heuristic of 7 kernels (2,2,2,1) num_epochs:500
+# 19:
+#   combination_list: [2,2,2,1]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# without using ckpt performing GRID of 7 kernels num_epochs:500
+# 19:
+#   combination_list: [7]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # with using ckpt performing GRID of 7 kernels num_epochs:500
+# 20:
+#   combination_list: [7]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# # without using ckpt performing GRID of 9 kernels num_epochs:500
+# 21:
+#   combination_list: [9]
+#   heuristic: True
+#   ckpt: False
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+# with using ckpt performing GRID of 9 kernels num_epochs:500
+# 22:
+#   combination_list: [9]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+#   num_epochs: 500
+#   lr: 0.1
+
+###############
+# Testing on heinonen_4 dataset
+################
+
+# with using ckpt performing David's heuristic of 6 kernels num_epochs:250 stopping:True
+23:
+  combination_list: [1,1,1,1,1,1]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : True
+
+# with using ckpt performing David's heuristic of 6 kernels num_epochs:250 stopping:False
+23:
+  combination_list: [1,1,1,1,1,1]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : False
+
+# with using ckpt performing heristic of 6 kernels num_epochs:250
+24:
+  combination_list: [2,2,2]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : True
+
+# with using ckpt performing heristic of 6 kernels num_epochs:250 (without stopping)
+25:
+  combination_list: [2,2,2]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : False
+
+# with using ckpt performing heristic of 6 kernels num_epochs:250
+26:
+  combination_list: [3,3]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : True
+
+# with using ckpt performing heristic of 6 kernels num_epochs:250 (without stopping)
+27:
+  combination_list: [3,3]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : False
+
+# with using ckpt performing heristic of 6 kernels num_epochs:250 (with stopping)
+28:
+  combination_list: [4,2]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : True
+
+# with using ckpt performing heristic of 6 kernels num_epochs:250 (without stopping)
+29:
+  combination_list: [4,2]
+  heuristic: True
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+  num_epochs: 250
+  lr: 0.1
+  stopping : False
+
+# # with using ckpt performing GRID of 6 kernels num_epochs:250
+# 27:
+#   combination_list: [6]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+#   num_epochs: 250
+#   lr: 0.1
+
+# # with using ckpt performing GRID of 6 kernels num_epochs:500
+# 28:
+#   combination_list: [6]
+#   heuristic: True
+#   ckpt: True
+#   ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps_heinonen4
+#   num_epochs: 500
+#   lr: 0.1
+
+# with using ckpt performing GRID of 6 kernels num_epochs:1000
+
+
+
+
+
+

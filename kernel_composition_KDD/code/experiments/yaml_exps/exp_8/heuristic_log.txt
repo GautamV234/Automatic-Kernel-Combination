@@ -1,0 +1,53 @@
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic             |                       1 |         29.4685 |
+| RQ                   |                       1 |         10.8611 |
+| SE                   |                       1 |         41.1808 |
+
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic + RQ        |                       1 |         7.15779 |
+| periodic * RQ        |                       1 |        11.5801  |
+| RQ + RQ              |                       1 |         6.57245 |
+| RQ * RQ              |                       1 |        11.0164  |
+| SE + RQ              |                       1 |         8.04461 |
+| SE * RQ              |                       1 |        14.2555  |
+| RQ + RQ              |                       1 |         6.57245 |
+| RQ * RQ              |                       1 |        11.0164  |
+
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic + RQ + RQ   |                       1 |         5.41033 |
+| periodic * RQ + RQ   |                       1 |         5.27836 |
+| RQ + RQ + RQ         |                       1 |         5.13301 |
+| RQ * RQ + RQ         |                       1 |         6.64743 |
+| SE + RQ + RQ         |                       1 |         5.57544 |
+| SE * RQ + RQ         |                       1 |         8.7341  |
+
+| Kernel Combination      |   Initialization Number |   Training Loss |
+|-------------------------|-------------------------|-----------------|
+| periodic + RQ + RQ + RQ |                       1 |         4.57161 |
+| periodic * RQ + RQ + RQ |                       1 |         5.33609 |
+| RQ + RQ + RQ + RQ       |                       1 |         4.4199  |
+| RQ * RQ + RQ + RQ       |                       1 |         5.18091 |
+| SE + RQ + RQ + RQ       |                       1 |         4.62633 |
+| SE * RQ + RQ + RQ       |                       1 |         6.73875 |
+
+| Kernel Combination           |   Initialization Number |   Training Loss |
+|------------------------------|-------------------------|-----------------|
+| periodic + RQ + RQ + RQ + RQ |                       1 |         4.08927 |
+| periodic * RQ + RQ + RQ + RQ |                       1 |         2.82021 |
+| RQ + RQ + RQ + RQ + RQ       |                       1 |         3.98283 |
+| RQ * RQ + RQ + RQ + RQ       |                       1 |         4.44505 |
+| SE + RQ + RQ + RQ + RQ       |                       1 |         4.10726 |
+| SE * RQ + RQ + RQ + RQ       |                       1 |         5.67918 |
+
+| Kernel Combination                      |   Initialization Number |   Training Loss |
+|-----------------------------------------|-------------------------|-----------------|
+| periodic + periodic * RQ + RQ + RQ + RQ |                       1 |         4.05181 |
+| periodic * periodic * RQ + RQ + RQ + RQ |                       1 |         4.49992 |
+| RQ + periodic * RQ + RQ + RQ + RQ       |                       1 |         4.03751 |
+| RQ * periodic * RQ + RQ + RQ + RQ       |                       1 |         4.49057 |
+| SE + periodic * RQ + RQ + RQ + RQ       |                       1 |         4.16582 |
+| SE * periodic * RQ + RQ + RQ + RQ       |                       1 |         3.97592 |
+

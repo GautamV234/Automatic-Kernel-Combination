@@ -1,0 +1,194 @@
+| Kernel Combination             |   Initialization Number |   Training Loss |
+|--------------------------------|-------------------------|-----------------|
+| periodic + periodic + periodic |                       1 |        32.9268  |
+| periodic + periodic * periodic |                       1 |        34.5008  |
+| periodic * periodic * periodic |                       1 |        40.4068  |
+| periodic + periodic + RQ       |                       1 |         8.86968 |
+| periodic + periodic * RQ       |                       1 |         9.39965 |
+| periodic * periodic + RQ       |                       1 |         9.49305 |
+| periodic * periodic * RQ       |                       1 |        16.8419  |
+| periodic + periodic + SE       |                       1 |         9.09407 |
+| periodic + periodic * SE       |                       1 |        16.3333  |
+| periodic * periodic + SE       |                       1 |        10.3349  |
+| periodic * periodic * SE       |                       1 |        20.7207  |
+| periodic + RQ + RQ             |                       1 |         9.84502 |
+| periodic + RQ * RQ             |                       1 |         9.88673 |
+| periodic * RQ + RQ             |                       1 |         8.00946 |
+| periodic * RQ * RQ             |                       1 |        16.6897  |
+| periodic + RQ + SE             |                       1 |        10.3174  |
+| periodic + RQ * SE             |                       1 |        16.1567  |
+| periodic * RQ + SE             |                       1 |        10.2086  |
+| periodic * RQ * SE             |                       1 |        18.9833  |
+| periodic + SE + SE             |                       1 |        12.8157  |
+| periodic + SE * SE             |                       1 |        17.0334  |
+| periodic * SE + SE             |                       1 |        12.64    |
+| periodic * SE * SE             |                       1 |        21.907   |
+| RQ + RQ + RQ                   |                       1 |        11.5848  |
+| RQ + RQ * RQ                   |                       1 |         9.47165 |
+| RQ * RQ * RQ                   |                       1 |        16.2116  |
+| RQ + RQ + SE                   |                       1 |        13.232   |
+| RQ + RQ * SE                   |                       1 |        20.0222  |
+| RQ * RQ + SE                   |                       1 |        10.1188  |
+| RQ * RQ * SE                   |                       1 |        18.7861  |
+| RQ + SE + SE                   |                       1 |        18.0651  |
+| RQ + SE * SE                   |                       1 |        21.4639  |
+| RQ * SE + SE                   |                       1 |        13.0644  |
+| RQ * SE * SE                   |                       1 |        21.9513  |
+| SE + SE + SE                   |                       1 |        23.4821  |
+| SE + SE * SE                   |                       1 |        19.4021  |
+| SE * SE * SE                   |                       1 |        27.2383  |
+
+| Kernel Combination                      |   Initialization Number |   Training Loss |
+|-----------------------------------------|-------------------------|-----------------|
+| periodic * RQ + RQ + periodic * RQ + RQ |                       1 |        10.1974  |
+| periodic * RQ + RQ * periodic * RQ + RQ |                       1 |         4.52024 |
+
+| Kernel Combination                                  |   Initialization Number |   Training Loss |
+|-----------------------------------------------------|-------------------------|-----------------|
+| periodic + periodic + periodic + periodic * RQ + RQ |                       1 |         4.66714 |
+| periodic + periodic + periodic * periodic * RQ + RQ |                       1 |         3.26279 |
+| periodic + periodic * periodic + periodic * RQ + RQ |                       1 |         5.93372 |
+| periodic + periodic * periodic * periodic * RQ + RQ |                       1 |         4.3312  |
+| periodic * periodic + periodic * periodic * RQ + RQ |                       1 |         5.85438 |
+| periodic * periodic * periodic + periodic * RQ + RQ |                       1 |         6.92998 |
+| periodic * periodic * periodic * periodic * RQ + RQ |                       1 |         9.42022 |
+| periodic + periodic + RQ + periodic * RQ + RQ       |                       1 |         5.20487 |
+| periodic + periodic + RQ * periodic * RQ + RQ       |                       1 |         3.2119  |
+| periodic + periodic * RQ + periodic * RQ + RQ       |                       1 |         5.86021 |
+| periodic + periodic * RQ * periodic * RQ + RQ       |                       1 |         4.91952 |
+| periodic * periodic + RQ + periodic * RQ + RQ       |                       1 |         5.77522 |
+| periodic * periodic + RQ * periodic * RQ + RQ       |                       1 |         5.82758 |
+| periodic * periodic * RQ + periodic * RQ + RQ       |                       1 |         6.90155 |
+| periodic * periodic * RQ * periodic * RQ + RQ       |                       1 |         9.38061 |
+| periodic + periodic + SE + periodic * RQ + RQ       |                       1 |         5.31979 |
+| periodic + periodic + SE * periodic * RQ + RQ       |                       1 |         3.33023 |
+| periodic + periodic * SE + periodic * RQ + RQ       |                       1 |         6.19889 |
+| periodic + periodic * SE * periodic * RQ + RQ       |                       1 |         6.51212 |
+| periodic * periodic + SE + periodic * RQ + RQ       |                       1 |         4.06819 |
+| periodic * periodic + SE * periodic * RQ + RQ       |                       1 |         5.96229 |
+| periodic * periodic * SE + periodic * RQ + RQ       |                       1 |         6.94679 |
+| periodic * periodic * SE * periodic * RQ + RQ       |                       1 |         9.51896 |
+| periodic + RQ + RQ + periodic * RQ + RQ             |                       1 |         5.47589 |
+| periodic + RQ + RQ * periodic * RQ + RQ             |                       1 |         3.15752 |
+| periodic + RQ * RQ + periodic * RQ + RQ             |                       1 |         5.82434 |
+| periodic + RQ * RQ * periodic * RQ + RQ             |                       1 |         5.85701 |
+| periodic * RQ + RQ + periodic * RQ + RQ             |                       1 |         5.75035 |
+| periodic * RQ + RQ * periodic * RQ + RQ             |                       1 |         5.78677 |
+| periodic * RQ * RQ * periodic * RQ + RQ             |                       1 |         9.2751  |
+| periodic + RQ + SE + periodic * RQ + RQ             |                       1 |         5.77982 |
+| periodic + RQ + SE * periodic * RQ + RQ             |                       1 |         3.24555 |
+| periodic + RQ * SE + periodic * RQ + RQ             |                       1 |         6.17346 |
+| periodic + RQ * SE * periodic * RQ + RQ             |                       1 |         5.66841 |
+| periodic * RQ + SE + periodic * RQ + RQ             |                       1 |         5.78305 |
+| periodic * RQ + SE * periodic * RQ + RQ             |                       1 |         4.9888  |
+| periodic * RQ * SE * periodic * RQ + RQ             |                       1 |         9.73908 |
+| periodic + SE + SE + periodic * RQ + RQ             |                       1 |         6.20073 |
+| periodic + SE + SE * periodic * RQ + RQ             |                       1 |         3.9736  |
+| periodic + SE * SE + periodic * RQ + RQ             |                       1 |         6.20153 |
+| periodic + SE * SE * periodic * RQ + RQ             |                       1 |         4.81074 |
+| periodic * SE + SE + periodic * RQ + RQ             |                       1 |         5.78822 |
+| periodic * SE + SE * periodic * RQ + RQ             |                       1 |         5.86103 |
+| periodic * SE * SE + periodic * RQ + RQ             |                       1 |         6.88758 |
+| periodic * SE * SE * periodic * RQ + RQ             |                       1 |         8.13015 |
+| RQ + RQ + RQ + periodic * RQ + RQ                   |                       1 |         6.9435  |
+| RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         3.04675 |
+| RQ + RQ * RQ + periodic * RQ + RQ                   |                       1 |         5.77597 |
+| RQ + RQ * RQ * periodic * RQ + RQ                   |                       1 |         5.80663 |
+| RQ * RQ + RQ * periodic * RQ + RQ                   |                       1 |         5.65215 |
+| RQ * RQ * RQ + periodic * RQ + RQ                   |                       1 |         6.87806 |
+| RQ * RQ * RQ * periodic * RQ + RQ                   |                       1 |         9.32838 |
+| RQ + RQ + SE + periodic * RQ + RQ                   |                       1 |         7.14409 |
+| RQ + RQ + SE * periodic * RQ + RQ                   |                       1 |         3.20606 |
+| RQ + RQ * SE + periodic * RQ + RQ                   |                       1 |         6.15481 |
+| RQ + RQ * SE * periodic * RQ + RQ                   |                       1 |         6.47078 |
+| RQ * RQ + SE + periodic * RQ + RQ                   |                       1 |         5.71715 |
+| RQ * RQ + SE * periodic * RQ + RQ                   |                       1 |         5.77587 |
+| RQ * RQ * SE + periodic * RQ + RQ                   |                       1 |         6.85783 |
+| RQ * RQ * SE * periodic * RQ + RQ                   |                       1 |         9.36433 |
+| RQ + SE + SE + periodic * RQ + RQ                   |                       1 |         8.5839  |
+| RQ + SE + SE * periodic * RQ + RQ                   |                       1 |         4.19949 |
+| RQ + SE * SE + periodic * RQ + RQ                   |                       1 |         6.23164 |
+| RQ + SE * SE * periodic * RQ + RQ                   |                       1 |         6.81689 |
+| RQ * SE + SE + periodic * RQ + RQ                   |                       1 |         5.77314 |
+| RQ * SE + SE * periodic * RQ + RQ                   |                       1 |         5.8607  |
+| RQ * SE * SE + periodic * RQ + RQ                   |                       1 |         6.86356 |
+| RQ * SE * SE * periodic * RQ + RQ                   |                       1 |         9.41415 |
+| SE + SE + SE + periodic * RQ + RQ                   |                       1 |         9.91075 |
+| SE + SE + SE * periodic * RQ + RQ                   |                       1 |         6.75396 |
+| SE + SE * SE + periodic * RQ + RQ                   |                       1 |         6.47831 |
+| SE + SE * SE * periodic * RQ + RQ                   |                       1 |         7.46221 |
+| SE * SE + SE * periodic * RQ + RQ                   |                       1 |         6.34342 |
+| SE * SE * SE + periodic * RQ + RQ                   |                       1 |         6.94217 |
+| SE * SE * SE * periodic * RQ + RQ                   |                       1 |         9.92647 |
+
+| Kernel Combination                                                 |   Initialization Number |   Training Loss |
+|--------------------------------------------------------------------|-------------------------|-----------------|
+| periodic + periodic + periodic + RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         3.4926  |
+| periodic + periodic + periodic * RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         1.60741 |
+| periodic + periodic * periodic + RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         2.28262 |
+| periodic + periodic * periodic * RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         1.75447 |
+| periodic * periodic + periodic * RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         1.69294 |
+| periodic * periodic * periodic + RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         4.2671  |
+| periodic * periodic * periodic * RQ + RQ + RQ * periodic * RQ + RQ |                       1 |         4.66212 |
+| periodic + periodic + RQ + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         3.5994  |
+| periodic + periodic + RQ * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         1.42241 |
+| periodic + periodic * RQ + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         2.28635 |
+| periodic + periodic * RQ * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         1.73231 |
+| periodic * periodic + RQ + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.02092 |
+| periodic * periodic + RQ * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         3.44027 |
+| periodic * periodic * RQ + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.23988 |
+| periodic * periodic * RQ * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         3.64464 |
+| periodic + periodic + SE + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.05695 |
+| periodic + periodic + SE * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         1.36128 |
+| periodic + periodic * SE + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.06528 |
+| periodic + periodic * SE * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         2.37352 |
+| periodic * periodic + SE + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.01308 |
+| periodic * periodic + SE * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         1.64016 |
+| periodic * periodic * SE + RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.25658 |
+| periodic * periodic * SE * RQ + RQ + RQ * periodic * RQ + RQ       |                       1 |         4.82086 |
+| periodic + RQ + RQ + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.13958 |
+| periodic + RQ + RQ * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.34256 |
+| periodic + RQ * RQ * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.6976  |
+| periodic * RQ + RQ + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.02292 |
+| periodic * RQ + RQ * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         3.4355  |
+| periodic * RQ * RQ + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.23502 |
+| periodic * RQ * RQ * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.61553 |
+| periodic + RQ + SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.01398 |
+| periodic + RQ + SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.34177 |
+| periodic + RQ * SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         2.35852 |
+| periodic * RQ + SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.0053  |
+| periodic * RQ + SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.67015 |
+| periodic * RQ * SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.25922 |
+| periodic * RQ * SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.10047 |
+| periodic + SE + SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.33966 |
+| periodic + SE + SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.70511 |
+| periodic + SE * SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         3.40941 |
+| periodic + SE * SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.88813 |
+| periodic * SE + SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         2.15667 |
+| periodic * SE + SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         1.77881 |
+| periodic * SE * SE + RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         4.25571 |
+| periodic * SE * SE * RQ + RQ + RQ * periodic * RQ + RQ             |                       1 |         5.02703 |
+| RQ + RQ + RQ + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         4.69174 |
+| RQ + RQ + RQ * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         1.33065 |
+| RQ + RQ * RQ * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         1.66636 |
+| RQ * RQ + RQ * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         1.67047 |
+| RQ * RQ * RQ * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.98852 |
+| RQ + RQ + SE + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         5.59368 |
+| RQ + RQ + SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         1.32737 |
+| RQ + RQ * SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.26303 |
+| RQ * RQ + SE + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         4.00495 |
+| RQ * RQ + SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         1.63143 |
+| RQ * RQ * SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         3.07155 |
+| RQ + SE + SE + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         6.13447 |
+| RQ + SE + SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.32217 |
+| RQ + SE * SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         3.2664  |
+| RQ * SE + SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.69719 |
+| RQ * SE * SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         4.18817 |
+| SE + SE + SE + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         6.06169 |
+| SE + SE + SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.84857 |
+| SE + SE * SE + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         4.02833 |
+| SE + SE * SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.27057 |
+| SE * SE + SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.41565 |
+| SE * SE * SE + RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         2.49574 |
+| SE * SE * SE * RQ + RQ + RQ * periodic * RQ + RQ                   |                       1 |         3.82896 |
+

@@ -1,0 +1,42 @@
+# experiment_name: bach_multi_dim_exp using david's methods with 5 kernels
+1:
+    combination_list: [1,1,1,1,1]
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt: False
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/bach_multiple
+    heuristic: True
+    num_epochs: 1
+    lr: 0.1
+    stopping : False
+
+
+2:
+    combination_list: [3,2]
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt: False
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/bach_multiple
+    heuristic: True
+    num_epochs: 1
+    lr: 0.1
+    stopping : False
+
+
+3:
+    combination_list: [1,1,1,1,1,1,1]
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt: False
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/bach_multiple
+    heuristic: True
+    num_epochs: 1
+    lr: 0.1
+    stopping : False
+
+4:
+    combination_list: [4,3]
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt: False
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/bach_multiple
+    heuristic: True
+    num_epochs: 1
+    lr: 0.1
+    stopping : False

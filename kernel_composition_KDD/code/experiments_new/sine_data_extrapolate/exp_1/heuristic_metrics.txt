@@ -1,0 +1,43 @@
+Metric        Value
+--------  ---------
+NLPD      -0.789336
+RMSE       0.083252
+Cosine.variance : 0.494303573589295
+Cosine.lengthscale : 1.0023148863382558
+Gaussian_noise.variance : 0.002772565216477497
+Metric         Value
+--------  ----------
+NLPD      -0.927097
+RMSE       0.0773867
+sum.Cosine.variance : 0.4949910342410613
+sum.Cosine.lengthscale : 1.0011955329514446
+sum.Cosine_1.variance : 0.00018251047414152982
+sum.Cosine_1.lengthscale : 0.09793812231395271
+Gaussian_noise.variance : 0.002591712694637657
+Metric         Value
+--------  ----------
+NLPD      -0.926945
+RMSE       0.0773913
+sum.RatQuad.variance : 1.2951807857652906e-10
+sum.RatQuad.lengthscale : 909.1695053926935
+sum.RatQuad.power : 157098.32111264294
+sum.Cosine.variance : 0.49490811536719287
+sum.Cosine.lengthscale : 1.0011960582407489
+sum.Cosine_1.variance : 0.00018253259790692808
+sum.Cosine_1.lengthscale : 0.09793842633868735
+Gaussian_noise.variance : 0.0025916357798611844
+Metric         Value
+--------  ----------
+NLPD      -0.928166
+RMSE       0.0773281
+sum.rbf.variance : 2.1001054483268995e-06
+sum.rbf.lengthscale : 45.82305907085431
+sum.RatQuad.variance : 1.2951777199914432e-10
+sum.RatQuad.lengthscale : 909.1695053936093
+sum.RatQuad.power : 157098.32111264294
+sum.Cosine.variance : 0.4887028974543878
+sum.Cosine.lengthscale : 1.0011736028312406
+sum.Cosine_1.variance : 0.00018506314756478283
+sum.Cosine_1.lengthscale : 0.0979669335241821
+Gaussian_noise.variance : 0.002587212854740684
+Time taken for experiment 1 : 130.1088616847992

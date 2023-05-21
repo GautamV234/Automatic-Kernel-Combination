@@ -1,0 +1,147 @@
+# with using the ckpt David's experiment using 5 kernels num epochs:500
+1:
+    combination_list: [1,1,1,1,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the ckpt using heuristic approach using 5 kernels num epochs:500
+2:
+    combination_list: [2,2,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the ckpt using heuristic approach using 5 kernels num epochs:500
+3:
+    combination_list: [3,2]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+
+# with using the ckpt David's experiment using 7 kernels num epochs:500
+4:
+    combination_list: [1,1,1,1,1,1,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the heuristic approach using 7 kernels num epochs:500
+5:
+    combination_list: [2,2,2,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the heuristic approach using 7 kernels num epochs:500
+6:
+    combination_list: [3,2,2]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the heuristic approach using 7 kernels num epochs:500
+7:
+    combination_list: [4,3]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+
+# with using the heuristic approach using 9 kernels num epochs:500
+8:
+    combination_list: [2,2,2,2,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the heuristic approach using 9 kernels num epochs:500
+9:
+    combination_list: [3,3,3]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+
+# with using the heuristic approach using 9 kernels num epochs:500
+500:
+    combination_list: [4,4,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the heuristic approach using 9 kernels num epochs:500
+11:
+    combination_list: [5,4]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+# with using the heuristic approach using 9 kernels num epochs:500
+12:
+    combination_list: [6,3]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False
+
+
+# with using the heuristic approach using 9 kernels num epochs:500
+13:
+    combination_list: [7,2]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 500
+    lr: 0.1
+    stopping : False

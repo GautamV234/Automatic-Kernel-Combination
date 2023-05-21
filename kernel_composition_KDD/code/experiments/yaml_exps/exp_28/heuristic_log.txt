@@ -1,0 +1,298 @@
+| Kernel Combination                        |   Initialization Number |   Training Loss |
+|-------------------------------------------|-------------------------|-----------------|
+| periodic + periodic + periodic + periodic |                       1 |       -0.595975 |
+| periodic + periodic + periodic * periodic |                       1 |       -0.595891 |
+| periodic + periodic * periodic * periodic |                       1 |       -0.59582  |
+| periodic * periodic + periodic * periodic |                       1 |       -0.598108 |
+| periodic * periodic * periodic * periodic |                       1 |       -0.595807 |
+| periodic + periodic + periodic + RQ       |                       1 |       -0.593818 |
+| periodic + periodic + periodic * RQ       |                       1 |       -0.60697  |
+| periodic + periodic * periodic + RQ       |                       1 |       -0.595566 |
+| periodic + periodic * periodic * RQ       |                       1 |       -0.606972 |
+| periodic * periodic + periodic * RQ       |                       1 |       -0.606977 |
+| periodic * periodic * periodic + RQ       |                       1 |       -0.598334 |
+| periodic * periodic * periodic * RQ       |                       1 |       -0.607021 |
+| periodic + periodic + periodic + SE       |                       1 |       -0.607069 |
+| periodic + periodic + periodic * SE       |                       1 |       -0.595914 |
+| periodic + periodic * periodic + SE       |                       1 |       -0.592026 |
+| periodic + periodic * periodic * SE       |                       1 |       -0.595796 |
+| periodic * periodic + periodic * SE       |                       1 |       -0.601278 |
+| periodic * periodic * periodic + SE       |                       1 |       -0.589712 |
+| periodic * periodic * periodic * SE       |                       1 |       -0.595807 |
+| periodic + periodic + periodic + Matern   |                       1 |       -0.59043  |
+| periodic + periodic + periodic * Matern   |                       1 |       -0.602892 |
+| periodic + periodic * periodic + Matern   |                       1 |       -0.596907 |
+| periodic + periodic * periodic * Matern   |                       1 |       -0.603223 |
+| periodic * periodic + periodic * Matern   |                       1 |       -0.603205 |
+| periodic * periodic * periodic + Matern   |                       1 |       -0.594679 |
+| periodic * periodic * periodic * Matern   |                       1 |       -0.603257 |
+| periodic + periodic + RQ + RQ             |                       1 |       -0.598117 |
+| periodic + periodic + RQ * RQ             |                       1 |       -0.607143 |
+| periodic + periodic * RQ + RQ             |                       1 |       -0.606964 |
+| periodic + periodic * RQ * RQ             |                       1 |       -0.606965 |
+| periodic * periodic + RQ + RQ             |                       1 |       -0.600822 |
+| periodic * periodic + RQ * RQ             |                       1 |       -0.607199 |
+| periodic * periodic * RQ + RQ             |                       1 |       -0.606981 |
+| periodic * periodic * RQ * RQ             |                       1 |       -0.606971 |
+| periodic + periodic + RQ + SE             |                       1 |       -0.593903 |
+| periodic + periodic + RQ * SE             |                       1 |       -0.595658 |
+| periodic + periodic * RQ + SE             |                       1 |       -0.600922 |
+| periodic + periodic * RQ * SE             |                       1 |       -0.606951 |
+| periodic * periodic + RQ + SE             |                       1 |       -0.595626 |
+| periodic * periodic + RQ * SE             |                       1 |       -0.598412 |
+| periodic * periodic * RQ + SE             |                       1 |       -0.598386 |
+| periodic * periodic * RQ * SE             |                       1 |       -0.607005 |
+| periodic + periodic + RQ + Matern         |                       1 |       -0.593827 |
+| periodic + periodic + RQ * Matern         |                       1 |       -0.595567 |
+| periodic + periodic * RQ + Matern         |                       1 |       -0.600691 |
+| periodic + periodic * RQ * Matern         |                       1 |       -0.606975 |
+| periodic * periodic + RQ + Matern         |                       1 |       -0.595548 |
+| periodic * periodic + RQ * Matern         |                       1 |       -0.598369 |
+| periodic * periodic * RQ + Matern         |                       1 |       -0.598122 |
+| periodic * periodic * RQ * Matern         |                       1 |       -0.607014 |
+| periodic + periodic + SE + SE             |                       1 |       -0.611606 |
+| periodic + periodic + SE * SE             |                       1 |       -0.609341 |
+| periodic + periodic * SE + SE             |                       1 |       -0.592075 |
+| periodic + periodic * SE * SE             |                       1 |       -0.595858 |
+| periodic * periodic + SE + SE             |                       1 |       -0.587207 |
+| periodic * periodic + SE * SE             |                       1 |       -0.589727 |
+| periodic * periodic * SE + SE             |                       1 |       -0.589731 |
+| periodic * periodic * SE * SE             |                       1 |       -0.595798 |
+| periodic + periodic + SE + Matern         |                       1 |       -0.620238 |
+| periodic + periodic + SE * Matern         |                       1 |       -0.608403 |
+| periodic + periodic * SE + Matern         |                       1 |       -0.608218 |
+| periodic + periodic * SE * Matern         |                       1 |       -0.602756 |
+| periodic * periodic + SE + Matern         |                       1 |       -0.59608  |
+| periodic * periodic + SE * Matern         |                       1 |       -0.603167 |
+| periodic * periodic * SE + Matern         |                       1 |       -0.594737 |
+| periodic * periodic * SE * Matern         |                       1 |       -0.603194 |
+| periodic + periodic + Matern + Matern     |                       1 |       -0.62009  |
+| periodic + periodic + Matern * Matern     |                       1 |       -0.608628 |
+| periodic + periodic * Matern + Matern     |                       1 |       -0.60835  |
+| periodic + periodic * Matern * Matern     |                       1 |       -0.602847 |
+| periodic * periodic + Matern + Matern     |                       1 |       -0.604734 |
+| periodic * periodic + Matern * Matern     |                       1 |       -0.604773 |
+| periodic * periodic * Matern + Matern     |                       1 |       -0.603231 |
+| periodic * periodic * Matern * Matern     |                       1 |       -0.603403 |
+| periodic + RQ + RQ + RQ                   |                       1 |       -0.602105 |
+| periodic + RQ + RQ * RQ                   |                       1 |       -0.60729  |
+| periodic + RQ * RQ * RQ                   |                       1 |       -0.607004 |
+| periodic * RQ + RQ + RQ                   |                       1 |       -0.606978 |
+| periodic * RQ + RQ * RQ                   |                       1 |       -0.606998 |
+| periodic * RQ * RQ + RQ                   |                       1 |       -0.607195 |
+| periodic * RQ * RQ * RQ                   |                       1 |       -0.606973 |
+| periodic + RQ + RQ + SE                   |                       1 |       -0.598247 |
+| periodic + RQ + RQ * SE                   |                       1 |       -0.60093  |
+| periodic + RQ * RQ + SE                   |                       1 |       -0.60115  |
+| periodic + RQ * RQ * SE                   |                       1 |       -0.607228 |
+| periodic * RQ + RQ + SE                   |                       1 |       -0.600927 |
+| periodic * RQ + RQ * SE                   |                       1 |       -0.606982 |
+| periodic * RQ * RQ + SE                   |                       1 |       -0.598388 |
+| periodic * RQ * RQ * SE                   |                       1 |       -0.607008 |
+| periodic + RQ + RQ + Matern               |                       1 |       -0.598102 |
+| periodic + RQ + RQ * Matern               |                       1 |       -0.600866 |
+| periodic + RQ * RQ + Matern               |                       1 |       -0.600985 |
+| periodic + RQ * RQ * Matern               |                       1 |       -0.607168 |
+| periodic * RQ + RQ + Matern               |                       1 |       -0.608751 |
+| periodic * RQ + RQ * Matern               |                       1 |       -0.60696  |
+| periodic * RQ * RQ + Matern               |                       1 |       -0.598148 |
+| periodic * RQ * RQ * Matern               |                       1 |       -0.60699  |
+| periodic + RQ + SE + SE                   |                       1 |       -0.593943 |
+| periodic + RQ + SE * SE                   |                       1 |       -0.595616 |
+| periodic + RQ * SE + SE                   |                       1 |       -0.595647 |
+| periodic + RQ * SE * SE                   |                       1 |       -0.598387 |
+| periodic * RQ + SE + SE                   |                       1 |       -0.595629 |
+| periodic * RQ + SE * SE                   |                       1 |       -0.598389 |
+| periodic * RQ * SE + SE                   |                       1 |       -0.598385 |
+| periodic * RQ * SE * SE                   |                       1 |       -0.607007 |
+| periodic + RQ + SE + Matern               |                       1 |       -0.593899 |
+| periodic + RQ + SE * Matern               |                       1 |       -0.595616 |
+| periodic + RQ * SE + Matern               |                       1 |       -0.595562 |
+| periodic + RQ * SE * Matern               |                       1 |       -0.598382 |
+| periodic * RQ + SE + Matern               |                       1 |       -0.595533 |
+| periodic * RQ + SE * Matern               |                       1 |       -0.59839  |
+| periodic * RQ * SE + Matern               |                       1 |       -0.598131 |
+| periodic * RQ * SE * Matern               |                       1 |       -0.607006 |
+| periodic + RQ + Matern + Matern           |                       1 |       -0.59383  |
+| periodic + RQ + Matern * Matern           |                       1 |       -0.595539 |
+| periodic + RQ * Matern + Matern           |                       1 |       -0.595507 |
+| periodic + RQ * Matern * Matern           |                       1 |       -0.598331 |
+| periodic * RQ + Matern + Matern           |                       1 |       -0.595463 |
+| periodic * RQ + Matern * Matern           |                       1 |       -0.598216 |
+| periodic * RQ * Matern + Matern           |                       1 |       -0.598156 |
+| periodic * RQ * Matern * Matern           |                       1 |       -0.606994 |
+| periodic + SE + SE + SE                   |                       1 |       -0.604828 |
+| periodic + SE + SE * SE                   |                       1 |       -0.60893  |
+| periodic + SE * SE * SE                   |                       1 |       -0.611606 |
+| periodic * SE + SE + SE                   |                       1 |       -0.587208 |
+| periodic * SE + SE * SE                   |                       1 |       -0.589766 |
+| periodic * SE * SE + SE                   |                       1 |       -0.589752 |
+| periodic * SE * SE * SE                   |                       1 |       -0.595809 |
+| periodic + SE + SE + Matern               |                       1 |       -0.622346 |
+| periodic + SE + SE * Matern               |                       1 |       -0.609481 |
+| periodic + SE * SE + Matern               |                       1 |       -0.587179 |
+| periodic + SE * SE * Matern               |                       1 |       -0.58985  |
+| periodic * SE + SE + Matern               |                       1 |       -0.587117 |
+| periodic * SE + SE * Matern               |                       1 |       -0.589815 |
+| periodic * SE * SE + Matern               |                       1 |       -0.610732 |
+| periodic * SE * SE * Matern               |                       1 |       -0.602764 |
+| periodic + SE + Matern + Matern           |                       1 |       -0.621062 |
+| periodic + SE + Matern * Matern           |                       1 |       -0.60961  |
+| periodic + SE * Matern + Matern           |                       1 |       -0.609488 |
+| periodic + SE * Matern * Matern           |                       1 |       -0.610914 |
+| periodic * SE + Matern + Matern           |                       1 |       -0.58693  |
+| periodic * SE + Matern * Matern           |                       1 |       -0.589544 |
+| periodic * SE * Matern + Matern           |                       1 |       -0.589422 |
+| periodic * SE * Matern * Matern           |                       1 |       -0.595844 |
+| periodic + Matern + Matern + Matern       |                       1 |       -0.608316 |
+| periodic + Matern + Matern * Matern       |                       1 |       -0.609546 |
+| periodic + Matern * Matern * Matern       |                       1 |       -0.611123 |
+| periodic * Matern + Matern + Matern       |                       1 |       -0.586907 |
+| periodic * Matern + Matern * Matern       |                       1 |       -0.589501 |
+| periodic * Matern * Matern + Matern       |                       1 |       -0.589427 |
+| periodic * Matern * Matern * Matern       |                       1 |       -0.595779 |
+| RQ + RQ + RQ + RQ                         |                       1 |       -0.606978 |
+| RQ + RQ + RQ * RQ                         |                       1 |       -0.606951 |
+| RQ + RQ * RQ * RQ                         |                       1 |       -0.606995 |
+| RQ * RQ + RQ * RQ                         |                       1 |       -0.607006 |
+| RQ * RQ * RQ * RQ                         |                       1 |       -0.606956 |
+| RQ + RQ + RQ + SE                         |                       1 |       -0.602244 |
+| RQ + RQ + RQ * SE                         |                       1 |       -0.607001 |
+| RQ + RQ * RQ + SE                         |                       1 |       -0.60091  |
+| RQ + RQ * RQ * SE                         |                       1 |       -0.606967 |
+| RQ * RQ + RQ * SE                         |                       1 |       -0.607221 |
+| RQ * RQ * RQ + SE                         |                       1 |       -0.598387 |
+| RQ * RQ * RQ * SE                         |                       1 |       -0.607029 |
+| RQ + RQ + RQ + Matern                     |                       1 |       -0.608132 |
+| RQ + RQ + RQ * Matern                     |                       1 |       -0.606951 |
+| RQ + RQ * RQ + Matern                     |                       1 |       -0.600714 |
+| RQ + RQ * RQ * Matern                     |                       1 |       -0.606966 |
+| RQ * RQ + RQ * Matern                     |                       1 |       -0.607186 |
+| RQ * RQ * RQ + Matern                     |                       1 |       -0.598181 |
+| RQ * RQ * RQ * Matern                     |                       1 |       -0.607008 |
+| RQ + RQ + SE + SE                         |                       1 |       -0.598379 |
+| RQ + RQ + SE * SE                         |                       1 |       -0.600916 |
+| RQ + RQ * SE + SE                         |                       1 |       -0.600942 |
+| RQ + RQ * SE * SE                         |                       1 |       -0.606956 |
+| RQ * RQ + SE + SE                         |                       1 |       -0.595661 |
+| RQ * RQ + SE * SE                         |                       1 |       -0.598389 |
+| RQ * RQ * SE + SE                         |                       1 |       -0.598402 |
+| RQ * RQ * SE * SE                         |                       1 |       -0.606984 |
+| RQ + RQ + SE + Matern                     |                       1 |       -0.598271 |
+| RQ + RQ + SE * Matern                     |                       1 |       -0.600946 |
+| RQ + RQ * SE + Matern                     |                       1 |       -0.600711 |
+| RQ + RQ * SE * Matern                     |                       1 |       -0.606975 |
+| RQ * RQ + SE + Matern                     |                       1 |       -0.59561  |
+| RQ * RQ + SE * Matern                     |                       1 |       -0.598398 |
+| RQ * RQ * SE + Matern                     |                       1 |       -0.59817  |
+| RQ * RQ * SE * Matern                     |                       1 |       -0.607014 |
+| RQ + RQ + Matern + Matern                 |                       1 |       -0.598133 |
+| RQ + RQ + Matern * Matern                 |                       1 |       -0.600728 |
+| RQ + RQ * Matern + Matern                 |                       1 |       -0.600703 |
+| RQ + RQ * Matern * Matern                 |                       1 |       -0.606978 |
+| RQ * RQ + Matern + Matern                 |                       1 |       -0.595457 |
+| RQ * RQ + Matern * Matern                 |                       1 |       -0.598209 |
+| RQ * RQ * Matern + Matern                 |                       1 |       -0.59815  |
+| RQ * RQ * Matern * Matern                 |                       1 |       -0.606986 |
+| RQ + SE + SE + SE                         |                       1 |       -0.594009 |
+| RQ + SE + SE * SE                         |                       1 |       -0.595649 |
+| RQ + SE * SE * SE                         |                       1 |       -0.598376 |
+| RQ * SE + SE + SE                         |                       1 |       -0.595656 |
+| RQ * SE + SE * SE                         |                       1 |       -0.598389 |
+| RQ * SE * SE + SE                         |                       1 |       -0.598383 |
+| RQ * SE * SE * SE                         |                       1 |       -0.607029 |
+| RQ + SE + SE + Matern                     |                       1 |       -0.59396  |
+| RQ + SE + SE * Matern                     |                       1 |       -0.595634 |
+| RQ + SE * SE + Matern                     |                       1 |       -0.595572 |
+| RQ + SE * SE * Matern                     |                       1 |       -0.598395 |
+| RQ * SE + SE + Matern                     |                       1 |       -0.595564 |
+| RQ * SE + SE * Matern                     |                       1 |       -0.598385 |
+| RQ * SE * SE + Matern                     |                       1 |       -0.598129 |
+| RQ * SE * SE * Matern                     |                       1 |       -0.606999 |
+| RQ + SE + Matern + Matern                 |                       1 |       -0.593935 |
+| RQ + SE + Matern * Matern                 |                       1 |       -0.595588 |
+| RQ + SE * Matern + Matern                 |                       1 |       -0.595519 |
+| RQ + SE * Matern * Matern                 |                       1 |       -0.598361 |
+| RQ * SE + Matern + Matern                 |                       1 |       -0.595438 |
+| RQ * SE + Matern * Matern                 |                       1 |       -0.598228 |
+| RQ * SE * Matern + Matern                 |                       1 |       -0.598132 |
+| RQ * SE * Matern * Matern                 |                       1 |       -0.607008 |
+| RQ + Matern + Matern + Matern             |                       1 |       -0.593839 |
+| RQ + Matern + Matern * Matern             |                       1 |       -0.595531 |
+| RQ + Matern * Matern * Matern             |                       1 |       -0.598258 |
+| RQ * Matern + Matern + Matern             |                       1 |       -0.595454 |
+| RQ * Matern + Matern * Matern             |                       1 |       -0.598226 |
+| RQ * Matern * Matern + Matern             |                       1 |       -0.59813  |
+| RQ * Matern * Matern * Matern             |                       1 |       -0.606986 |
+| SE + SE + SE + SE                         |                       1 |       -0.595739 |
+| SE + SE + SE * SE                         |                       1 |       -0.595755 |
+| SE + SE * SE * SE                         |                       1 |       -0.59574  |
+| SE * SE + SE * SE                         |                       1 |       -0.59802  |
+| SE * SE * SE * SE                         |                       1 |       -0.595687 |
+| SE + SE + SE + Matern                     |                       1 |       -0.590406 |
+| SE + SE + SE * Matern                     |                       1 |       -0.6032   |
+| SE + SE * SE + Matern                     |                       1 |       -0.592048 |
+| SE + SE * SE * Matern                     |                       1 |       -0.603204 |
+| SE * SE + SE * Matern                     |                       1 |       -0.603203 |
+| SE * SE * SE + Matern                     |                       1 |       -0.594755 |
+| SE * SE * SE * Matern                     |                       1 |       -0.603242 |
+| SE + SE + Matern + Matern                 |                       1 |       -0.594758 |
+| SE + SE + Matern * Matern                 |                       1 |       -0.604512 |
+| SE + SE * Matern + Matern                 |                       1 |       -0.603203 |
+| SE + SE * Matern * Matern                 |                       1 |       -0.603451 |
+| SE * SE + Matern + Matern                 |                       1 |       -0.5973   |
+| SE * SE + Matern * Matern                 |                       1 |       -0.604815 |
+| SE * SE * Matern + Matern                 |                       1 |       -0.603202 |
+| SE * SE * Matern * Matern                 |                       1 |       -0.603374 |
+| SE + Matern + Matern + Matern             |                       1 |       -0.598595 |
+| SE + Matern + Matern * Matern             |                       1 |       -0.604747 |
+| SE + Matern * Matern * Matern             |                       1 |       -0.603866 |
+| SE * Matern + Matern + Matern             |                       1 |       -0.603183 |
+| SE * Matern + Matern * Matern             |                       1 |       -0.603431 |
+| SE * Matern * Matern + Matern             |                       1 |       -0.604804 |
+| SE * Matern * Matern * Matern             |                       1 |       -0.602932 |
+| Matern + Matern + Matern + Matern         |                       1 |       -0.603219 |
+| Matern + Matern + Matern * Matern         |                       1 |       -0.603428 |
+| Matern + Matern * Matern * Matern         |                       1 |       -0.60291  |
+| Matern * Matern + Matern * Matern         |                       1 |       -0.603841 |
+| Matern * Matern * Matern * Matern         |                       1 |       -0.602378 |
+
+| Kernel Combination                                |   Initialization Number |   Training Loss |
+|---------------------------------------------------|-------------------------|-----------------|
+| periodic + periodic + periodic + SE + SE + Matern |                       1 |       -0.600566 |
+| periodic + periodic * periodic + SE + SE + Matern |                       1 |       -0.600757 |
+| periodic * periodic * periodic + SE + SE + Matern |                       1 |       -0.597736 |
+| periodic + RQ + periodic + SE + SE + Matern       |                       1 |       -0.600506 |
+| periodic + RQ * periodic + SE + SE + Matern       |                       1 |       -0.595079 |
+| periodic * RQ * periodic + SE + SE + Matern       |                       1 |       -0.600744 |
+| periodic + SE + periodic + SE + SE + Matern       |                       1 |       -0.587112 |
+| periodic + SE * periodic + SE + SE + Matern       |                       1 |       -0.595031 |
+| periodic * SE * periodic + SE + SE + Matern       |                       1 |       -0.600668 |
+| periodic + Matern + periodic + SE + SE + Matern   |                       1 |       -0.587063 |
+| periodic + Matern * periodic + SE + SE + Matern   |                       1 |       -0.59496  |
+| periodic * Matern * periodic + SE + SE + Matern   |                       1 |       -0.600722 |
+| RQ + RQ + periodic + SE + SE + Matern             |                       1 |       -0.60078  |
+| RQ + RQ * periodic + SE + SE + Matern             |                       1 |       -0.608451 |
+| RQ * RQ + periodic + SE + SE + Matern             |                       1 |       -0.600483 |
+| RQ * RQ * periodic + SE + SE + Matern             |                       1 |       -0.608438 |
+| RQ + SE + periodic + SE + SE + Matern             |                       1 |       -0.599136 |
+| RQ + SE * periodic + SE + SE + Matern             |                       1 |       -0.603276 |
+| RQ * SE + periodic + SE + SE + Matern             |                       1 |       -0.600645 |
+| RQ * SE * periodic + SE + SE + Matern             |                       1 |       -0.585516 |
+| RQ + Matern + periodic + SE + SE + Matern         |                       1 |       -0.599085 |
+| RQ + Matern * periodic + SE + SE + Matern         |                       1 |       -0.603226 |
+| RQ * Matern + periodic + SE + SE + Matern         |                       1 |       -0.60065  |
+| RQ * Matern * periodic + SE + SE + Matern         |                       1 |       -0.58555  |
+| SE + SE + periodic + SE + SE + Matern             |                       1 |       -0.583477 |
+| SE + SE * periodic + SE + SE + Matern             |                       1 |       -0.585585 |
+| SE * SE + periodic + SE + SE + Matern             |                       1 |       -0.584338 |
+| SE * SE * periodic + SE + SE + Matern             |                       1 |       -0.585587 |
+| SE + Matern + periodic + SE + SE + Matern         |                       1 |       -0.583431 |
+| SE + Matern * periodic + SE + SE + Matern         |                       1 |       -0.585582 |
+| SE * Matern + periodic + SE + SE + Matern         |                       1 |       -0.584368 |
+| SE * Matern * periodic + SE + SE + Matern         |                       1 |       -0.585605 |
+| Matern + Matern + periodic + SE + SE + Matern     |                       1 |       -0.583377 |
+| Matern + Matern * periodic + SE + SE + Matern     |                       1 |       -0.585504 |
+| Matern * Matern + periodic + SE + SE + Matern     |                       1 |       -0.584347 |
+| Matern * Matern * periodic + SE + SE + Matern     |                       1 |       -0.585495 |
+

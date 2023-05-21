@@ -1,0 +1,63 @@
+| Kernel Combination   |   Initialization Number | Epoch Number   |   Training Loss |
+|----------------------|-------------------------|----------------|-----------------|
+| Periodic_0           |                       5 |                |       305.476   |
+| RBF_0                |                       5 |                |       -82.1533  |
+| Matern32_0           |                       5 |                |      -195.471   |
+| Matern52_0           |                       5 |                |      -160.176   |
+| Cosine_0             |                       5 |                |        -6.30322 |
+| RQ_0                 |                       5 |                |      -143.414   |
+| Linear_0             |                       5 |                |        40.3154  |
+
+| Kernel Combination      |   Initialization Number | Epoch Number   |   Training Loss |
+|-------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Matern32_0 |                       5 |                |       -196.983  |
+| Periodic_0 * Matern32_0 |                       5 |                |       -126.173  |
+| RBF_0 + Matern32_0      |                       5 |                |       -204.351  |
+| RBF_0 * Matern32_0      |                       5 |                |       -195.471  |
+| Matern32_0 + Matern32_0 |                       5 |                |       -203.519  |
+| Matern32_0 * Matern32_0 |                       5 |                |       -195.471  |
+| Matern52_0 + Matern32_0 |                       5 |                |       -203.736  |
+| Matern52_0 * Matern32_0 |                       5 |                |       -195.471  |
+| Cosine_0 + Matern32_0   |                       5 |                |       -206.593  |
+| Cosine_0 * Matern32_0   |                       5 |                |       -195.471  |
+| RQ_0 + Matern32_0       |                       5 |                |       -204.336  |
+| RQ_0 * Matern32_0       |                       5 |                |       -195.471  |
+| Linear_0 + Matern32_0   |                       5 |                |       -209.945  |
+| Linear_0 * Matern32_0   |                       5 |                |        -70.5667 |
+| Matern32_0 + Matern32_0 |                       5 |                |       -203.516  |
+| Matern32_0 * Matern32_0 |                       5 |                |       -195.471  |
+
+| Kernel Combination                 |   Initialization Number | Epoch Number   |   Training Loss |
+|------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Linear_0 + Matern32_0 |                       5 |                |       -210.298  |
+| Periodic_0 * Linear_0 + Matern32_0 |                       5 |                |       -168.882  |
+| RBF_0 + Linear_0 + Matern32_0      |                       5 |                |       -211.013  |
+| RBF_0 * Linear_0 + Matern32_0      |                       5 |                |       -209.945  |
+| Matern32_0 + Linear_0 + Matern32_0 |                       5 |                |       -210.722  |
+| Matern32_0 * Linear_0 + Matern32_0 |                       5 |                |       -208.205  |
+| Matern52_0 + Linear_0 + Matern32_0 |                       5 |                |       -210.803  |
+| Matern52_0 * Linear_0 + Matern32_0 |                       5 |                |       -207.414  |
+| Cosine_0 + Linear_0 + Matern32_0   |                       5 |                |       -211.779  |
+| Cosine_0 * Linear_0 + Matern32_0   |                       5 |                |       -209.945  |
+| RQ_0 + Linear_0 + Matern32_0       |                       5 |                |       -211.013  |
+| RQ_0 * Linear_0 + Matern32_0       |                       5 |                |       -209.945  |
+| Linear_0 + Linear_0 + Matern32_0   |                       5 |                |       -209.945  |
+| Linear_0 * Linear_0 + Matern32_0   |                       5 |                |        -70.5667 |
+
+| Kernel Combination                            |   Initialization Number | Epoch Number   |   Training Loss |
+|-----------------------------------------------|-------------------------|----------------|-----------------|
+| Periodic_0 + Cosine_0 + Linear_0 + Matern32_0 |                       5 |                |       -213.825  |
+| Periodic_0 * Cosine_0 + Linear_0 + Matern32_0 |                       5 |                |       -163.84   |
+| RBF_0 + Cosine_0 + Linear_0 + Matern32_0      |                       5 |                |       -212.975  |
+| RBF_0 * Cosine_0 + Linear_0 + Matern32_0      |                       5 |                |       -207.744  |
+| Matern32_0 + Cosine_0 + Linear_0 + Matern32_0 |                       5 |                |       -212.944  |
+| Matern32_0 * Cosine_0 + Linear_0 + Matern32_0 |                       5 |                |       -211.713  |
+| Matern52_0 + Cosine_0 + Linear_0 + Matern32_0 |                       5 |                |       -212.956  |
+| Matern52_0 * Cosine_0 + Linear_0 + Matern32_0 |                       5 |                |       -211.779  |
+| Cosine_0 + Cosine_0 + Linear_0 + Matern32_0   |                       5 |                |       -213.089  |
+| Cosine_0 * Cosine_0 + Linear_0 + Matern32_0   |                       5 |                |       -209.945  |
+| RQ_0 + Cosine_0 + Linear_0 + Matern32_0       |                       5 |                |       -212.924  |
+| RQ_0 * Cosine_0 + Linear_0 + Matern32_0       |                       5 |                |       -211.782  |
+| Linear_0 + Cosine_0 + Linear_0 + Matern32_0   |                       5 |                |       -211.779  |
+| Linear_0 * Cosine_0 + Linear_0 + Matern32_0   |                       5 |                |        -73.1804 |
+

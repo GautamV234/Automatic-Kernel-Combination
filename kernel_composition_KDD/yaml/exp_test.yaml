@@ -1,0 +1,26 @@
+# without using the ckpt David's experiment using 5 kernels num epochs:500
+1:
+    combination_list: [1,1,1,1,1]
+    ckpt: False
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+    heuristic: True
+    num_epochs: 5
+    lr: 0.1
+
+# # without using the ckpt David's experiment using 5 kernels num epochs:500
+2:
+    combination_list: [1,1,1,1,1]
+    ckpt: True
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+    heuristic: True
+    num_epochs: 5
+    lr: 0.1
+
+# with using the ckpt David's experiment using 5 kernels num epochs:1000
+3: 
+  combination_list: [1,1,1,1,1]
+  ckpt: True
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/yaml_exps
+  heuristic: True
+  num_epochs: 5
+  lr: 0.1

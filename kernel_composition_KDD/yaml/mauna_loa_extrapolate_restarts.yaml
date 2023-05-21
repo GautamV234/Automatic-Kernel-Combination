@@ -1,0 +1,34 @@
+# with using the ckpt David's experiment using 7 kernels num epochs:500
+1:
+    combination_list: [1,1,1,1,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 1000
+    lr: 0.01
+    stopping : False
+
+# with using the heuristic approach using 7 kernels num epochs:500
+2:
+    combination_list: [2,2,1]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 1000
+    lr: 0.01
+    stopping : False
+
+# with using the heuristic approach using 7 kernels num epochs:500
+3:
+    combination_list: [3,2]
+    ckpt: False
+    kernels : [Periodic,RBF,Matern32,Matern52,Cosine,RQ]
+    ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/moana_loa_expl
+    heuristic: True
+    num_epochs: 1000
+    lr: 0.01
+    stopping : False
+
+

@@ -1,0 +1,170 @@
+'1':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 500
+  lr: 0.1
+'2':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 1000
+  lr: 0.1
+'3':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 500
+  lr: 0.1
+'4':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 1000
+  lr: 0.1
+'5':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 500
+  lr: 0.1
+'6':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 1000
+  lr: 0.1
+'7':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 500
+  lr: 0.1
+'8':
+  combination_list:
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+    - 1
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  heuristic: true
+  num_epochs: 1000
+  lr: 0.1
+'9':
+  heuristic: false
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1
+'10':
+  combination_list:
+    - 4
+    - 3
+  heuristic: true
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1
+'11':
+  combination_list:
+    - 3
+    - 3
+    - 1
+  heuristic: true
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1
+'12':
+  combination_list:
+    - 2
+    - 2
+    - 2
+    - 1
+  heuristic: true
+  ckpt: false
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1
+'13':
+  combination_list:
+    - 4
+    - 3
+  heuristic: true
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1
+'14':
+  combination_list:
+    - 3
+    - 3
+    - 1
+  heuristic: true
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1
+'15':
+  combination_list:
+    - 2
+    - 2
+    - 2
+    - 1
+  heuristic: true
+  ckpt: true
+  ckpt_path: /home/gautam.pv/nlim/kernel_composition_KDD/ckpt/experiment2
+  num_epochs: 500
+  lr: 0.1

@@ -1,0 +1,39 @@
+Metric       Value
+--------  --------
+NLPD      12.7458
+RMSE       1.41733
+Mat32.variance : 1.5429350596092128
+Mat32.lengthscale : 0.13476168290347856
+Gaussian_noise.variance : 0.00028031521556934656
+Metric      Value
+--------  -------
+NLPD      3.58029
+RMSE      1.35441
+mul.linear.variances : 0.019643750558924665
+mul.Mat32.variance : 3.173676234935168
+mul.Mat32.lengthscale : 0.11280923241463989
+Gaussian_noise.variance : 0.008678760763513323
+Metric       Value
+--------  --------
+NLPD      10.3043
+RMSE       1.44619
+sum.rbf.variance : 0.06266570023662793
+sum.rbf.lengthscale : 0.024346093425120018
+sum.mul.linear.variances : 1.423039377521905
+sum.mul.Mat32.variance : 0.03311768449660161
+sum.mul.Mat32.lengthscale : 0.15552919375388727
+Gaussian_noise.variance : 0.00047242370072664286
+Metric       Value
+--------  --------
+NLPD      17.5325
+RMSE       1.61311
+periodic_exponential.variance : 1.559303813613764
+periodic_exponential.lengthscale : 0.030894660849100326
+periodic_exponential.period : 0.6844525509495273
+rbf.variance : 0.0003193714200702098
+rbf.lengthscale : 3.790859264802945
+mul.linear.variances : 0.9091574002298521
+mul.Mat32.variance : 0.05807570059284073
+mul.Mat32.lengthscale : 0.16048853657624204
+Gaussian_noise.variance : 0.0004245732807532587
+Time taken for experiment 1 : 114.36460661888123

@@ -1,0 +1,9 @@
+Metric         Value
+--------  ----------
+NLPD      -2.02208
+RMSE       0.0280003
+Metric         Value
+--------  ----------
+NLPD      -2.19478
+RMSE       0.0187432
+Time taken for experiment 3 : 1627.888580083847

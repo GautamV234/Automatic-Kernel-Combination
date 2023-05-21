@@ -1,0 +1,1056 @@
+| Kernel Combination             |   Initialization Number |   Epoch Number |   Training Loss |
+|--------------------------------|-------------------------|----------------|-----------------|
+| periodic + periodic + periodic |                       1 |              0 |       261.262   |
+| periodic + periodic + periodic |                       1 |            100 |        36.376   |
+| periodic + periodic + periodic |                       1 |            200 |        26.5543  |
+| periodic + periodic + periodic |                       1 |            300 |        22.0213  |
+| periodic + periodic + periodic |                       1 |            400 |        19.2656  |
+| periodic + periodic + periodic |                       1 |            500 |        17.3773  |
+| periodic + periodic * periodic |                       1 |              0 |       262.65    |
+| periodic + periodic * periodic |                       1 |            100 |        40.4063  |
+| periodic + periodic * periodic |                       1 |            200 |        29.398   |
+| periodic + periodic * periodic |                       1 |            300 |        24.2999  |
+| periodic + periodic * periodic |                       1 |            400 |        21.1916  |
+| periodic + periodic * periodic |                       1 |            500 |        19.0541  |
+| periodic * periodic * periodic |                       1 |              0 |       358.771   |
+| periodic * periodic * periodic |                       1 |            100 |        55.3811  |
+| periodic * periodic * periodic |                       1 |            200 |        39.9276  |
+| periodic * periodic * periodic |                       1 |            300 |        32.7264  |
+| periodic * periodic * periodic |                       1 |            400 |        28.3154  |
+| periodic * periodic * periodic |                       1 |            500 |        25.2724  |
+| periodic + periodic + RQ       |                       1 |              0 |       114.674   |
+| periodic + periodic + RQ       |                       1 |            100 |        15.2761  |
+| periodic + periodic + RQ       |                       1 |            200 |        11.3173  |
+| periodic + periodic + RQ       |                       1 |            300 |         9.48574 |
+| periodic + periodic + RQ       |                       1 |            400 |         8.36691 |
+| periodic + periodic + RQ       |                       1 |            500 |         7.59447 |
+| periodic + periodic * RQ       |                       1 |              0 |       133.799   |
+| periodic + periodic * RQ       |                       1 |            100 |        18.7235  |
+| periodic + periodic * RQ       |                       1 |            200 |        13.236   |
+| periodic + periodic * RQ       |                       1 |            300 |        10.7074  |
+| periodic + periodic * RQ       |                       1 |            400 |         9.16641 |
+| periodic + periodic * RQ       |                       1 |            500 |         8.08928 |
+| periodic * periodic + RQ       |                       1 |              0 |       113.228   |
+| periodic * periodic + RQ       |                       1 |            100 |        18.6949  |
+| periodic * periodic + RQ       |                       1 |            200 |        13.8269  |
+| periodic * periodic + RQ       |                       1 |            300 |        11.5395  |
+| periodic * periodic + RQ       |                       1 |            400 |        10.1252  |
+| periodic * periodic + RQ       |                       1 |            500 |         9.14031 |
+| periodic * periodic * RQ       |                       1 |              0 |       231.595   |
+| periodic * periodic * RQ       |                       1 |            100 |        35.4613  |
+| periodic * periodic * RQ       |                       1 |            200 |        25.6564  |
+| periodic * periodic * RQ       |                       1 |            300 |        21.0438  |
+| periodic * periodic * RQ       |                       1 |            400 |        18.1942  |
+| periodic * periodic * RQ       |                       1 |            500 |        16.2124  |
+| periodic + periodic + SE       |                       1 |              0 |       188.471   |
+| periodic + periodic + SE       |                       1 |            100 |        19.8701  |
+| periodic + periodic + SE       |                       1 |            200 |        14.2286  |
+| periodic + periodic + SE       |                       1 |            300 |        11.6779  |
+| periodic + periodic + SE       |                       1 |            400 |        10.1534  |
+| periodic + periodic + SE       |                       1 |            500 |         9.12209 |
+| periodic + periodic * SE       |                       1 |              0 |       261.798   |
+| periodic + periodic * SE       |                       1 |            100 |        32.761   |
+| periodic + periodic * SE       |                       1 |            200 |        22.735   |
+| periodic + periodic * SE       |                       1 |            300 |        18.3316  |
+| periodic + periodic * SE       |                       1 |            400 |        15.7003  |
+| periodic + periodic * SE       |                       1 |            500 |        13.8939  |
+| periodic * periodic + SE       |                       1 |              0 |       128.723   |
+| periodic * periodic + SE       |                       1 |            100 |        21.0175  |
+| periodic * periodic + SE       |                       1 |            200 |        15.4358  |
+| periodic * periodic + SE       |                       1 |            300 |        12.8269  |
+| periodic * periodic + SE       |                       1 |            400 |        11.2223  |
+| periodic * periodic + SE       |                       1 |            500 |        10.1121  |
+| periodic * periodic * SE       |                       1 |              0 |       277.822   |
+| periodic * periodic * SE       |                       1 |            100 |        41.4573  |
+| periodic * periodic * SE       |                       1 |            200 |        29.3525  |
+| periodic * periodic * SE       |                       1 |            300 |        23.745   |
+| periodic * periodic * SE       |                       1 |            400 |        20.3457  |
+| periodic * periodic * SE       |                       1 |            500 |        18.0251  |
+| periodic + RQ + RQ             |                       1 |              0 |        90.5977  |
+| periodic + RQ + RQ             |                       1 |            100 |        13.8758  |
+| periodic + RQ + RQ             |                       1 |            200 |        10.4018  |
+| periodic + RQ + RQ             |                       1 |            300 |         8.78011 |
+| periodic + RQ + RQ             |                       1 |            400 |         7.78185 |
+| periodic + RQ + RQ             |                       1 |            500 |         7.08877 |
+| periodic + RQ * RQ             |                       1 |              0 |       119.842   |
+| periodic + RQ * RQ             |                       1 |            100 |        17.6921  |
+| periodic + RQ * RQ             |                       1 |            200 |        12.5555  |
+| periodic + RQ * RQ             |                       1 |            300 |        10.2291  |
+| periodic + RQ * RQ             |                       1 |            400 |         8.78111 |
+| periodic + RQ * RQ             |                       1 |            500 |         7.75235 |
+| periodic * RQ + RQ             |                       1 |              0 |       109.327   |
+| periodic * RQ + RQ             |                       1 |            100 |        18.3371  |
+| periodic * RQ + RQ             |                       1 |            200 |        13.5922  |
+| periodic * RQ + RQ             |                       1 |            300 |        11.3604  |
+| periodic * RQ + RQ             |                       1 |            400 |         9.97905 |
+| periodic * RQ + RQ             |                       1 |            500 |         9.01612 |
+| periodic * RQ * RQ             |                       1 |              0 |       224.442   |
+| periodic * RQ * RQ             |                       1 |            100 |        34.5966  |
+| periodic * RQ * RQ             |                       1 |            200 |        25.0786  |
+| periodic * RQ * RQ             |                       1 |            300 |        20.5966  |
+| periodic * RQ * RQ             |                       1 |            400 |        17.8244  |
+| periodic * RQ * RQ             |                       1 |            500 |        15.8942  |
+| periodic + RQ + SE             |                       1 |              0 |       132.358   |
+| periodic + RQ + SE             |                       1 |            100 |        17.0324  |
+| periodic + RQ + SE             |                       1 |            200 |        12.3715  |
+| periodic + RQ + SE             |                       1 |            300 |        10.2553  |
+| periodic + RQ + SE             |                       1 |            400 |         8.98565 |
+| periodic + RQ + SE             |                       1 |            500 |         8.11896 |
+| periodic + RQ * SE             |                       1 |              0 |       227.277   |
+| periodic + RQ * SE             |                       1 |            100 |        30.1247  |
+| periodic + RQ * SE             |                       1 |            200 |        21.1824  |
+| periodic + RQ * SE             |                       1 |            300 |        17.0473  |
+| periodic + RQ * SE             |                       1 |            400 |        14.5009  |
+| periodic + RQ * SE             |                       1 |            500 |        12.7485  |
+| periodic * RQ + SE             |                       1 |              0 |       129.028   |
+| periodic * RQ + SE             |                       1 |            100 |        20.0861  |
+| periodic * RQ + SE             |                       1 |            200 |        14.636   |
+| periodic * RQ + SE             |                       1 |            300 |        12.0938  |
+| periodic * RQ + SE             |                       1 |            400 |        10.5398  |
+| periodic * RQ + SE             |                       1 |            500 |         9.4678  |
+| periodic * RQ * SE             |                       1 |              0 |       246.488   |
+| periodic * RQ * SE             |                       1 |            100 |        37.4786  |
+| periodic * RQ * SE             |                       1 |            200 |        26.8275  |
+| periodic * RQ * SE             |                       1 |            300 |        21.8612  |
+| periodic * RQ * SE             |                       1 |            400 |        18.8206  |
+| periodic * RQ * SE             |                       1 |            500 |        16.7227  |
+| periodic + SE + SE             |                       1 |              0 |       282.277   |
+| periodic + SE + SE             |                       1 |            100 |        26.9525  |
+| periodic + SE + SE             |                       1 |            200 |        18.6432  |
+| periodic + SE + SE             |                       1 |            300 |        14.9914  |
+| periodic + SE + SE             |                       1 |            400 |        12.8294  |
+| periodic + SE + SE             |                       1 |            500 |        11.3935  |
+| periodic + SE * SE             |                       1 |              0 |       272.09    |
+| periodic + SE * SE             |                       1 |            100 |        34.868   |
+| periodic + SE * SE             |                       1 |            200 |        24.1031  |
+| periodic + SE * SE             |                       1 |            300 |        19.1888  |
+| periodic + SE * SE             |                       1 |            400 |        16.2899  |
+| periodic + SE * SE             |                       1 |            500 |        14.3739  |
+| periodic * SE + SE             |                       1 |              0 |       164.03    |
+| periodic * SE + SE             |                       1 |            100 |        25.4383  |
+| periodic * SE + SE             |                       1 |            200 |        18.4091  |
+| periodic * SE + SE             |                       1 |            300 |        15.0932  |
+| periodic * SE + SE             |                       1 |            400 |        13.0237  |
+| periodic * SE + SE             |                       1 |            500 |        11.5663  |
+| periodic * SE * SE             |                       1 |              0 |       298.846   |
+| periodic * SE * SE             |                       1 |            100 |        44.9935  |
+| periodic * SE * SE             |                       1 |            200 |        31.6999  |
+| periodic * SE * SE             |                       1 |            300 |        25.4386  |
+| periodic * SE * SE             |                       1 |            400 |        21.6219  |
+| periodic * SE * SE             |                       1 |            500 |        19.0259  |
+| RQ + RQ + RQ                   |                       1 |              0 |        73.455   |
+| RQ + RQ + RQ                   |                       1 |            100 |        12.7115  |
+| RQ + RQ + RQ                   |                       1 |            200 |         9.62792 |
+| RQ + RQ + RQ                   |                       1 |            300 |         8.17583 |
+| RQ + RQ + RQ                   |                       1 |            400 |         7.27594 |
+| RQ + RQ + RQ                   |                       1 |            500 |         6.64813 |
+| RQ + RQ * RQ                   |                       1 |              0 |       111.35    |
+| RQ + RQ * RQ                   |                       1 |            100 |        18.0402  |
+| RQ + RQ * RQ                   |                       1 |            200 |        13.398   |
+| RQ + RQ * RQ                   |                       1 |            300 |        11.2107  |
+| RQ + RQ * RQ                   |                       1 |            400 |         9.85569 |
+| RQ + RQ * RQ                   |                       1 |            500 |         8.91062 |
+| RQ * RQ * RQ                   |                       1 |              0 |       213.565   |
+| RQ * RQ * RQ                   |                       1 |            100 |        33.5471  |
+| RQ * RQ * RQ                   |                       1 |            200 |        24.3695  |
+| RQ * RQ * RQ                   |                       1 |            300 |        20.0431  |
+| RQ * RQ * RQ                   |                       1 |            400 |        17.364   |
+| RQ * RQ * RQ                   |                       1 |            500 |        15.4965  |
+| RQ + RQ + SE                   |                       1 |              0 |       101.131   |
+| RQ + RQ + SE                   |                       1 |            100 |        15.0864  |
+| RQ + RQ + SE                   |                       1 |            200 |        11.1066  |
+| RQ + RQ + SE                   |                       1 |            300 |         9.28865 |
+| RQ + RQ + SE                   |                       1 |            400 |         8.18818 |
+| RQ + RQ + SE                   |                       1 |            500 |         7.42893 |
+| RQ + RQ * SE                   |                       1 |              0 |       202.469   |
+| RQ + RQ * SE                   |                       1 |            100 |        28.1119  |
+| RQ + RQ * SE                   |                       1 |            200 |        19.9109  |
+| RQ + RQ * SE                   |                       1 |            300 |        16.0563  |
+| RQ + RQ * SE                   |                       1 |            400 |        13.691   |
+| RQ + RQ * SE                   |                       1 |            500 |        12.0749  |
+| RQ * RQ + SE                   |                       1 |              0 |       123.473   |
+| RQ * RQ + SE                   |                       1 |            100 |        19.4368  |
+| RQ * RQ + SE                   |                       1 |            200 |        14.2338  |
+| RQ * RQ + SE                   |                       1 |            300 |        11.8074  |
+| RQ * RQ + SE                   |                       1 |            400 |        10.3227  |
+| RQ * RQ + SE                   |                       1 |            500 |         9.29793 |
+| RQ * RQ * SE                   |                       1 |              0 |       235.731   |
+| RQ * RQ * SE                   |                       1 |            100 |        36.1379  |
+| RQ * RQ * SE                   |                       1 |            200 |        25.9542  |
+| RQ * RQ * SE                   |                       1 |            300 |        21.197   |
+| RQ * RQ * SE                   |                       1 |            400 |        18.2785  |
+| RQ * RQ * SE                   |                       1 |            500 |        16.2613  |
+| RQ + SE + SE                   |                       1 |              0 |       177.786   |
+| RQ + SE + SE                   |                       1 |            100 |        21.6217  |
+| RQ + SE + SE                   |                       1 |            200 |        15.219   |
+| RQ + SE + SE                   |                       1 |            300 |        12.3797  |
+| RQ + SE + SE                   |                       1 |            400 |        10.7214  |
+| RQ + SE + SE                   |                       1 |            500 |         9.60752 |
+| RQ + SE * SE                   |                       1 |              0 |       225.232   |
+| RQ + SE * SE                   |                       1 |            100 |        30.7891  |
+| RQ + SE * SE                   |                       1 |            200 |        21.3569  |
+| RQ + SE * SE                   |                       1 |            300 |        17.1963  |
+| RQ + SE * SE                   |                       1 |            400 |        14.7447  |
+| RQ + SE * SE                   |                       1 |            500 |        13.0866  |
+| RQ * SE + SE                   |                       1 |              0 |       151.069   |
+| RQ * SE + SE                   |                       1 |            100 |        22.4311  |
+| RQ * SE + SE                   |                       1 |            200 |        16.0674  |
+| RQ * SE + SE                   |                       1 |            300 |        13.1458  |
+| RQ * SE + SE                   |                       1 |            400 |        11.382   |
+| RQ * SE + SE                   |                       1 |            500 |        10.1791  |
+| RQ * SE * SE                   |                       1 |              0 |       270.471   |
+| RQ * SE * SE                   |                       1 |            100 |        40.2388  |
+| RQ * SE * SE                   |                       1 |            200 |        28.5821  |
+| RQ * SE * SE                   |                       1 |            300 |        23.15    |
+| RQ * SE * SE                   |                       1 |            400 |        19.834   |
+| RQ * SE * SE                   |                       1 |            500 |        17.5555  |
+| SE + SE + SE                   |                       1 |              0 |       743.785   |
+| SE + SE + SE                   |                       1 |            100 |        51.665   |
+| SE + SE + SE                   |                       1 |            200 |        34.0911  |
+| SE + SE + SE                   |                       1 |            300 |        26.4881  |
+| SE + SE + SE                   |                       1 |            400 |        22.1262  |
+| SE + SE + SE                   |                       1 |            500 |        19.2704  |
+| SE + SE * SE                   |                       1 |              0 |       346.675   |
+| SE + SE * SE                   |                       1 |            100 |        41.5449  |
+| SE + SE * SE                   |                       1 |            200 |        28.3535  |
+| SE + SE * SE                   |                       1 |            300 |        22.5619  |
+| SE + SE * SE                   |                       1 |            400 |        19.1006  |
+| SE + SE * SE                   |                       1 |            500 |        16.7354  |
+| SE * SE * SE                   |                       1 |              0 |       424.684   |
+| SE * SE * SE                   |                       1 |            100 |        58.4464  |
+| SE * SE * SE                   |                       1 |            200 |        40.4074  |
+| SE * SE * SE                   |                       1 |            300 |        32.3063  |
+| SE * SE * SE                   |                       1 |            400 |        27.4698  |
+| SE * SE * SE                   |                       1 |            500 |        24.1868  |
+
+| Kernel Combination          |   Initialization Number |   Epoch Number |   Training Loss |
+|-----------------------------|-------------------------|----------------|-----------------|
+| RQ + RQ + RQ + RQ + RQ + RQ |                       1 |              0 |        39.4274  |
+| RQ + RQ + RQ + RQ + RQ + RQ |                       1 |            100 |         7.51529 |
+| RQ + RQ + RQ + RQ + RQ + RQ |                       1 |            200 |         5.94543 |
+| RQ + RQ + RQ + RQ + RQ + RQ |                       1 |            300 |         5.2094  |
+| RQ + RQ + RQ + RQ + RQ + RQ |                       1 |            400 |         4.75435 |
+| RQ + RQ + RQ + RQ + RQ + RQ |                       1 |            500 |         4.43738 |
+| RQ + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |        28.1075  |
+| RQ + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |         5.76192 |
+| RQ + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |         4.71041 |
+| RQ + RQ + RQ * RQ + RQ + RQ |                       1 |            300 |         4.21803 |
+| RQ + RQ + RQ * RQ + RQ + RQ |                       1 |            400 |         3.91337 |
+| RQ + RQ + RQ * RQ + RQ + RQ |                       1 |            500 |         3.70093 |
+
+| Kernel Combination                            |   Initialization Number |   Epoch Number |   Training Loss |
+|-----------------------------------------------|-------------------------|----------------|-----------------|
+| periodic + periodic + periodic + RQ + RQ + RQ |                       1 |              0 |        53.3542  |
+| periodic + periodic + periodic + RQ + RQ + RQ |                       1 |            100 |         8.391   |
+| periodic + periodic + periodic + RQ + RQ + RQ |                       1 |            200 |         6.529   |
+| periodic + periodic + periodic + RQ + RQ + RQ |                       1 |            300 |         5.66636 |
+| periodic + periodic + periodic + RQ + RQ + RQ |                       1 |            400 |         5.13773 |
+| periodic + periodic + periodic + RQ + RQ + RQ |                       1 |            500 |         4.77181 |
+| periodic + periodic + periodic * RQ + RQ + RQ |                       1 |              0 |        31.4803  |
+| periodic + periodic + periodic * RQ + RQ + RQ |                       1 |            100 |         6.1229  |
+| periodic + periodic + periodic * RQ + RQ + RQ |                       1 |            200 |         4.95229 |
+| periodic + periodic + periodic * RQ + RQ + RQ |                       1 |            300 |         4.40838 |
+| periodic + periodic + periodic * RQ + RQ + RQ |                       1 |            400 |         4.074   |
+| periodic + periodic + periodic * RQ + RQ + RQ |                       1 |            500 |         3.842   |
+| periodic + periodic * periodic + RQ + RQ + RQ |                       1 |              0 |        47.9725  |
+| periodic + periodic * periodic + RQ + RQ + RQ |                       1 |            100 |         8.28768 |
+| periodic + periodic * periodic + RQ + RQ + RQ |                       1 |            200 |         6.06149 |
+| periodic + periodic * periodic + RQ + RQ + RQ |                       1 |            300 |         5.07245 |
+| periodic + periodic * periodic + RQ + RQ + RQ |                       1 |            400 |         4.47386 |
+| periodic + periodic * periodic + RQ + RQ + RQ |                       1 |            500 |         4.04673 |
+| periodic + periodic * periodic * RQ + RQ + RQ |                       1 |              0 |        43.0738  |
+| periodic + periodic * periodic * RQ + RQ + RQ |                       1 |            100 |         7.25647 |
+| periodic + periodic * periodic * RQ + RQ + RQ |                       1 |            200 |         5.45172 |
+| periodic + periodic * periodic * RQ + RQ + RQ |                       1 |            300 |         4.65437 |
+| periodic + periodic * periodic * RQ + RQ + RQ |                       1 |            400 |         4.08296 |
+| periodic + periodic * periodic * RQ + RQ + RQ |                       1 |            500 |         3.73529 |
+| periodic * periodic + periodic * RQ + RQ + RQ |                       1 |              0 |        39.6558  |
+| periodic * periodic + periodic * RQ + RQ + RQ |                       1 |            100 |         7.80609 |
+| periodic * periodic + periodic * RQ + RQ + RQ |                       1 |            200 |         6.14693 |
+| periodic * periodic + periodic * RQ + RQ + RQ |                       1 |            300 |         5.37001 |
+| periodic * periodic + periodic * RQ + RQ + RQ |                       1 |            400 |         4.89031 |
+| periodic * periodic + periodic * RQ + RQ + RQ |                       1 |            500 |         4.55662 |
+| periodic * periodic * periodic + RQ + RQ + RQ |                       1 |              0 |        57.28    |
+| periodic * periodic * periodic + RQ + RQ + RQ |                       1 |            100 |        10.239   |
+| periodic * periodic * periodic + RQ + RQ + RQ |                       1 |            200 |         7.8742  |
+| periodic * periodic * periodic + RQ + RQ + RQ |                       1 |            300 |         6.76234 |
+| periodic * periodic * periodic + RQ + RQ + RQ |                       1 |            400 |         6.07396 |
+| periodic * periodic * periodic + RQ + RQ + RQ |                       1 |            500 |         5.5941  |
+| periodic * periodic * periodic * RQ + RQ + RQ |                       1 |              0 |        77.7487  |
+| periodic * periodic * periodic * RQ + RQ + RQ |                       1 |            100 |        12.0723  |
+| periodic * periodic * periodic * RQ + RQ + RQ |                       1 |            200 |         9.02524 |
+| periodic * periodic * periodic * RQ + RQ + RQ |                       1 |            300 |         7.16594 |
+| periodic * periodic * periodic * RQ + RQ + RQ |                       1 |            400 |         6.14484 |
+| periodic * periodic * periodic * RQ + RQ + RQ |                       1 |            500 |         5.51099 |
+| periodic + periodic + RQ + RQ + RQ + RQ       |                       1 |              0 |        48.9182  |
+| periodic + periodic + RQ + RQ + RQ + RQ       |                       1 |            100 |         8.12519 |
+| periodic + periodic + RQ + RQ + RQ + RQ       |                       1 |            200 |         6.3547  |
+| periodic + periodic + RQ + RQ + RQ + RQ       |                       1 |            300 |         5.53176 |
+| periodic + periodic + RQ + RQ + RQ + RQ       |                       1 |            400 |         5.02622 |
+| periodic + periodic + RQ + RQ + RQ + RQ       |                       1 |            500 |         4.67562 |
+| periodic + periodic + RQ * RQ + RQ + RQ       |                       1 |              0 |        30.2925  |
+| periodic + periodic + RQ * RQ + RQ + RQ       |                       1 |            100 |         4.37738 |
+| periodic + periodic + RQ * RQ + RQ + RQ       |                       1 |            200 |         3.03829 |
+| periodic + periodic + RQ * RQ + RQ + RQ       |                       1 |            300 |         2.51805 |
+| periodic + periodic + RQ * RQ + RQ + RQ       |                       1 |            400 |         2.19948 |
+| periodic + periodic + RQ * RQ + RQ + RQ       |                       1 |            500 |         1.95075 |
+| periodic + periodic * RQ + RQ + RQ + RQ       |                       1 |              0 |        44.9256  |
+| periodic + periodic * RQ + RQ + RQ + RQ       |                       1 |            100 |         8.7249  |
+| periodic + periodic * RQ + RQ + RQ + RQ       |                       1 |            200 |         6.79704 |
+| periodic + periodic * RQ + RQ + RQ + RQ       |                       1 |            300 |         5.89271 |
+| periodic + periodic * RQ + RQ + RQ + RQ       |                       1 |            400 |         5.33396 |
+| periodic + periodic * RQ + RQ + RQ + RQ       |                       1 |            500 |         4.94516 |
+| periodic + periodic * RQ * RQ + RQ + RQ       |                       1 |              0 |        41.4008  |
+| periodic + periodic * RQ * RQ + RQ + RQ       |                       1 |            100 |         6.3188  |
+| periodic + periodic * RQ * RQ + RQ + RQ       |                       1 |            200 |         4.50713 |
+| periodic + periodic * RQ * RQ + RQ + RQ       |                       1 |            300 |         3.61332 |
+| periodic + periodic * RQ * RQ + RQ + RQ       |                       1 |            400 |         3.10543 |
+| periodic + periodic * RQ * RQ + RQ + RQ       |                       1 |            500 |         2.73019 |
+| periodic * periodic + RQ + RQ + RQ + RQ       |                       1 |              0 |        46.2417  |
+| periodic * periodic + RQ + RQ + RQ + RQ       |                       1 |            100 |         8.69275 |
+| periodic * periodic + RQ + RQ + RQ + RQ       |                       1 |            200 |         6.77452 |
+| periodic * periodic + RQ + RQ + RQ + RQ       |                       1 |            300 |         5.87489 |
+| periodic * periodic + RQ + RQ + RQ + RQ       |                       1 |            400 |         5.31894 |
+| periodic * periodic + RQ + RQ + RQ + RQ       |                       1 |            500 |         4.93188 |
+| periodic * periodic + RQ * RQ + RQ + RQ       |                       1 |              0 |        40.6985  |
+| periodic * periodic + RQ * RQ + RQ + RQ       |                       1 |            100 |         7.63544 |
+| periodic * periodic + RQ * RQ + RQ + RQ       |                       1 |            200 |         6.0345  |
+| periodic * periodic + RQ * RQ + RQ + RQ       |                       1 |            300 |         5.28328 |
+| periodic * periodic + RQ * RQ + RQ + RQ       |                       1 |            400 |         4.8186  |
+| periodic * periodic + RQ * RQ + RQ + RQ       |                       1 |            500 |         4.49486 |
+| periodic * periodic * RQ + RQ + RQ + RQ       |                       1 |              0 |        56.8245  |
+| periodic * periodic * RQ + RQ + RQ + RQ       |                       1 |            100 |        10.1647  |
+| periodic * periodic * RQ + RQ + RQ + RQ       |                       1 |            200 |         7.82489 |
+| periodic * periodic * RQ + RQ + RQ + RQ       |                       1 |            300 |         6.72446 |
+| periodic * periodic * RQ + RQ + RQ + RQ       |                       1 |            400 |         6.04295 |
+| periodic * periodic * RQ + RQ + RQ + RQ       |                       1 |            500 |         5.5677  |
+| periodic * periodic * RQ * RQ + RQ + RQ       |                       1 |              0 |        77.5213  |
+| periodic * periodic * RQ * RQ + RQ + RQ       |                       1 |            100 |        12.9934  |
+| periodic * periodic * RQ * RQ + RQ + RQ       |                       1 |            200 |         9.80675 |
+| periodic * periodic * RQ * RQ + RQ + RQ       |                       1 |            300 |         8.30185 |
+| periodic * periodic * RQ * RQ + RQ + RQ       |                       1 |            400 |         7.36602 |
+| periodic * periodic * RQ * RQ + RQ + RQ       |                       1 |            500 |         6.70972 |
+| periodic + periodic + SE + RQ + RQ + RQ       |                       1 |              0 |        56.9908  |
+| periodic + periodic + SE + RQ + RQ + RQ       |                       1 |            100 |         8.65579 |
+| periodic + periodic + SE + RQ + RQ + RQ       |                       1 |            200 |         6.68596 |
+| periodic + periodic + SE + RQ + RQ + RQ       |                       1 |            300 |         5.78097 |
+| periodic + periodic + SE + RQ + RQ + RQ       |                       1 |            400 |         5.22921 |
+| periodic + periodic + SE + RQ + RQ + RQ       |                       1 |            500 |         4.84926 |
+| periodic + periodic + SE * RQ + RQ + RQ       |                       1 |              0 |        33.4168  |
+| periodic + periodic + SE * RQ + RQ + RQ       |                       1 |            100 |         6.36221 |
+| periodic + periodic + SE * RQ + RQ + RQ       |                       1 |            200 |         5.07444 |
+| periodic + periodic + SE * RQ + RQ + RQ       |                       1 |            300 |         4.42845 |
+| periodic + periodic + SE * RQ + RQ + RQ       |                       1 |            400 |         3.70542 |
+| periodic + periodic + SE * RQ + RQ + RQ       |                       1 |            500 |         3.00521 |
+| periodic + periodic * SE + RQ + RQ + RQ       |                       1 |              0 |        51.5632  |
+| periodic + periodic * SE + RQ + RQ + RQ       |                       1 |            100 |         9.17142 |
+| periodic + periodic * SE + RQ + RQ + RQ       |                       1 |            200 |         7.07217 |
+| periodic + periodic * SE + RQ + RQ + RQ       |                       1 |            300 |         6.08868 |
+| periodic + periodic * SE + RQ + RQ + RQ       |                       1 |            400 |         5.48659 |
+| periodic + periodic * SE + RQ + RQ + RQ       |                       1 |            500 |         5.07239 |
+| periodic + periodic * SE * RQ + RQ + RQ       |                       1 |              0 |        45.1349  |
+| periodic + periodic * SE * RQ + RQ + RQ       |                       1 |            100 |         7.05689 |
+| periodic + periodic * SE * RQ + RQ + RQ       |                       1 |            200 |         4.6018  |
+| periodic + periodic * SE * RQ + RQ + RQ       |                       1 |            300 |         3.72101 |
+| periodic + periodic * SE * RQ + RQ + RQ       |                       1 |            400 |         3.1978  |
+| periodic + periodic * SE * RQ + RQ + RQ       |                       1 |            500 |         2.81457 |
+| periodic * periodic + SE + RQ + RQ + RQ       |                       1 |              0 |        44.5954  |
+| periodic * periodic + SE + RQ + RQ + RQ       |                       1 |            100 |         8.65099 |
+| periodic * periodic + SE + RQ + RQ + RQ       |                       1 |            200 |         6.75057 |
+| periodic * periodic + SE + RQ + RQ + RQ       |                       1 |            300 |         5.8584  |
+| periodic * periodic + SE + RQ + RQ + RQ       |                       1 |            400 |         5.3064  |
+| periodic * periodic + SE + RQ + RQ + RQ       |                       1 |            500 |         4.92171 |
+| periodic * periodic + SE * RQ + RQ + RQ       |                       1 |              0 |        40.738   |
+| periodic * periodic + SE * RQ + RQ + RQ       |                       1 |            100 |         7.65567 |
+| periodic * periodic + SE * RQ + RQ + RQ       |                       1 |            200 |         6.04857 |
+| periodic * periodic + SE * RQ + RQ + RQ       |                       1 |            300 |         5.29497 |
+| periodic * periodic + SE * RQ + RQ + RQ       |                       1 |            400 |         4.829   |
+| periodic * periodic + SE * RQ + RQ + RQ       |                       1 |            500 |         4.50439 |
+| periodic * periodic * SE + RQ + RQ + RQ       |                       1 |              0 |        56.9102  |
+| periodic * periodic * SE + RQ + RQ + RQ       |                       1 |            100 |         9.22488 |
+| periodic * periodic * SE + RQ + RQ + RQ       |                       1 |            200 |         6.58515 |
+| periodic * periodic * SE + RQ + RQ + RQ       |                       1 |            300 |         5.05699 |
+| periodic * periodic * SE + RQ + RQ + RQ       |                       1 |            400 |         4.24006 |
+| periodic * periodic * SE + RQ + RQ + RQ       |                       1 |            500 |         3.74082 |
+| periodic * periodic * SE * RQ + RQ + RQ       |                       1 |              0 |        83.5936  |
+| periodic * periodic * SE * RQ + RQ + RQ       |                       1 |            100 |        12.7379  |
+| periodic * periodic * SE * RQ + RQ + RQ       |                       1 |            200 |         8.81701 |
+| periodic * periodic * SE * RQ + RQ + RQ       |                       1 |            300 |         7.07399 |
+| periodic * periodic * SE * RQ + RQ + RQ       |                       1 |            400 |         6.06134 |
+| periodic * periodic * SE * RQ + RQ + RQ       |                       1 |            500 |         5.34008 |
+| periodic + RQ + RQ + RQ + RQ + RQ             |                       1 |              0 |        43.2479  |
+| periodic + RQ + RQ + RQ + RQ + RQ             |                       1 |            100 |         7.7807  |
+| periodic + RQ + RQ + RQ + RQ + RQ             |                       1 |            200 |         6.12503 |
+| periodic + RQ + RQ + RQ + RQ + RQ             |                       1 |            300 |         5.35184 |
+| periodic + RQ + RQ + RQ + RQ + RQ             |                       1 |            400 |         4.87518 |
+| periodic + RQ + RQ + RQ + RQ + RQ             |                       1 |            500 |         4.54382 |
+| periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |        29.0805  |
+| periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |         5.87117 |
+| periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |         4.11131 |
+| periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |         3.21078 |
+| periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |         2.16879 |
+| periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |         1.90085 |
+| periodic + RQ * RQ * RQ + RQ + RQ             |                       1 |              0 |        39.1173  |
+| periodic + RQ * RQ * RQ + RQ + RQ             |                       1 |            100 |         6.19127 |
+| periodic + RQ * RQ * RQ + RQ + RQ             |                       1 |            200 |         4.35642 |
+| periodic + RQ * RQ * RQ + RQ + RQ             |                       1 |            300 |         3.5456  |
+| periodic + RQ * RQ * RQ + RQ + RQ             |                       1 |            400 |         3.03857 |
+| periodic + RQ * RQ * RQ + RQ + RQ             |                       1 |            500 |         2.71521 |
+| periodic * RQ + RQ + RQ + RQ + RQ             |                       1 |              0 |        46.251   |
+| periodic * RQ + RQ + RQ + RQ + RQ             |                       1 |            100 |         8.68665 |
+| periodic * RQ + RQ + RQ + RQ + RQ             |                       1 |            200 |         6.77056 |
+| periodic * RQ + RQ + RQ + RQ + RQ             |                       1 |            300 |         5.87186 |
+| periodic * RQ + RQ + RQ + RQ + RQ             |                       1 |            400 |         5.31648 |
+| periodic * RQ + RQ + RQ + RQ + RQ             |                       1 |            500 |         4.92985 |
+| periodic * RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |        40.7404  |
+| periodic * RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |         7.61753 |
+| periodic * RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |         6.02231 |
+| periodic * RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |         5.27387 |
+| periodic * RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |         4.8109  |
+| periodic * RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |         4.48829 |
+| periodic * RQ * RQ + RQ + RQ + RQ             |                       1 |              0 |        56.8363  |
+| periodic * RQ * RQ + RQ + RQ + RQ             |                       1 |            100 |        10.1461  |
+| periodic * RQ * RQ + RQ + RQ + RQ             |                       1 |            200 |         7.81154 |
+| periodic * RQ * RQ + RQ + RQ + RQ             |                       1 |            300 |         6.71354 |
+| periodic * RQ * RQ + RQ + RQ + RQ             |                       1 |            400 |         6.03351 |
+| periodic * RQ * RQ + RQ + RQ + RQ             |                       1 |            500 |         5.55928 |
+| periodic * RQ * RQ * RQ + RQ + RQ             |                       1 |              0 |        78.3111  |
+| periodic * RQ * RQ * RQ + RQ + RQ             |                       1 |            100 |        11.9838  |
+| periodic * RQ * RQ * RQ + RQ + RQ             |                       1 |            200 |         8.74313 |
+| periodic * RQ * RQ * RQ + RQ + RQ             |                       1 |            300 |         7.12196 |
+| periodic * RQ * RQ * RQ + RQ + RQ             |                       1 |            400 |         6.09994 |
+| periodic * RQ * RQ * RQ + RQ + RQ             |                       1 |            500 |         5.34828 |
+| periodic + RQ + SE + RQ + RQ + RQ             |                       1 |              0 |        49.5697  |
+| periodic + RQ + SE + RQ + RQ + RQ             |                       1 |            100 |         8.21493 |
+| periodic + RQ + SE + RQ + RQ + RQ             |                       1 |            200 |         6.39616 |
+| periodic + RQ + SE + RQ + RQ + RQ             |                       1 |            300 |         5.55623 |
+| periodic + RQ + SE + RQ + RQ + RQ             |                       1 |            400 |         5.04211 |
+| periodic + RQ + SE + RQ + RQ + RQ             |                       1 |            500 |         4.68701 |
+| periodic + RQ + SE * RQ + RQ + RQ             |                       1 |              0 |        31.4418  |
+| periodic + RQ + SE * RQ + RQ + RQ             |                       1 |            100 |         6.17018 |
+| periodic + RQ + SE * RQ + RQ + RQ             |                       1 |            200 |         4.95257 |
+| periodic + RQ + SE * RQ + RQ + RQ             |                       1 |            300 |         4.31739 |
+| periodic + RQ + SE * RQ + RQ + RQ             |                       1 |            400 |         3.41285 |
+| periodic + RQ + SE * RQ + RQ + RQ             |                       1 |            500 |         2.94683 |
+| periodic + RQ * SE * RQ + RQ + RQ             |                       1 |              0 |        54.5428  |
+| periodic + RQ * SE * RQ + RQ + RQ             |                       1 |            100 |         7.67106 |
+| periodic + RQ * SE * RQ + RQ + RQ             |                       1 |            200 |         5.20611 |
+| periodic + RQ * SE * RQ + RQ + RQ             |                       1 |            300 |         5.22448 |
+| periodic + RQ * SE * RQ + RQ + RQ             |                       1 |            400 |         3.52833 |
+| periodic + RQ * SE * RQ + RQ + RQ             |                       1 |            500 |         3.09915 |
+| periodic * RQ + SE + RQ + RQ + RQ             |                       1 |              0 |        44.0328  |
+| periodic * RQ + SE + RQ + RQ + RQ             |                       1 |            100 |         8.63568 |
+| periodic * RQ + SE + RQ + RQ + RQ             |                       1 |            200 |         6.74129 |
+| periodic * RQ + SE + RQ + RQ + RQ             |                       1 |            300 |         5.8506  |
+| periodic * RQ + SE + RQ + RQ + RQ             |                       1 |            400 |         5.29927 |
+| periodic * RQ + SE + RQ + RQ + RQ             |                       1 |            500 |         4.91515 |
+| periodic * RQ + SE * RQ + RQ + RQ             |                       1 |              0 |        40.8055  |
+| periodic * RQ + SE * RQ + RQ + RQ             |                       1 |            100 |         7.64127 |
+| periodic * RQ + SE * RQ + RQ + RQ             |                       1 |            200 |         6.03928 |
+| periodic * RQ + SE * RQ + RQ + RQ             |                       1 |            300 |         5.28777 |
+| periodic * RQ + SE * RQ + RQ + RQ             |                       1 |            400 |         4.82294 |
+| periodic * RQ + SE * RQ + RQ + RQ             |                       1 |            500 |         4.4991  |
+| periodic * RQ * SE + RQ + RQ + RQ             |                       1 |              0 |        56.9735  |
+| periodic * RQ * SE + RQ + RQ + RQ             |                       1 |            100 |        10.156   |
+| periodic * RQ * SE + RQ + RQ + RQ             |                       1 |            200 |         7.81623 |
+| periodic * RQ * SE + RQ + RQ + RQ             |                       1 |            300 |         6.71725 |
+| periodic * RQ * SE + RQ + RQ + RQ             |                       1 |            400 |         6.03669 |
+| periodic * RQ * SE + RQ + RQ + RQ             |                       1 |            500 |         5.56206 |
+| periodic * RQ * SE * RQ + RQ + RQ             |                       1 |              0 |        78.4764  |
+| periodic * RQ * SE * RQ + RQ + RQ             |                       1 |            100 |        13.0755  |
+| periodic * RQ * SE * RQ + RQ + RQ             |                       1 |            200 |         9.3339  |
+| periodic * RQ * SE * RQ + RQ + RQ             |                       1 |            300 |         7.55766 |
+| periodic * RQ * SE * RQ + RQ + RQ             |                       1 |            400 |         6.23315 |
+| periodic * RQ * SE * RQ + RQ + RQ             |                       1 |            500 |         5.4342  |
+| periodic + SE + SE + RQ + RQ + RQ             |                       1 |              0 |        56.5174  |
+| periodic + SE + SE + RQ + RQ + RQ             |                       1 |            100 |         9.07717 |
+| periodic + SE + SE + RQ + RQ + RQ             |                       1 |            200 |         6.93632 |
+| periodic + SE + SE + RQ + RQ + RQ             |                       1 |            300 |         5.95887 |
+| periodic + SE + SE + RQ + RQ + RQ             |                       1 |            400 |         5.36942 |
+| periodic + SE + SE + RQ + RQ + RQ             |                       1 |            500 |         4.96678 |
+| periodic + SE + SE * RQ + RQ + RQ             |                       1 |              0 |        39.3759  |
+| periodic + SE + SE * RQ + RQ + RQ             |                       1 |            100 |         7.04663 |
+| periodic + SE + SE * RQ + RQ + RQ             |                       1 |            200 |         5.51824 |
+| periodic + SE + SE * RQ + RQ + RQ             |                       1 |            300 |         4.73341 |
+| periodic + SE + SE * RQ + RQ + RQ             |                       1 |            400 |         3.76189 |
+| periodic + SE + SE * RQ + RQ + RQ             |                       1 |            500 |         3.18582 |
+| periodic + SE * SE + RQ + RQ + RQ             |                       1 |              0 |        51.8353  |
+| periodic + SE * SE + RQ + RQ + RQ             |                       1 |            100 |         9.03398 |
+| periodic + SE * SE + RQ + RQ + RQ             |                       1 |            200 |         6.29064 |
+| periodic + SE * SE + RQ + RQ + RQ             |                       1 |            300 |         4.59733 |
+| periodic + SE * SE + RQ + RQ + RQ             |                       1 |            400 |         3.92461 |
+| periodic + SE * SE + RQ + RQ + RQ             |                       1 |            500 |         3.46129 |
+| periodic + SE * SE * RQ + RQ + RQ             |                       1 |              0 |        64.4791  |
+| periodic + SE * SE * RQ + RQ + RQ             |                       1 |            100 |         8.78932 |
+| periodic + SE * SE * RQ + RQ + RQ             |                       1 |            200 |         6.39894 |
+| periodic + SE * SE * RQ + RQ + RQ             |                       1 |            300 |         5.29745 |
+| periodic + SE * SE * RQ + RQ + RQ             |                       1 |            400 |         4.63748 |
+| periodic + SE * SE * RQ + RQ + RQ             |                       1 |            500 |         4.17461 |
+| periodic * SE + SE + RQ + RQ + RQ             |                       1 |              0 |        45.8858  |
+| periodic * SE + SE + RQ + RQ + RQ             |                       1 |            100 |         8.71963 |
+| periodic * SE + SE + RQ + RQ + RQ             |                       1 |            200 |         6.79536 |
+| periodic * SE + SE + RQ + RQ + RQ             |                       1 |            300 |         5.89307 |
+| periodic * SE + SE + RQ + RQ + RQ             |                       1 |            400 |         5.33532 |
+| periodic * SE + SE + RQ + RQ + RQ             |                       1 |            500 |         4.94697 |
+| periodic * SE + SE * RQ + RQ + RQ             |                       1 |              0 |        41.3614  |
+| periodic * SE + SE * RQ + RQ + RQ             |                       1 |            100 |         7.73371 |
+| periodic * SE + SE * RQ + RQ + RQ             |                       1 |            200 |         6.09602 |
+| periodic * SE + SE * RQ + RQ + RQ             |                       1 |            300 |         5.32971 |
+| periodic * SE + SE * RQ + RQ + RQ             |                       1 |            400 |         4.85668 |
+| periodic * SE + SE * RQ + RQ + RQ             |                       1 |            500 |         4.52762 |
+| periodic * SE * SE + RQ + RQ + RQ             |                       1 |              0 |        56.9331  |
+| periodic * SE * SE + RQ + RQ + RQ             |                       1 |            100 |        10.1766  |
+| periodic * SE * SE + RQ + RQ + RQ             |                       1 |            200 |         7.83185 |
+| periodic * SE * SE + RQ + RQ + RQ             |                       1 |            300 |         6.72946 |
+| periodic * SE * SE + RQ + RQ + RQ             |                       1 |            400 |         6.04682 |
+| periodic * SE * SE + RQ + RQ + RQ             |                       1 |            500 |         5.57083 |
+| periodic * SE * SE * RQ + RQ + RQ             |                       1 |              0 |        77.6416  |
+| periodic * SE * SE * RQ + RQ + RQ             |                       1 |            100 |        13.1495  |
+| periodic * SE * SE * RQ + RQ + RQ             |                       1 |            200 |         9.92187 |
+| periodic * SE * SE * RQ + RQ + RQ             |                       1 |            300 |         8.40458 |
+| periodic * SE * SE * RQ + RQ + RQ             |                       1 |            400 |         7.46597 |
+| periodic * SE * SE * RQ + RQ + RQ             |                       1 |            500 |         6.81224 |
+| RQ + RQ + RQ + RQ + RQ + RQ                   |                       1 |              0 |        39.4274  |
+| RQ + RQ + RQ + RQ + RQ + RQ                   |                       1 |            100 |         7.51529 |
+| RQ + RQ + RQ + RQ + RQ + RQ                   |                       1 |            200 |         5.94543 |
+| RQ + RQ + RQ + RQ + RQ + RQ                   |                       1 |            300 |         5.2094  |
+| RQ + RQ + RQ + RQ + RQ + RQ                   |                       1 |            400 |         4.75435 |
+| RQ + RQ + RQ + RQ + RQ + RQ                   |                       1 |            500 |         4.43738 |
+| RQ + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |        28.1075  |
+| RQ + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |         5.76192 |
+| RQ + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |         4.71041 |
+| RQ + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |         4.21803 |
+| RQ + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |         3.91337 |
+| RQ + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |         3.70093 |
+| RQ + RQ * RQ * RQ + RQ + RQ                   |                       1 |              0 |        39.3761  |
+| RQ + RQ * RQ * RQ + RQ + RQ                   |                       1 |            100 |         7.50112 |
+| RQ + RQ * RQ * RQ + RQ + RQ                   |                       1 |            200 |         5.93967 |
+| RQ + RQ * RQ * RQ + RQ + RQ                   |                       1 |            300 |         5.20661 |
+| RQ + RQ * RQ * RQ + RQ + RQ                   |                       1 |            400 |         4.75285 |
+| RQ + RQ * RQ * RQ + RQ + RQ                   |                       1 |            500 |         4.43649 |
+| RQ * RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |        38.8493  |
+| RQ * RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |         7.47871 |
+| RQ * RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |         5.92426 |
+| RQ * RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |         5.1945  |
+| RQ * RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |         4.74272 |
+| RQ * RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |         4.42766 |
+| RQ * RQ * RQ * RQ + RQ + RQ                   |                       1 |              0 |        74.5772  |
+| RQ * RQ * RQ * RQ + RQ + RQ                   |                       1 |            100 |        12.7456  |
+| RQ * RQ * RQ * RQ + RQ + RQ                   |                       1 |            200 |         9.65147 |
+| RQ * RQ * RQ * RQ + RQ + RQ                   |                       1 |            300 |         8.19477 |
+| RQ * RQ * RQ * RQ + RQ + RQ                   |                       1 |            400 |         7.29232 |
+| RQ * RQ * RQ * RQ + RQ + RQ                   |                       1 |            500 |         6.66286 |
+| RQ + RQ + SE + RQ + RQ + RQ                   |                       1 |              0 |        43.8592  |
+| RQ + RQ + SE + RQ + RQ + RQ                   |                       1 |            100 |         7.82304 |
+| RQ + RQ + SE + RQ + RQ + RQ                   |                       1 |            200 |         6.13608 |
+| RQ + RQ + SE + RQ + RQ + RQ                   |                       1 |            300 |         5.35332 |
+| RQ + RQ + SE + RQ + RQ + RQ                   |                       1 |            400 |         4.87303 |
+| RQ + RQ + SE + RQ + RQ + RQ                   |                       1 |            500 |         4.54021 |
+| RQ + RQ + SE * RQ + RQ + RQ                   |                       1 |              0 |        29.789   |
+| RQ + RQ + SE * RQ + RQ + RQ                   |                       1 |            100 |         6.00031 |
+| RQ + RQ + SE * RQ + RQ + RQ                   |                       1 |            200 |         4.83687 |
+| RQ + RQ + SE * RQ + RQ + RQ                   |                       1 |            300 |         4.2022  |
+| RQ + RQ + SE * RQ + RQ + RQ                   |                       1 |            400 |         3.2449  |
+| RQ + RQ + SE * RQ + RQ + RQ                   |                       1 |            500 |         2.85671 |
+| RQ + RQ * SE * RQ + RQ + RQ                   |                       1 |              0 |        51.5912  |
+| RQ + RQ * SE * RQ + RQ + RQ                   |                       1 |            100 |         8.90714 |
+| RQ + RQ * SE * RQ + RQ + RQ                   |                       1 |            200 |         6.8264  |
+| RQ + RQ * SE * RQ + RQ + RQ                   |                       1 |            300 |         5.86448 |
+| RQ + RQ * SE * RQ + RQ + RQ                   |                       1 |            400 |         5.27948 |
+| RQ + RQ * SE * RQ + RQ + RQ                   |                       1 |            500 |         4.87848 |
+| RQ * RQ + SE + RQ + RQ + RQ                   |                       1 |              0 |        46.288   |
+| RQ * RQ + SE + RQ + RQ + RQ                   |                       1 |            100 |         8.57906 |
+| RQ * RQ + SE + RQ + RQ + RQ                   |                       1 |            200 |         6.69876 |
+| RQ * RQ + SE + RQ + RQ + RQ                   |                       1 |            300 |         5.81543 |
+| RQ * RQ + SE + RQ + RQ + RQ                   |                       1 |            400 |         5.26877 |
+| RQ * RQ + SE + RQ + RQ + RQ                   |                       1 |            500 |         4.8878  |
+| RQ * RQ + SE * RQ + RQ + RQ                   |                       1 |              0 |        40.5182  |
+| RQ * RQ + SE * RQ + RQ + RQ                   |                       1 |            100 |         7.57521 |
+| RQ * RQ + SE * RQ + RQ + RQ                   |                       1 |            200 |         5.99108 |
+| RQ * RQ + SE * RQ + RQ + RQ                   |                       1 |            300 |         5.24815 |
+| RQ * RQ + SE * RQ + RQ + RQ                   |                       1 |            400 |         4.7886  |
+| RQ * RQ + SE * RQ + RQ + RQ                   |                       1 |            500 |         4.46834 |
+| RQ * RQ * SE * RQ + RQ + RQ                   |                       1 |              0 |        75.888   |
+| RQ * RQ * SE * RQ + RQ + RQ                   |                       1 |            100 |        12.9404  |
+| RQ * RQ * SE * RQ + RQ + RQ                   |                       1 |            200 |         9.7736  |
+| RQ * RQ * SE * RQ + RQ + RQ                   |                       1 |            300 |         8.28555 |
+| RQ * RQ * SE * RQ + RQ + RQ                   |                       1 |            400 |         7.36533 |
+| RQ * RQ * SE * RQ + RQ + RQ                   |                       1 |            500 |         6.72446 |
+| RQ + SE + SE + RQ + RQ + RQ                   |                       1 |              0 |        52.7047  |
+| RQ + SE + SE + RQ + RQ + RQ                   |                       1 |            100 |         8.69335 |
+| RQ + SE + SE + RQ + RQ + RQ                   |                       1 |            200 |         6.68173 |
+| RQ + SE + SE + RQ + RQ + RQ                   |                       1 |            300 |         5.76084 |
+| RQ + SE + SE + RQ + RQ + RQ                   |                       1 |            400 |         5.20449 |
+| RQ + SE + SE + RQ + RQ + RQ                   |                       1 |            500 |         4.82326 |
+| RQ + SE + SE * RQ + RQ + RQ                   |                       1 |              0 |        36.9129  |
+| RQ + SE + SE * RQ + RQ + RQ                   |                       1 |            100 |         6.81541 |
+| RQ + SE + SE * RQ + RQ + RQ                   |                       1 |            200 |         5.37529 |
+| RQ + SE + SE * RQ + RQ + RQ                   |                       1 |            300 |         4.64349 |
+| RQ + SE + SE * RQ + RQ + RQ                   |                       1 |            400 |         3.76517 |
+| RQ + SE + SE * RQ + RQ + RQ                   |                       1 |            500 |         3.11403 |
+| RQ + SE * SE + RQ + RQ + RQ                   |                       1 |              0 |        50.7819  |
+| RQ + SE * SE + RQ + RQ + RQ                   |                       1 |            100 |         9.07009 |
+| RQ + SE * SE + RQ + RQ + RQ                   |                       1 |            200 |         7.03295 |
+| RQ + SE * SE + RQ + RQ + RQ                   |                       1 |            300 |         6.06263 |
+| RQ + SE * SE + RQ + RQ + RQ                   |                       1 |            400 |         5.43518 |
+| RQ + SE * SE + RQ + RQ + RQ                   |                       1 |            500 |         4.90176 |
+| RQ + SE * SE * RQ + RQ + RQ                   |                       1 |              0 |        47.1519  |
+| RQ + SE * SE * RQ + RQ + RQ                   |                       1 |            100 |         8.44577 |
+| RQ + SE * SE * RQ + RQ + RQ                   |                       1 |            200 |         6.54619 |
+| RQ + SE * SE * RQ + RQ + RQ                   |                       1 |            300 |         5.58812 |
+| RQ + SE * SE * RQ + RQ + RQ                   |                       1 |            400 |         4.36824 |
+| RQ + SE * SE * RQ + RQ + RQ                   |                       1 |            500 |         3.89945 |
+| RQ * SE + SE * RQ + RQ + RQ                   |                       1 |              0 |        42.0321  |
+| RQ * SE + SE * RQ + RQ + RQ                   |                       1 |            100 |         7.77788 |
+| RQ * SE + SE * RQ + RQ + RQ                   |                       1 |            200 |         6.11159 |
+| RQ * SE + SE * RQ + RQ + RQ                   |                       1 |            300 |         5.22507 |
+| RQ * SE + SE * RQ + RQ + RQ                   |                       1 |            400 |         4.11997 |
+| RQ * SE + SE * RQ + RQ + RQ                   |                       1 |            500 |         3.70343 |
+| RQ * SE * SE * RQ + RQ + RQ                   |                       1 |              0 |        85.0133  |
+| RQ * SE * SE * RQ + RQ + RQ                   |                       1 |            100 |        13.5961  |
+| RQ * SE * SE * RQ + RQ + RQ                   |                       1 |            200 |        10.2151  |
+| RQ * SE * SE * RQ + RQ + RQ                   |                       1 |            300 |         8.62761 |
+| RQ * SE * SE * RQ + RQ + RQ                   |                       1 |            400 |         7.64825 |
+| RQ * SE * SE * RQ + RQ + RQ                   |                       1 |            500 |         6.96854 |
+| SE + SE + SE + RQ + RQ + RQ                   |                       1 |              0 |        66.8238  |
+| SE + SE + SE + RQ + RQ + RQ                   |                       1 |            100 |         9.98805 |
+| SE + SE + SE + RQ + RQ + RQ                   |                       1 |            200 |         7.49478 |
+| SE + SE + SE + RQ + RQ + RQ                   |                       1 |            300 |         6.37353 |
+| SE + SE + SE + RQ + RQ + RQ                   |                       1 |            400 |         5.70745 |
+| SE + SE + SE + RQ + RQ + RQ                   |                       1 |            500 |         5.25674 |
+| SE + SE + SE * RQ + RQ + RQ                   |                       1 |              0 |        50.12    |
+| SE + SE + SE * RQ + RQ + RQ                   |                       1 |            100 |         8.12361 |
+| SE + SE + SE * RQ + RQ + RQ                   |                       1 |            200 |         6.24524 |
+| SE + SE + SE * RQ + RQ + RQ                   |                       1 |            300 |         5.37002 |
+| SE + SE + SE * RQ + RQ + RQ                   |                       1 |            400 |         4.83275 |
+| SE + SE + SE * RQ + RQ + RQ                   |                       1 |            500 |         4.46493 |
+| SE + SE * SE + RQ + RQ + RQ                   |                       1 |              0 |        51.4979  |
+| SE + SE * SE + RQ + RQ + RQ                   |                       1 |            100 |         9.16521 |
+| SE + SE * SE + RQ + RQ + RQ                   |                       1 |            200 |         7.10968 |
+| SE + SE * SE + RQ + RQ + RQ                   |                       1 |            300 |         6.14186 |
+| SE + SE * SE + RQ + RQ + RQ                   |                       1 |            400 |         5.53695 |
+| SE + SE * SE + RQ + RQ + RQ                   |                       1 |            500 |         5.10799 |
+| SE + SE * SE * RQ + RQ + RQ                   |                       1 |              0 |        51.7193  |
+| SE + SE * SE * RQ + RQ + RQ                   |                       1 |            100 |         8.96725 |
+| SE + SE * SE * RQ + RQ + RQ                   |                       1 |            200 |         6.87002 |
+| SE + SE * SE * RQ + RQ + RQ                   |                       1 |            300 |         5.89743 |
+| SE + SE * SE * RQ + RQ + RQ                   |                       1 |            400 |         5.30451 |
+| SE + SE * SE * RQ + RQ + RQ                   |                       1 |            500 |         4.89728 |
+| SE * SE + SE * RQ + RQ + RQ                   |                       1 |              0 |        42.3464  |
+| SE * SE + SE * RQ + RQ + RQ                   |                       1 |            100 |         7.90067 |
+| SE * SE + SE * RQ + RQ + RQ                   |                       1 |            200 |         6.19338 |
+| SE * SE + SE * RQ + RQ + RQ                   |                       1 |            300 |         5.39537 |
+| SE * SE + SE * RQ + RQ + RQ                   |                       1 |            400 |         4.90404 |
+| SE * SE + SE * RQ + RQ + RQ                   |                       1 |            500 |         4.56326 |
+| SE * SE * SE + RQ + RQ + RQ                   |                       1 |              0 |        56.5095  |
+| SE * SE * SE + RQ + RQ + RQ                   |                       1 |            100 |        10.1407  |
+| SE * SE * SE + RQ + RQ + RQ                   |                       1 |            200 |         7.80595 |
+| SE * SE * SE + RQ + RQ + RQ                   |                       1 |            300 |         6.70805 |
+| SE * SE * SE + RQ + RQ + RQ                   |                       1 |            400 |         6.02817 |
+| SE * SE * SE + RQ + RQ + RQ                   |                       1 |            500 |         5.5541  |
+| SE * SE * SE * RQ + RQ + RQ                   |                       1 |              0 |        78.5586  |
+| SE * SE * SE * RQ + RQ + RQ                   |                       1 |            100 |        13.2997  |
+| SE * SE * SE * RQ + RQ + RQ                   |                       1 |            200 |        10.0071  |
+| SE * SE * SE * RQ + RQ + RQ                   |                       1 |            300 |         8.4613  |
+| SE * SE * SE * RQ + RQ + RQ                   |                       1 |            400 |         7.50634 |
+| SE * SE * SE * RQ + RQ + RQ                   |                       1 |            500 |         6.84205 |
+
+| Kernel Combination                                                 |   Initialization Number |   Epoch Number |   Training Loss |
+|--------------------------------------------------------------------|-------------------------|----------------|-----------------|
+| periodic + periodic + periodic + periodic + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |       21.8135   |
+| periodic + periodic + periodic + periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |        4.89479  |
+| periodic + periodic + periodic + periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |        4.09672  |
+| periodic + periodic + periodic + periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            300 |        3.72428  |
+| periodic + periodic + periodic + periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            400 |        3.49426  |
+| periodic + periodic + periodic + periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            500 |        3.33408  |
+| periodic + periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |       11.919    |
+| periodic + periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |        3.42017  |
+| periodic + periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |        3.05832  |
+| periodic + periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            300 |        2.89148  |
+| periodic + periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            400 |        2.78862  |
+| periodic + periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            500 |        2.71693  |
+| periodic + periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |       15.911    |
+| periodic + periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |        3.03457  |
+| periodic + periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |        1.98095  |
+| periodic + periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            300 |        1.609    |
+| periodic + periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            400 |        1.28866  |
+| periodic + periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            500 |        1.12451  |
+| periodic * periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |       13.25     |
+| periodic * periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |        2.29203  |
+| periodic * periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |        1.65059  |
+| periodic * periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            300 |        1.39267  |
+| periodic * periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            400 |        1.23561  |
+| periodic * periodic + periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            500 |        1.12531  |
+| periodic * periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |              0 |       26.0965   |
+| periodic * periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            100 |        4.16239  |
+| periodic * periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            200 |        3.00655  |
+| periodic * periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            300 |        2.48241  |
+| periodic * periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            400 |        2.16027  |
+| periodic * periodic * periodic * periodic + RQ + RQ * RQ + RQ + RQ |                       1 |            500 |        1.93561  |
+| periodic + periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       21.7546   |
+| periodic + periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        4.89211  |
+| periodic + periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        4.09485  |
+| periodic + periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        3.72272  |
+| periodic + periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        3.49284  |
+| periodic + periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        3.33277  |
+| periodic + periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       11.9353   |
+| periodic + periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        3.42069  |
+| periodic + periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        3.05767  |
+| periodic + periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        2.89083  |
+| periodic + periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        2.78769  |
+| periodic + periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        2.71573  |
+| periodic + periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       15.8605   |
+| periodic + periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        2.80721  |
+| periodic + periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        1.96599  |
+| periodic + periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        1.61981  |
+| periodic + periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        1.25316  |
+| periodic + periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        1.1221   |
+| periodic * periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       21.497    |
+| periodic * periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        5.16053  |
+| periodic * periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        4.28088  |
+| periodic * periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        3.87114  |
+| periodic * periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        3.61833  |
+| periodic * periodic + RQ + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        3.44235  |
+| periodic * periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       15.9545   |
+| periodic * periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        4.01652  |
+| periodic * periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        3.47973  |
+| periodic * periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        3.23029  |
+| periodic * periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        3.07625  |
+| periodic * periodic + RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        2.96879  |
+| periodic * periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       27.8367   |
+| periodic * periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        4.53307  |
+| periodic * periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        3.27687  |
+| periodic * periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        2.59176  |
+| periodic * periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        2.17835  |
+| periodic * periodic * RQ * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        1.89454  |
+| periodic + periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       22.7631   |
+| periodic + periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        4.95977  |
+| periodic + periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        4.13787  |
+| periodic + periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        3.75898  |
+| periodic + periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        3.52548  |
+| periodic + periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        3.36256  |
+| periodic + periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       12.8104   |
+| periodic + periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        2.07981  |
+| periodic + periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        1.74346  |
+| periodic + periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        1.06416  |
+| periodic + periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        0.93542  |
+| periodic + periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        0.804944 |
+| periodic + periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       20.0356   |
+| periodic + periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        2.93184  |
+| periodic + periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        2.09012  |
+| periodic + periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        2.26484  |
+| periodic + periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        1.47569  |
+| periodic + periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        1.32149  |
+| periodic * periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       20.6811   |
+| periodic * periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        5.15466  |
+| periodic * periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        4.28042  |
+| periodic * periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        3.87241  |
+| periodic * periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        3.6203   |
+| periodic * periodic + SE + periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        3.44456  |
+| periodic * periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       16.709    |
+| periodic * periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        2.85813  |
+| periodic * periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        1.68319  |
+| periodic * periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        1.40093  |
+| periodic * periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        1.21909  |
+| periodic * periodic + SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        1.09283  |
+| periodic * periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |              0 |       28.0258   |
+| periodic * periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            100 |        4.27873  |
+| periodic * periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            200 |        3.07846  |
+| periodic * periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            300 |        2.5225   |
+| periodic * periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            400 |        2.27483  |
+| periodic * periodic * SE * periodic + RQ + RQ * RQ + RQ + RQ       |                       1 |            500 |        1.9449   |
+| periodic + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       21.7075   |
+| periodic + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        4.88958  |
+| periodic + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        4.09303  |
+| periodic + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.72119  |
+| periodic + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.49145  |
+| periodic + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        3.33144  |
+| periodic + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       11.954    |
+| periodic + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        3.41418  |
+| periodic + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        3.05418  |
+| periodic + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        2.8878   |
+| periodic + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        2.78495  |
+| periodic + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        2.71305  |
+| periodic + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       23.1861   |
+| periodic + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        5.09711  |
+| periodic + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        4.23548  |
+| periodic + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.83061  |
+| periodic + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.5738   |
+| periodic + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        3.37577  |
+| periodic + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       15.5547   |
+| periodic + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        4.02209  |
+| periodic + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        3.48536  |
+| periodic + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.23552  |
+| periodic + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.0811   |
+| periodic + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        2.97329  |
+| periodic * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       15.7539   |
+| periodic * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        3.99532  |
+| periodic * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        3.46322  |
+| periodic * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.21613  |
+| periodic * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.06357  |
+| periodic * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        2.95723  |
+| periodic * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       27.7286   |
+| periodic * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        5.77926  |
+| periodic * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        4.72396  |
+| periodic * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        4.23005  |
+| periodic * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.92458  |
+| periodic * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        3.71163  |
+| periodic + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       22.7434   |
+| periodic + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        4.95598  |
+| periodic + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        4.13548  |
+| periodic + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.75719  |
+| periodic + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.52398  |
+| periodic + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        3.36127  |
+| periodic + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       12.7985   |
+| periodic + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        2.26303  |
+| periodic + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        1.4763   |
+| periodic + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        1.0719   |
+| periodic + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        0.897222 |
+| periodic + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        0.804791 |
+| periodic + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       20.9198   |
+| periodic + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        4.76369  |
+| periodic + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        2.40898  |
+| periodic + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        1.96621  |
+| periodic + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        1.69931  |
+| periodic + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.51846  |
+| periodic + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       21.0404   |
+| periodic + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        3.03545  |
+| periodic + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        2.15948  |
+| periodic + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        1.75645  |
+| periodic + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        1.5172   |
+| periodic + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.35244  |
+| periodic * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       20.739    |
+| periodic * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        5.16811  |
+| periodic * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        4.291    |
+| periodic * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.88133  |
+| periodic * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.62811  |
+| periodic * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        3.45169  |
+| periodic * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       16.9522   |
+| periodic * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        2.5264   |
+| periodic * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        1.6523   |
+| periodic * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        1.3733   |
+| periodic * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        1.21325  |
+| periodic * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.10578  |
+| periodic * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       28.0592   |
+| periodic * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        4.30084  |
+| periodic * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        3.08097  |
+| periodic * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        2.52575  |
+| periodic * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        2.18278  |
+| periodic * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        2.02718  |
+| periodic + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       24.2689   |
+| periodic + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        5.06188  |
+| periodic + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        4.1957   |
+| periodic + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        3.79686  |
+| periodic + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        3.55277  |
+| periodic + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        3.38394  |
+| periodic + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       15.2403   |
+| periodic + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        3.75677  |
+| periodic + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        2.98454  |
+| periodic + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        2.03131  |
+| periodic + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        1.86696  |
+| periodic + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.76134  |
+| periodic + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       23.6811   |
+| periodic + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        5.0911   |
+| periodic + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        3.54159  |
+| periodic + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        2.97293  |
+| periodic + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        2.67774  |
+| periodic + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        2.47745  |
+| periodic + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       17.1159   |
+| periodic + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        2.87846  |
+| periodic + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        2.16792  |
+| periodic + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        1.86943  |
+| periodic + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        1.62008  |
+| periodic + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.46586  |
+| periodic * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       13.7794   |
+| periodic * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        3.31773  |
+| periodic * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        2.5534   |
+| periodic * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        1.64427  |
+| periodic * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        1.32386  |
+| periodic * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.15026  |
+| periodic * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |              0 |       27.3635   |
+| periodic * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            100 |        4.21719  |
+| periodic * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            200 |        3.04289  |
+| periodic * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            300 |        2.49783  |
+| periodic * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            400 |        2.16057  |
+| periodic * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ             |                       1 |            500 |        1.92761  |
+| RQ + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       21.6702   |
+| RQ + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        4.88757  |
+| RQ + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.09164  |
+| RQ + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.72006  |
+| RQ + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.49046  |
+| RQ + RQ + RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.33053  |
+| RQ + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       11.9763   |
+| RQ + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.41097  |
+| RQ + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.05176  |
+| RQ + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        2.88582  |
+| RQ + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        2.78312  |
+| RQ + RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.7113   |
+| RQ + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       23.1933   |
+| RQ + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.10209  |
+| RQ + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.24363  |
+| RQ + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.84306  |
+| RQ + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.59556  |
+| RQ + RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.42301  |
+| RQ + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       16.1005   |
+| RQ + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.9951   |
+| RQ + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.46312  |
+| RQ + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.21601  |
+| RQ + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.06322  |
+| RQ + RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.95666  |
+| RQ * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       15.622    |
+| RQ * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.97949  |
+| RQ * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.45114  |
+| RQ * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.20595  |
+| RQ * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.05463  |
+| RQ * RQ + RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.94916  |
+| RQ * RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       25.3734   |
+| RQ * RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.41024  |
+| RQ * RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.45704  |
+| RQ * RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        4.01181  |
+| RQ * RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.73705  |
+| RQ * RQ * RQ + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.54597  |
+| RQ * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       28.5886   |
+| RQ * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.77772  |
+| RQ * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.72348  |
+| RQ * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        4.23021  |
+| RQ * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.92514  |
+| RQ * RQ * RQ * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.71247  |
+| RQ + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       22.6986   |
+| RQ + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        4.94918  |
+| RQ + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.13166  |
+| RQ + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.75437  |
+| RQ + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.52165  |
+| RQ + RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.35921  |
+| RQ + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       12.7713   |
+| RQ + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        2.30078  |
+| RQ + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        1.57422  |
+| RQ + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        1.08118  |
+| RQ + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        0.915428 |
+| RQ + RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        0.817366 |
+| RQ + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       21.0312   |
+| RQ + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.17034  |
+| RQ + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.29008  |
+| RQ + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.87935  |
+| RQ + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.62559  |
+| RQ + RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.44872  |
+| RQ + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       22.3921   |
+| RQ + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.87517  |
+| RQ + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        2.25013  |
+| RQ + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        1.68853  |
+| RQ + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        1.446    |
+| RQ + RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        1.29049  |
+| RQ * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       20.828    |
+| RQ * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.16741  |
+| RQ * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.28941  |
+| RQ * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.87962  |
+| RQ * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.62648  |
+| RQ * RQ + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.45013  |
+| RQ * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       16.8356   |
+| RQ * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        2.97457  |
+| RQ * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        1.72797  |
+| RQ * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        1.33961  |
+| RQ * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        1.1825   |
+| RQ * RQ + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        1.0741   |
+| RQ * RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       24.3638   |
+| RQ * RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.51081  |
+| RQ * RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.52711  |
+| RQ * RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        4.06843  |
+| RQ * RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.78559  |
+| RQ * RQ * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.5888   |
+| RQ * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       30.7108   |
+| RQ * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        6.04893  |
+| RQ * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.895    |
+| RQ * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        4.35924  |
+| RQ * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        4.0303   |
+| RQ * RQ * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.80233  |
+| RQ + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       24.1475   |
+| RQ + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.04601  |
+| RQ + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.186    |
+| RQ + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.78962  |
+| RQ + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.54707  |
+| RQ + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.37922  |
+| RQ + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       15.0457   |
+| RQ + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.73579  |
+| RQ + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        2.97707  |
+| RQ + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        2.02312  |
+| RQ + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        1.85817  |
+| RQ + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        1.75184  |
+| RQ + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       23.4645   |
+| RQ + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.06277  |
+| RQ + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.51312  |
+| RQ + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        2.9605   |
+| RQ + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        2.66794  |
+| RQ + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.46881  |
+| RQ + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       17.1364   |
+| RQ + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.33144  |
+| RQ + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        2.65195  |
+| RQ + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        2.33449  |
+| RQ + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        2.14078  |
+| RQ + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.00811  |
+| RQ * SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       23.1143   |
+| RQ * SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        4.8205   |
+| RQ * SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.40203  |
+| RQ * SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        2.93676  |
+| RQ * SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        2.65597  |
+| RQ * SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.46103  |
+| RQ * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       16.042    |
+| RQ * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        3.18227  |
+| RQ * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        2.55795  |
+| RQ * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        2.26527  |
+| RQ * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        2.08585  |
+| RQ * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        1.96123  |
+| RQ * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       25.2065   |
+| RQ * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.21674  |
+| RQ * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.64575  |
+| RQ * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.12768  |
+| RQ * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        2.8168   |
+| RQ * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.60119  |
+| RQ * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       31.9721   |
+| RQ * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        6.13497  |
+| RQ * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.20557  |
+| RQ * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.54115  |
+| RQ * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.1547   |
+| RQ * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        2.89169  |
+| SE + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       26.1799   |
+| SE + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.2418   |
+| SE + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.3087   |
+| SE + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.88067  |
+| SE + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.62057  |
+| SE + SE + SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.44158  |
+| SE + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       19.7641   |
+| SE + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        4.25139  |
+| SE + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.60526  |
+| SE + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.30838  |
+| SE + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.12631  |
+| SE + SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.001    |
+| SE + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       23.8202   |
+| SE + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.15485  |
+| SE + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.28274  |
+| SE + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.87505  |
+| SE + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.62286  |
+| SE + SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.44702  |
+| SE + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       22.7634   |
+| SE + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        4.86878  |
+| SE + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.02191  |
+| SE + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.63182  |
+| SE + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.39639  |
+| SE + SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.23565  |
+| SE * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       17.8879   |
+| SE * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        4.26462  |
+| SE * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        3.63959  |
+| SE * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        3.34994  |
+| SE * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.17213  |
+| SE * SE + SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.04905  |
+| SE * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       25.0011   |
+| SE * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        5.39019  |
+| SE * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.44704  |
+| SE * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        4.00585  |
+| SE * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        3.73294  |
+| SE * SE * SE + periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.5426   |
+| SE * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |              0 |       29.7703   |
+| SE * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            100 |        6.01919  |
+| SE * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            200 |        4.87366  |
+| SE * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            300 |        4.34037  |
+| SE * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            400 |        4.01254  |
+| SE * SE * SE * periodic + RQ + RQ * RQ + RQ + RQ                   |                       1 |            500 |        3.78525  |
+

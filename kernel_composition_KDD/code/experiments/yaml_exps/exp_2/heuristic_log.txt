@@ -1,0 +1,35 @@
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic             |                       1 |         29.2463 |
+| RQ                   |                       1 |         23.415  |
+| SE                   |                       1 |         50.5101 |
+
+| Kernel Combination   |   Initialization Number |   Training Loss |
+|----------------------|-------------------------|-----------------|
+| periodic + RQ        |                       1 |         8.83809 |
+| periodic * RQ        |                       1 |        11.9434  |
+| RQ + RQ              |                       1 |        12.624   |
+| RQ * RQ              |                       1 |        11.3259  |
+| SE + RQ              |                       1 |        15.6937  |
+| SE * RQ              |                       1 |        21.9166  |
+| RQ + RQ              |                       1 |        11.7192  |
+| RQ * RQ              |                       1 |        11.3121  |
+
+| Kernel Combination       |   Initialization Number |   Training Loss |
+|--------------------------|-------------------------|-----------------|
+| periodic + periodic + RQ |                       1 |         6.52759 |
+| periodic * periodic + RQ |                       1 |         5.61925 |
+| RQ + periodic + RQ       |                       1 |         7.10241 |
+| RQ * periodic + RQ       |                       1 |         6.99218 |
+| SE + periodic + RQ       |                       1 |         7.34785 |
+| SE * periodic + RQ       |                       1 |         9.61762 |
+
+| Kernel Combination                  |   Initialization Number |   Training Loss |
+|-------------------------------------|-------------------------|-----------------|
+| periodic + periodic * periodic + RQ |                       1 |         7.44946 |
+| periodic * periodic * periodic + RQ |                       1 |         7.57453 |
+| RQ + periodic * periodic + RQ       |                       1 |         6.5944  |
+| RQ * periodic * periodic + RQ       |                       1 |         5.71598 |
+| SE + periodic * periodic + RQ       |                       1 |         8.65644 |
+| SE * periodic * periodic + RQ       |                       1 |        10.7136  |
+

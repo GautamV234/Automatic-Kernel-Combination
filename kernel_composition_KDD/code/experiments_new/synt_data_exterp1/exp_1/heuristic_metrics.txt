@@ -1,0 +1,41 @@
+Metric      Value
+--------  -------
+NLPD      2.92331
+RMSE      2.37168
+Mat52.variance : 1.5815407711937857
+Mat52.lengthscale : 0.07836417854211829
+Gaussian_noise.variance : 0.0038596060352766525
+Metric      Value
+--------  -------
+NLPD      2.31768
+RMSE      2.37168
+mul.linear.variances : 0.3522272396378279
+mul.Mat52.variance : 0.15713018959219094
+mul.Mat52.lengthscale : 0.09488867995264011
+Gaussian_noise.variance : 0.05387275408407571
+Metric      Value
+--------  -------
+NLPD      2.32397
+RMSE      2.45003
+sum.periodic_exponential.variance : 3.2529763399617617
+sum.periodic_exponential.lengthscale : 0.01651628611382413
+sum.periodic_exponential.period : 2.279530163613138
+sum.mul.linear.variances : 0.8171694235160174
+sum.mul.Mat52.variance : 0.05695052965078212
+sum.mul.Mat52.lengthscale : 0.0813401101151286
+Gaussian_noise.variance : 0.006610810179876457
+Metric      Value
+--------  -------
+NLPD      2.28752
+RMSE      2.37145
+sum.RatQuad.variance : 0.040696449237472135
+sum.RatQuad.lengthscale : 4.165339677835517
+sum.RatQuad.power : 16.829807803825172
+sum.periodic_exponential.variance : 2.852098333844648
+sum.periodic_exponential.lengthscale : 0.09741601643689764
+sum.periodic_exponential.period : 0.7509849468550525
+sum.mul.linear.variances : 0.3135013120214005
+sum.mul.Mat52.variance : 0.12573836554790968
+sum.mul.Mat52.lengthscale : 0.07201148542766249
+Gaussian_noise.variance : 0.0037636126254561976
+Time taken for experiment 1 : 370.3952021598816
